@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: jchiang  Wed Nov 19 17:17:54 PST 2003
+optimizers/optimizers
+
+Modified Files:
+	Drmngb.h Lbfgs.h Minuit.h Optimizer.h 
+Log Message:
+add getUncertainty() method to Optimizer base class
+    *
+------------------------------------------------------------
 User: jchiang  Tue Nov 18 10:12:59 PST 2003
 optimizers/src
 

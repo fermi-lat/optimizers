@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: jchiang  Fri Sep 26 22:43:48 PDT 2003
+optimizers/src
+
+Modified Files:
+	Dom.cxx FunctionFactory.cxx Parameter.cxx 
+Log Message:
+add FunctionFactory::writeXml
+    *
+------------------------------------------------------------
 User: jchiang  Fri Sep 26 22:43:47 PDT 2003
 optimizers/optimizers
 

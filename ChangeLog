@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: jchiang  Wed Nov 19 17:17:54 PST 2003
+optimizers/python
+
+Modified Files:
+	optimizers.i 
+Log Message:
+add getUncertainty() method to Optimizer base class
+    *
+------------------------------------------------------------
+User: jchiang  Wed Nov 19 17:17:54 PST 2003
 optimizers/optimizers
 
 Modified Files:

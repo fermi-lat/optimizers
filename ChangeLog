@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: jchiang  Mon Aug 11 12:39:12 PDT 2003
+optimizers/src/test
+
+Modified Files:
+	main.cxx 
+Log Message:
+add xml tag checking routine
+    *
+------------------------------------------------------------
 User: jchiang  Mon Aug 11 12:39:11 PDT 2003
 optimizers/src
 

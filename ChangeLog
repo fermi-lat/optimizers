@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: jchiang  Wed Jun  9 10:07:01 PDT 2004
+optimizers/src
+
+Modified Files:
+	OptPP.cxx SConstruct 
+Log Message:
+fix up some optpp tests
+    *
+------------------------------------------------------------
 User: jchiang  Wed Jun  9 09:19:46 PDT 2004
 optimizers/cmt
 

@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: jchiang  Wed Nov 10 16:02:57 PST 2004
+optimizers/optimizers
+
+Added Files:
+	Dom.h 
+Log Message:
+new static functions and factories
+    *
+------------------------------------------------------------
 User: jchiang  Wed Nov 10 15:58:09 PST 2004
 optimizers/src
 

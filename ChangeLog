@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: jchiang  Mon Aug 11 09:11:52 PDT 2003
+optimizers/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+add FunctionFactory and xml stuff
+    *
+------------------------------------------------------------
 User: jchiang  Thu Aug  7 20:32:46 PDT 2003
 optimizers/python
 

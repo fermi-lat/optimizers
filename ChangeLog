@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: pln  Fri Aug 15 14:00:11 PDT 2003
+optimizers/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+Make it find the swig .i file where it's supposed to live
+
+    *
+------------------------------------------------------------
 User: pln  Fri Aug 15 13:29:49 PDT 2003
 optimizers/python
 

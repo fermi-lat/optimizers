@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: jchiang  Mon Aug 11 10:01:57 PDT 2003
+optimizers/xml
+
+Added Files:
+	BadModel.xml 
+Log Message:
+test for failure of FunctionFactory::readXml() method
+    *
+------------------------------------------------------------
+User: jchiang  Mon Aug 11 10:01:57 PDT 2003
 optimizers/src/test
 
 Modified Files:

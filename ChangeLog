@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: jchiang  Wed Nov  5 16:20:32 PST 2003
+optimizers/src/test
+
+Modified Files:
+	main.cxx 
+Log Message:
+add N-dimensional Rosenbrock function
+    *
+------------------------------------------------------------
+User: jchiang  Wed Nov  5 16:20:32 PST 2003
 optimizers/src
 
 Added Files:

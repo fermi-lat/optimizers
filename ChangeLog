@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: jchiang  Tue Feb  1 16:00:03 PST 2005
+optimizers/src
+
+Modified Files:
+	FunctionFactory.cxx PowerLaw.cxx 
+Log Message:
+allow some parameters to be always fixed
+    *
+------------------------------------------------------------
+User: jchiang  Tue Feb  1 16:00:03 PST 2005
 optimizers/optimizers
 
 Modified Files:

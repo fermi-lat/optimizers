@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: pln  Fri Aug 15 13:29:49 PDT 2003
+optimizers/python
+
+Modified Files:
+	Makefile 
+Log Message:
+Improved the "clean" target
+
+    *
+------------------------------------------------------------
 User: pln  Fri Aug 15 13:28:40 PDT 2003
 optimizers/cmt/fragments
 

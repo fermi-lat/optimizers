@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: jchiang  Mon Aug 11 12:39:11 PDT 2003
+optimizers/src
+
+Modified Files:
+	FunctionFactory.cxx 
+Log Message:
+add xml tag checking routine
+    *
+------------------------------------------------------------
+User: jchiang  Mon Aug 11 12:39:11 PDT 2003
 optimizers/python
 
 Modified Files:

@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: jchiang  Fri Aug 15 16:09:32 PDT 2003
+optimizers/src
+
+Added Files:
+	optimizers.cxx 
+Log Message:
+fool cmt into building python module
+    *
+------------------------------------------------------------
+User: jchiang  Fri Aug 15 16:09:32 PDT 2003
 optimizers/python
 
 Modified Files:

@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: jchiang  Sat Aug  2 15:29:06 PDT 2003
+optimizers/src
+
+Modified Files:
+	dpptri-blas.c drmngb_routines.c 
+Log Message:
+make #include "f2c/f2c.h"; remove non-standard #includes from main.cxx
+
+    *
+------------------------------------------------------------
 User: jchiang  Sat Aug  2 15:14:23 PDT 2003
 optimizers
 

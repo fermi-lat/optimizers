@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: jchiang  Wed Dec 29 16:24:40 PST 2004
+optimizers/doc
+
+Modified Files:
+	release.notes 
+Log Message:
+more refactoring; tagging v2
+    *
+------------------------------------------------------------
+User: jchiang  Wed Dec 29 16:24:40 PST 2004
 optimizers/cmt
 
 Modified Files:

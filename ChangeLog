@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: jchiang  Mon Jan  3 15:03:28 PST 2005
+optimizers/doc
+
+Modified Files:
+	release.notes 
+Log Message:
+change internal references xml to xmlBase
+    *
+------------------------------------------------------------
 User: jchiang  Mon Jan  3 15:03:26 PST 2005
 optimizers/cmt
 

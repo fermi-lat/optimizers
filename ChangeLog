@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: jchiang  Wed Dec 22 08:55:53 PST 2004
+optimizers/optimizers
+
+Modified Files:
+	Function.h Parameter.h 
+Log Message:
+more Function and Parameter refactoring
+    *
+------------------------------------------------------------
+User: jchiang  Wed Dec 22 08:55:53 PST 2004
 optimizers/cmt
 
 Modified Files:

@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: jchiang  Mon Jan  5 16:07:49 PST 2004
+optimizers/optimizers
+
+Modified Files:
+	Drmngb.h Lbfgs.h Minuit.h Optimizer.h 
+Added Files:
+	Statistic.h 
+Log Message:
+add Statistic class; refactor Optimizer hierarchy to use it
+    *
+------------------------------------------------------------
 User: jchiang  Thu Dec  4 21:34:49 PST 2003
 optimizers/doc
 

@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: jchiang  Mon Aug  4 17:04:32 PDT 2003
+optimizers/src/test
+
+Modified Files:
+	main.cxx 
+Log Message:
+use Function objects instead of Statistic objects
+    *
+------------------------------------------------------------
+User: jchiang  Mon Aug  4 17:04:32 PDT 2003
 optimizers/src
 
 Modified Files:

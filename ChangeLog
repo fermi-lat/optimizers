@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: pln  Wed Dec  3 22:54:36 PST 2003
+optimizers/src
+
+Modified Files:
+	Optimizer.cxx 
+Log Message:
+Throw exeption on dpptri errors.
+Prevent roundoff error in square roots.
+
+    *
+------------------------------------------------------------
 User: jchiang  Sun Nov 30 15:15:25 PST 2003
 optimizers/optimizers
 

@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: burnett  Thu Jan 29 18:30:39 PST 2004
+optimizers/src
+
+Modified Files:
+	MyFun.cxx Optimizer.cxx 
+Log Message:
+casts to satisfy pow template
+    *
+------------------------------------------------------------
 User: jchiang  Wed Jan  7 14:26:36 PST 2004
 optimizers/doc
 

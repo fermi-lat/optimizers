@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: pln  Wed Nov  5 14:42:26 PST 2003
+optimizers/src
+
+Modified Files:
+	Drmngb.cxx Function.cxx Lbfgs.cxx Minuit.cxx 
+Log Message:
+Changes in convergence.  Fixed bug in drmngb uncertainties.
+
+    *
+------------------------------------------------------------
 User: jchiang  Sat Oct 18 15:39:28 PDT 2003
 optimizers/doc
 

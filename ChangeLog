@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: jchiang  Tue Aug 26 15:31:37 PDT 2003
+optimizers/python
+
+Modified Files:
+	FF_test.py PrototypeFactory.py optimizers.i 
+Removed Files:
+	optimizers.py 
+Log Message:
+move Parameter specific DOM_Element reader to Parameter class; put %include stl.i first, thus exposing std::string in optimizer interfaces
+    *
+------------------------------------------------------------
 User: jchiang  Tue Aug 26 15:31:36 PDT 2003
 optimizers/optimizers
 

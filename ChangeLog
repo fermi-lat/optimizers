@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: jchiang  Mon Aug 11 09:11:53 PDT 2003
+optimizers/src/test
+
+Modified Files:
+	main.cxx 
+Log Message:
+add FunctionFactory and xml stuff
+    *
+------------------------------------------------------------
+User: jchiang  Mon Aug 11 09:11:53 PDT 2003
 optimizers/src
 
 Added Files:

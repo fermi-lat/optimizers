@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: jchiang  Fri Dec 10 16:38:47 PST 2004
+optimizers/optimizers
+
+Modified Files:
+	Function.h Parameter.h 
+Log Message:
+swig updates; use a variable in FunctionTest to ensure it gets assigned for optimized code
+    *
+------------------------------------------------------------
 User: jchiang  Thu Nov 11 12:25:29 PST 2004
 optimizers/src
 

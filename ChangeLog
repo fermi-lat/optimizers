@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: jchiang  Wed Jun  9 09:19:46 PDT 2004
+optimizers/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+prep to use optpp
+    *
+------------------------------------------------------------
 User: jchiang  Sat Jun  5 08:24:14 PDT 2004
 optimizers/src
 

@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: jchiang  Tue Aug 12 14:52:49 PDT 2003
+optimizers/src
+
+Modified Files:
+	FunctionFactory.cxx 
+Added Files:
+	Dom.cxx 
+Log Message:
+Add xml-handling routines in Dom class
+    *
+------------------------------------------------------------
 User: jchiang  Tue Aug 12 14:52:48 PDT 2003
 optimizers/python
 

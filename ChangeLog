@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: jchiang  Mon Aug 11 09:17:20 PDT 2003
+optimizers/xml
+
+Added Files:
+	FunctionModels.dtd FunctionModels.xml 
+Log Message:
+add xml sub-directory and model files
+    *
+------------------------------------------------------------
 User: jchiang  Mon Aug 11 09:16:27 PDT 2003
 optimizers/xml
 

@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: jchiang  Wed Nov 10 15:58:09 PST 2004
+optimizers/src
+
+Modified Files:
+	Function.cxx FunctionFactory.cxx Optimizer.cxx Parameter.cxx 
+	SConstruct buildBase 
+Log Message:
+xerces 2.6.0 migration
+    *
+------------------------------------------------------------
 User: jchiang  Wed Nov 10 15:58:07 PST 2004
 optimizers/optimizers
 

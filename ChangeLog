@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: jchiang  Thu Jun 10 10:27:20 PDT 2004
+optimizers/src
+
+Modified Files:
+	Parameter.cxx SConstruct minuit_routines.c 
+Log Message:
+comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
+    *
+------------------------------------------------------------
 User: jchiang  Wed Jun  9 10:07:02 PDT 2004
 optimizers/src/test
 

@@ -1,5 +1,18 @@
 ------------------------------------------------------------
 User: jchiang  Tue Dec 21 22:00:40 PST 2004
+optimizers/src
+
+Modified Files:
+	AbsEdge.cxx AbsEdge.h BrokenPowerLaw.cxx BrokenPowerLaw.h 
+	CompositeFunction.cxx Drmngb.cxx Function.cxx Gaussian.cxx 
+	Gaussian.h Mcmc.cxx MyFun.cxx MyFun.h Parameter.cxx 
+	PowerLaw.cxx PowerLaw.h Rosen.cxx Rosen.h RosenND.cxx 
+	RosenND.h 
+Log Message:
+refactor interface and Parameter handling inside of Function class
+    *
+------------------------------------------------------------
+User: jchiang  Tue Dec 21 22:00:40 PST 2004
 optimizers/python
 
 Modified Files:

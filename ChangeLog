@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: jchiang  Fri Aug 15 18:13:48 PDT 2003
+optimizers/src
+
+Modified Files:
+	Dom.cxx 
+Log Message:
+remove -fpic flag from cmt/fragments/swig_library
+    *
+------------------------------------------------------------
+User: jchiang  Fri Aug 15 18:13:48 PDT 2003
 optimizers/python
 
 Modified Files:

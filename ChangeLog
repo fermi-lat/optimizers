@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: jchiang  Wed Nov 10 22:08:13 PST 2004
+optimizers/src
+
+Modified Files:
+	SConstruct 
+Log Message:
+xerces 2.6.0 library
+    *
+------------------------------------------------------------
 User: jchiang  Wed Nov 10 20:39:10 PST 2004
 optimizers/cmt
 

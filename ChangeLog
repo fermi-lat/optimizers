@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: jchiang  Tue Aug 26 15:31:38 PDT 2003
+optimizers/src
+
+Modified Files:
+	Dom.cxx FunctionFactory.cxx Parameter.cxx 
+Log Message:
+move Parameter specific DOM_Element reader to Parameter class; put %include stl.i first, thus exposing std::string in optimizer interfaces
+    *
+------------------------------------------------------------
 User: jchiang  Tue Aug 26 15:31:37 PDT 2003
 optimizers/python
 

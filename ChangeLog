@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: jchiang  Tue Aug 12 14:52:48 PDT 2003
+optimizers/python
+
+Modified Files:
+	Makefile 
+Log Message:
+Add xml-handling routines in Dom class
+    *
+------------------------------------------------------------
+User: jchiang  Tue Aug 12 14:52:48 PDT 2003
 optimizers/optimizers
 
 Added Files:

@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: jchiang  Fri Dec 10 16:38:48 PST 2004
+optimizers/src
+
+Modified Files:
+	FunctionTest.cxx buildBase 
+Log Message:
+swig updates; use a variable in FunctionTest to ensure it gets assigned for optimized code
+    *
+------------------------------------------------------------
+User: jchiang  Fri Dec 10 16:38:48 PST 2004
 optimizers/python
 
 Modified Files:

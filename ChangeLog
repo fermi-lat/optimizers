@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: jchiang  Mon Aug 11 12:39:11 PDT 2003
+optimizers/python
+
+Modified Files:
+	Makefile 
+Added Files:
+	FF_test.py 
+Log Message:
+add xml tag checking routine
+    *
+------------------------------------------------------------
 User: jchiang  Mon Aug 11 10:01:57 PDT 2003
 optimizers/xml
 

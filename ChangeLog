@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: pln  Fri Oct 10 15:12:59 PDT 2003
+optimizers/src
+
+Modified Files:
+	Minuit.cxx 
+Log Message:
+Add interface for MINTIO to set I/O units.
+I still haven't figured out how to suppress initial line of output.
+
+    *
+------------------------------------------------------------
 User: jchiang  Sun Sep 28 08:40:35 PDT 2003
 optimizers/src
 

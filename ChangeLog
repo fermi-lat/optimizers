@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: jchiang  Mon Jan  3 15:03:30 PST 2005
+optimizers/src
+
+Modified Files:
+	Function.cxx FunctionFactory.cxx Parameter.cxx SConstruct 
+Log Message:
+change internal references xml to xmlBase
+    *
+------------------------------------------------------------
 User: jchiang  Mon Jan  3 15:03:29 PST 2005
 optimizers/optimizers
 

@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: pln  Wed Nov  5 14:42:31 PST 2003
+optimizers/optimizers
+
+Modified Files:
+	Drmngb.h Lbfgs.h Minuit.h Optimizer.h 
+Log Message:
+Changes in convergence.  Fixed bug in drmngb uncertainties.
+
+    *
+------------------------------------------------------------
 User: pln  Wed Nov  5 14:42:26 PST 2003
 optimizers/src
 

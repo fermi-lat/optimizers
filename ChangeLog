@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: cohen  Sun Aug 24 14:57:51 PDT 2003
+optimizers/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+use of IExternal/python
+    *
+------------------------------------------------------------
 User: cohen  Tue Aug 19 10:30:27 PDT 2003
 optimizers/optimizers
 

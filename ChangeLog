@@ -1,5 +1,18 @@
 ------------------------------------------------------------
 User: jchiang  Tue Jun  1 22:31:05 PDT 2004
+optimizers/src
+
+Modified Files:
+	OptPP.cxx 
+Added Files:
+	SConstruct buildBase 
+Removed Files:
+	OptPP.h 
+Log Message:
+build with SCons
+    *
+------------------------------------------------------------
+User: jchiang  Tue Jun  1 22:31:05 PDT 2004
 optimizers/python
 
 Modified Files:

@@ -1,5 +1,16 @@
 ------------------------------------------------------------
 User: jchiang  Mon Aug 11 09:11:52 PDT 2003
+optimizers/optimizers
+
+Modified Files:
+	SumFunction.h 
+Added Files:
+	FunctionFactory.h 
+Log Message:
+add FunctionFactory and xml stuff
+    *
+------------------------------------------------------------
+User: jchiang  Mon Aug 11 09:11:52 PDT 2003
 optimizers/cmt
 
 Modified Files:

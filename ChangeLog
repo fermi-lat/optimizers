@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: jchiang  Wed Aug 13 11:34:55 PDT 2003
+optimizers/doc
+
+Modified Files:
+	Doxyfile release.notes 
+Log Message:
+prepare for tag v0r1p1
+    *
+------------------------------------------------------------
+User: jchiang  Wed Aug 13 11:34:55 PDT 2003
 optimizers/cmt
 
 Modified Files:

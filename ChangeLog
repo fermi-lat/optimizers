@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: jchiang  Mon Mar 15 16:18:48 PST 2004
+optimizers/optimizers
+
+Modified Files:
+	Exception.h 
+Log Message:
+make Exception derive from std::exception
+    *
+------------------------------------------------------------
 User: jchiang  Thu Feb 19 19:45:42 PST 2004
 optimizers/src
 

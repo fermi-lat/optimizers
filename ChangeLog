@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: jchiang  Wed Nov  5 16:20:31 PST 2003
+optimizers/optimizers
+
+Modified Files:
+	Optimizer.h 
+Log Message:
+add N-dimensional Rosenbrock function
+    *
+------------------------------------------------------------
+User: jchiang  Wed Nov  5 16:20:31 PST 2003
 optimizers/cmt
 
 Modified Files:

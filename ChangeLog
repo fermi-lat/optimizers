@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: jchiang  Tue May  4 13:22:47 PDT 2004
+optimizers/optimizers
+
+Modified Files:
+	Function.h 
+Log Message:
+re-enable python module builds (w/out cmt)
+    *
+------------------------------------------------------------
 User: burnett  Mon Apr  5 05:54:36 PDT 2004
 optimizers/doc
 

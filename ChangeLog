@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: jchiang  Mon Jan  5 16:07:50 PST 2004
+optimizers/src
+
+Modified Files:
+	Drmngb.cxx Lbfgs.cxx Minuit.cxx OptPP.h Optimizer.cxx Rosen.h 
+	RosenND.h 
+Log Message:
+add Statistic class; refactor Optimizer hierarchy to use it
+    *
+------------------------------------------------------------
 User: jchiang  Mon Jan  5 16:07:49 PST 2004
 optimizers/optimizers
 

@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: jchiang  Tue Jun  1 22:31:05 PDT 2004
+optimizers/optimizers
+
+Added Files:
+	OptPP.h 
+Log Message:
+build with SCons
+    *
+------------------------------------------------------------
 User: jchiang  Tue May  4 13:22:49 PDT 2004
 optimizers/python
 

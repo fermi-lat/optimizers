@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: pln  Sat Nov 15 20:55:12 PST 2003
+optimizers/src
+
+Modified Files:
+	Drmngb.cxx Lbfgs.cxx Minuit.cxx 
+Log Message:
+Make the convergence requirements consistent among all the optimizers.
+
+    *
+------------------------------------------------------------
 User: pln  Sat Nov 15 20:55:08 PST 2003
 optimizers/optimizers
 

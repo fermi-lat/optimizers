@@ -1,0 +1,70 @@
+------------------------------------------------------------
+User: jchiang  Sat Aug  2 15:14:23 PDT 2003
+optimizers
+
+Log Message:
+First import
+
+Status:
+
+Vendor Tag:	GLAST
+Release Tags:	v0
+		
+N optimizers/.cvsignore
+N optimizers/cmt/.cvsignore
+I optimizers/cmt/Makefile
+N optimizers/cmt/requirements
+N optimizers/doc/Doxyfile
+N optimizers/doc/release.notes
+N optimizers/src/Rosen.cxx
+N optimizers/src/Mcmc.cxx
+N optimizers/src/CompositeFunction.cxx
+N optimizers/src/Rosen.h
+N optimizers/src/Minuit.cxx
+N optimizers/src/AbsEdge.cxx
+N optimizers/src/OptPP.cxx
+N optimizers/src/dgaus8.c
+N optimizers/src/Function.cxx
+N optimizers/src/FunctionTest.cxx
+N optimizers/src/Gaussian.cxx
+N optimizers/src/Gaussian.h
+N optimizers/src/Lbfgs.cxx
+N optimizers/src/OptPP.h
+N optimizers/src/MyFun.cxx
+N optimizers/src/MyFun.h
+N optimizers/src/mainpage.h
+N optimizers/src/Parameter.cxx
+N optimizers/src/PowerLaw.cxx
+N optimizers/src/PowerLaw.h
+N optimizers/src/ProductFunction.cxx
+N optimizers/src/AbsEdge.h
+N optimizers/src/SumFunction.cxx
+N optimizers/src/intrac.c
+N optimizers/src/lbfgs_routines.c
+N optimizers/src/minuit_routines.c
+N optimizers/src/Drmngb.cxx
+N optimizers/src/dpptri-blas.c
+N optimizers/src/dpptri.c
+N optimizers/src/drmngb_routines.c
+N optimizers/src/test/main.cxx
+N optimizers/optimizers/Arg.h
+N optimizers/optimizers/CompositeFunction.h
+N optimizers/optimizers/Statistic.h
+N optimizers/optimizers/Exception.h
+N optimizers/optimizers/Function.h
+N optimizers/optimizers/FunctionTest.h
+N optimizers/optimizers/Lbfgs.h
+N optimizers/optimizers/Mcmc.h
+N optimizers/optimizers/Minuit.h
+N optimizers/optimizers/Optimizer.h
+N optimizers/optimizers/OutOfBounds.h
+N optimizers/optimizers/Parameter.h
+N optimizers/optimizers/ParameterNotFound.h
+N optimizers/optimizers/ProductFunction.h
+N optimizers/optimizers/SumFunction.h
+N optimizers/optimizers/dArg.h
+N optimizers/optimizers/Drmngb.h
+
+No conflicts created by this import
+
+    *

@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: pln  Sat Nov 15 20:55:08 PST 2003
+optimizers/optimizers
+
+Modified Files:
+	Lbfgs.h Optimizer.h 
+Log Message:
+Make the convergence requirements consistent among all the optimizers.
+
+    *
+------------------------------------------------------------
 User: jchiang  Mon Nov 10 15:07:37 PST 2003
 optimizers/src/test
 

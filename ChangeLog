@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: jchiang  Mon Aug  4 17:04:31 PDT 2003
+optimizers/optimizers
+
+Modified Files:
+	Drmngb.h Lbfgs.h Mcmc.h Minuit.h 
+Removed Files:
+	Statistic.h 
+Log Message:
+use Function objects instead of Statistic objects
+    *
+------------------------------------------------------------
 User: jchiang  Sat Aug  2 15:29:06 PDT 2003
 optimizers/src/test
 

@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: jchiang  Fri Sep 26 22:43:47 PDT 2003
+optimizers/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+add FunctionFactory::writeXml
+    *
+------------------------------------------------------------
 User: jchiang  Fri Sep  5 12:26:43 PDT 2003
 optimizers/doc
 

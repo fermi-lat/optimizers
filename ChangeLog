@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: jchiang  Tue Dec 21 22:00:40 PST 2004
+optimizers/src/test
+
+Modified Files:
+	main.cxx 
+Log Message:
+refactor interface and Parameter handling inside of Function class
+    *
+------------------------------------------------------------
+User: jchiang  Tue Dec 21 22:00:40 PST 2004
 optimizers/src
 
 Modified Files:

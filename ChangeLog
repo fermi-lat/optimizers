@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: jchiang  Thu Aug  7 20:32:46 PDT 2003
+optimizers/python
+
+Added Files:
+	.cvsignore Makefile optimizers.i optimizers.py 
+	optimizers_wrap.cxx test.py 
+Log Message:
+add python stuff
+    *
+------------------------------------------------------------
 User: jchiang  Thu Aug  7 20:30:27 PDT 2003
 optimizers/python
 

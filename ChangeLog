@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: jchiang  Thu Feb 19 19:45:42 PST 2004
+optimizers/src
+
+Modified Files:
+	Function.cxx Parameter.cxx 
+Removed Files:
+	Dom.cxx 
+Log Message:
+stage 1 of Xerces migration
+    *
+------------------------------------------------------------
 User: jchiang  Thu Feb 19 19:45:41 PST 2004
 optimizers/optimizers
 

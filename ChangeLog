@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: jchiang  Wed Nov  5 16:20:32 PST 2003
+optimizers/src
+
+Added Files:
+	RosenND.cxx RosenND.h 
+Log Message:
+add N-dimensional Rosenbrock function
+    *
+------------------------------------------------------------
 User: jchiang  Wed Nov  5 16:20:31 PST 2003
 optimizers/optimizers
 

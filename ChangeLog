@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: jchiang  Tue Aug 26 15:31:36 PDT 2003
+optimizers/optimizers
+
+Modified Files:
+	Dom.h Parameter.h 
+Log Message:
+move Parameter specific DOM_Element reader to Parameter class; put %include stl.i first, thus exposing std::string in optimizer interfaces
+    *
+------------------------------------------------------------
+User: jchiang  Tue Aug 26 15:31:36 PDT 2003
 optimizers/cmt
 
 Modified Files:

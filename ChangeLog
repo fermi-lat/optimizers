@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: jchiang  Thu Mar 18 20:58:26 PST 2004
+optimizers/src
+
+Modified Files:
+	Drmngb.cxx Lbfgs.cxx Minuit.cxx 
+Log Message:
+change abs to fabs; check for FPEs in test program; tagging v1r1
+    *
+------------------------------------------------------------
 User: jchiang  Thu Mar 18 20:58:25 PST 2004
 optimizers/doc
 

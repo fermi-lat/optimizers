@@ -1,5 +1,16 @@
 ------------------------------------------------------------
 User: jchiang  Mon Nov 10 15:07:36 PST 2003
+optimizers/src
+
+Modified Files:
+	FunctionFactory.cxx 
+Added Files:
+	BrokenPowerLaw.cxx BrokenPowerLaw.h ConstantValue.h 
+Log Message:
+add Function prototypes in FunctionFactory constructor
+    *
+------------------------------------------------------------
+User: jchiang  Mon Nov 10 15:07:36 PST 2003
 optimizers/optimizers
 
 Modified Files:

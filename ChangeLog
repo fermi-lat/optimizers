@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: jchiang  Fri Aug 15 18:13:48 PDT 2003
+optimizers/python
+
+Modified Files:
+	Makefile 
+Removed Files:
+	optimizers_wrap.cxx 
+Log Message:
+remove -fpic flag from cmt/fragments/swig_library
+    *
+------------------------------------------------------------
 User: jchiang  Fri Aug 15 18:13:47 PDT 2003
 optimizers/cmt/fragments
 

@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: jchiang  Fri Sep 26 22:43:47 PDT 2003
+optimizers/optimizers
+
+Modified Files:
+	Dom.h FunctionFactory.h Parameter.h 
+Log Message:
+add FunctionFactory::writeXml
+    *
+------------------------------------------------------------
+User: jchiang  Fri Sep 26 22:43:47 PDT 2003
 optimizers/cmt
 
 Modified Files:

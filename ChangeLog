@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: jchiang  Sun Sep 28 08:40:35 PDT 2003
+optimizers/src
+
+Modified Files:
+	AbsEdge.cxx Dom.cxx Function.cxx FunctionFactory.cxx 
+	Gaussian.cxx PowerLaw.cxx Rosen.cxx 
+Log Message:
+add Function::genericName
+    *
+------------------------------------------------------------
 User: jchiang  Sun Sep 28 08:40:34 PDT 2003
 optimizers/optimizers
 

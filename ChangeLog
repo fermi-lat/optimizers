@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: jchiang  Mon Nov 10 15:07:36 PST 2003
+optimizers/optimizers
+
+Modified Files:
+	FunctionFactory.h 
+Log Message:
+add Function prototypes in FunctionFactory constructor
+    *
+------------------------------------------------------------
 User: jchiang  Sun Nov  9 15:15:07 PST 2003
 optimizers/doc
 

@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: jchiang  Tue May  4 13:22:49 PDT 2004
+optimizers/python
+
+Modified Files:
+	FF_test.py Makefile PrototypeFactory.py optimizers.i 
+Log Message:
+re-enable python module builds (w/out cmt)
+    *
+------------------------------------------------------------
 User: jchiang  Tue May  4 13:22:47 PDT 2004
 optimizers/optimizers
 

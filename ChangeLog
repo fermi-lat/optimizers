@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: jchiang  Tue Nov 18 10:12:58 PST 2003
+optimizers/doc
+
+Modified Files:
+	Doxyfile release.notes 
+Log Message:
+add xml support for modifying Parameters through the Function class; update documentation
+    *
+------------------------------------------------------------
 User: jchiang  Tue Nov 18 10:12:57 PST 2003
 optimizers/cmt
 

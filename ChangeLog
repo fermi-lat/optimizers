@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: jchiang  Thu Feb 19 19:45:41 PST 2004
+optimizers/optimizers
+
+Removed Files:
+	Dom.h 
+Log Message:
+stage 1 of Xerces migration
+    *
+------------------------------------------------------------
 User: jchiang  Thu Feb 19 16:54:20 PST 2004
 optimizers/src
 

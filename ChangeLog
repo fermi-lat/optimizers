@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: jchiang  Sat Aug 16 21:12:40 PDT 2003
+optimizers/optimizers
+
+Modified Files:
+	Dom.h 
+Log Message:
+tweak Dom::getElements; add Dom::checkTagName
+    *
+------------------------------------------------------------
 User: jchiang  Fri Aug 15 18:13:48 PDT 2003
 optimizers/src
 

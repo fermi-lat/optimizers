@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: jchiang  Sat Jun  5 08:24:14 PDT 2004
+optimizers/src
+
+Modified Files:
+	OptPP.cxx buildBase 
+Log Message:
+update to use Opt++
+    *
+------------------------------------------------------------
 User: jchiang  Tue Jun  1 22:31:05 PDT 2004
 optimizers/src/test
 

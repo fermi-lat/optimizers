@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: jchiang  Wed Nov 19 17:17:56 PST 2003
+optimizers/src/test
+
+Modified Files:
+	main.cxx 
+Log Message:
+add getUncertainty() method to Optimizer base class
+    *
+------------------------------------------------------------
 User: jchiang  Wed Nov 19 17:17:55 PST 2003
 optimizers/src
 

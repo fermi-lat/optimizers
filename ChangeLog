@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: jchiang  Sun Nov 30 15:15:25 PST 2003
+optimizers/optimizers
+
+Modified Files:
+	FunctionTest.h 
+Log Message:
+#include <cassert>
+    *
+------------------------------------------------------------
 User: jchiang  Wed Nov 19 17:22:10 PST 2003
 optimizers/doc
 

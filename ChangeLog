@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: jchiang  Wed Aug 13 14:08:10 PDT 2003
+optimizers/src
+
+Modified Files:
+	FunctionFactory.cxx 
+Log Message:
+debug setName() call in FunctionFactory
+    *
+------------------------------------------------------------
 User: jchiang  Wed Aug 13 11:34:55 PDT 2003
 optimizers/doc
 

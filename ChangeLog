@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: jchiang  Wed Nov 19 17:17:55 PST 2003
+optimizers/src
+
+Modified Files:
+	Drmngb.cxx Minuit.cxx OptPP.h 
+Added Files:
+	Optimizer.cxx 
+Log Message:
+add getUncertainty() method to Optimizer base class
+    *
+------------------------------------------------------------
 User: jchiang  Wed Nov 19 17:17:54 PST 2003
 optimizers/python
 

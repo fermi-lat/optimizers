@@ -1,5 +1,15 @@
 ------------------------------------------------------------
 User: jchiang  Thu Apr  7 23:30:33 PDT 2005
+optimizers/src
+
+Modified Files:
+	BrokenPowerLaw.cxx Drmngb.cxx Gaussian.cxx Optimizer.cxx 
+	PowerLaw.cxx 
+Log Message:
+derivative fixes; re-enable Drmngb::getUncertainty for debugging
+    *
+------------------------------------------------------------
+User: jchiang  Thu Apr  7 23:30:33 PDT 2005
 optimizers/python
 
 Modified Files:

@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: jchiang  Fri Apr  8 10:35:59 PDT 2005
+optimizers/src
+
+Modified Files:
+	Drmngb.cxx Minuit.cxx Optimizer.cxx 
+Log Message:
+enable option to use base class implementation of getUncertainty
+    *
+------------------------------------------------------------
+User: jchiang  Fri Apr  8 10:35:59 PDT 2005
 optimizers/optimizers
 
 Modified Files:

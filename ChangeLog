@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: jchiang  Thu Apr  7 23:30:33 PDT 2005
+optimizers/python
+
+Modified Files:
+	Makefile 
+Log Message:
+derivative fixes; re-enable Drmngb::getUncertainty for debugging
+    *
+------------------------------------------------------------
+User: jchiang  Thu Apr  7 23:30:33 PDT 2005
 optimizers/optimizers
 
 Modified Files:

@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: jchiang  Wed Jun 15 13:59:35 PDT 2005
+optimizers/optimizers
+
+Modified Files:
+	Function.h 
+Log Message:
+make passed parameters const
+    *
+------------------------------------------------------------
 TAG
 Tag name: v2r3, operation: add
 Package: optimizers

@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: peachey  Wed Jun 15 08:10:07 PDT 2005
+optimizers/optimizers
+
+Added Files:
+	ChiSq.h 
+Log Message:
+Add ChiSq class for computing ChiSq statistic.
+
+    *
+------------------------------------------------------------
 TAG
 Tag name: v2r2, operation: add
 Package: optimizers

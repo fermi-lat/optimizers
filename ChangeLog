@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: peachey  Wed Jun 15 08:10:23 PDT 2005
+optimizers/src/test
+
+Modified Files:
+	main.cxx 
+Log Message:
+Add test for ChiSq class.
+
+    *
+------------------------------------------------------------
 User: peachey  Wed Jun 15 08:10:07 PDT 2005
 optimizers/src
 

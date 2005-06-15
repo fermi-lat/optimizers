@@ -1,5 +1,15 @@
 ------------------------------------------------------------
 User: peachey  Wed Jun 15 08:10:07 PDT 2005
+optimizers/src
+
+Added Files:
+	ChiSq.cxx 
+Log Message:
+Add ChiSq class for computing ChiSq statistic.
+
+    *
+------------------------------------------------------------
+User: peachey  Wed Jun 15 08:10:07 PDT 2005
 optimizers/optimizers
 
 Added Files:

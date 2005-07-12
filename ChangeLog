@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: jchiang  Tue Jul 12 16:34:21 PDT 2005
+optimizers/doc
+
+Modified Files:
+	release.notes 
+Log Message:
+create shared library; tagging v2r4
+    *
+------------------------------------------------------------
+User: jchiang  Tue Jul 12 16:34:21 PDT 2005
 optimizers/cmt
 
 Modified Files:

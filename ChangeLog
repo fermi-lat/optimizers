@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: jchiang  Fri Sep 23 11:00:17 PDT 2005
+optimizers/src
+
+Modified Files:
+	BrokenPowerLaw.cxx BrokenPowerLaw.h Gaussian.h PowerLaw.h 
+Log Message:
+fix many derivative evaluations
+    *
+------------------------------------------------------------
 TAG
 Tag name: v2r4, operation: add
 Package: optimizers

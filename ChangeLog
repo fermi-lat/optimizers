@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: pln  Thu Jan 12 14:34:55 PST 2006
+optimizers/src/test
+
+Modified Files:
+	main.cxx 
+Log Message:
+Add a class to wrap the C++ version of Minuit
+
+    *
+------------------------------------------------------------
 TAG
 Tag name: ScienceToolsv6r2, operation: add
 Package: optimizers

@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: pln  Thu Jan 12 14:35:08 PST 2006
+optimizers/optimizers
+
+Added Files:
+	newMinuit.h 
+Log Message:
+Add a class to wrap the C++ version of Minuit
+
+    *
+------------------------------------------------------------
 User: pln  Thu Jan 12 14:35:05 PST 2006
 optimizers/src
 

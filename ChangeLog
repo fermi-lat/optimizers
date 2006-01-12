@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: pln  Thu Jan 12 14:35:02 PST 2006
+optimizers/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+Add a class to wrap the C++ version of Minuit
+
+    *
+------------------------------------------------------------
 User: pln  Thu Jan 12 14:34:55 PST 2006
 optimizers/src/test
 

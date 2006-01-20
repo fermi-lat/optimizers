@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: jchiang  Fri Jan 20 13:59:25 PST 2006
+optimizers/src
+
+Modified Files:
+	newMinuit.cxx 
+Log Message:
+suppress warning; tagging v2r5
+    *
+------------------------------------------------------------
+User: jchiang  Fri Jan 20 13:59:25 PST 2006
 optimizers/doc
 
 Modified Files:

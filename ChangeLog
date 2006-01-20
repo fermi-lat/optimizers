@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: golpa  Fri Jan 20 10:36:11 PST 2006
+optimizers/src
+
+Modified Files:
+	minuit_routines.c 
+Log Message:
+MAC/gcc3.3 changes
+    *
+------------------------------------------------------------
 User: pln  Thu Jan 12 14:35:08 PST 2006
 optimizers/optimizers
 

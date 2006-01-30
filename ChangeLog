@@ -1,4 +1,92 @@
 ------------------------------------------------------------
+TAG
+Tag name: v2r5p1, operation: add
+Package: optimizers
+User: jchiang  Mon Jan 30 11:40:00 2006
+Files:
+  optimizers/.cvsignore  1.1.1.1
+  optimizers/ChangeLog  1.244
+  optimizers/cmt/.cvsignore  1.1.1.1
+  optimizers/cmt/requirements  1.54
+  optimizers/doc/release.notes  1.30
+  optimizers/doc/Doxyfile  1.13
+  optimizers/optimizers/OutOfBounds.h  1.2
+  optimizers/optimizers/Function.h  1.13
+  optimizers/optimizers/ParameterNotFound.h  1.1.1.1
+  optimizers/optimizers/Optimizer.h  1.10
+  optimizers/optimizers/Exception.h  1.3
+  optimizers/optimizers/FunctionTest.h  1.3
+  optimizers/optimizers/Mcmc.h  1.5
+  optimizers/optimizers/dArg.h  1.1.1.1
+  optimizers/optimizers/newMinuit.h  1.1
+  optimizers/optimizers/OptPP.h  1.2
+  optimizers/optimizers/SumFunction.h  1.2
+  optimizers/optimizers/ChiSq.h  1.1
+  optimizers/optimizers/Dom.h  1.7
+  optimizers/optimizers/CompositeFunction.h  1.3
+  optimizers/optimizers/Minuit.h  1.10
+  optimizers/optimizers/f2c_types.h  1.1
+  optimizers/optimizers/Statistic.h  1.4
+  optimizers/optimizers/FunctionFactory.h  1.4
+  optimizers/optimizers/Parameter.h  1.10
+  optimizers/optimizers/Lbfgs.h  1.7
+  optimizers/optimizers/ProductFunction.h  1.1.1.1
+  optimizers/optimizers/Drmngb.h  1.8
+  optimizers/optimizers/Arg.h  1.1.1.1
+  optimizers/python/test.py  1.1
+  optimizers/python/optimizers.i  1.5
+  optimizers/python/.cvsignore  1.1
+  optimizers/python/FF_test.py  1.3
+  optimizers/python/PrototypeFactory.py  1.3
+  optimizers/python/Makefile  1.13
+  optimizers/src/dgaus8.c  1.1.1.1
+  optimizers/src/newMinuit.cxx  1.2
+  optimizers/src/ChiSq.cxx  1.1
+  optimizers/src/Dom.cxx  1.9
+  optimizers/src/dpptri-blas.c  1.2
+  optimizers/src/buildBase  1.5
+  optimizers/src/drmngb_routines.c  1.2
+  optimizers/src/OptPP.cxx  1.4
+  optimizers/src/minuit_routines.c  1.3
+  optimizers/src/lbfgs_routines.c  1.1.1.1
+  optimizers/src/Rosen.h  1.6
+  optimizers/src/Parameter.cxx  1.11
+  optimizers/src/ProductFunction.cxx  1.1.1.1
+  optimizers/src/intrac.c  1.1.1.1
+  optimizers/src/BrokenPowerLaw.h  1.3
+  optimizers/src/Rosen.cxx  1.4
+  optimizers/src/Gaussian.h  1.3
+  optimizers/src/Gaussian.cxx  1.4
+  optimizers/src/Lbfgs.cxx  1.6
+  optimizers/src/AbsEdge.h  1.2
+  optimizers/src/dpptri.c  1.1.1.1
+  optimizers/src/MyFun.cxx  1.3
+  optimizers/src/FunctionTest.cxx  1.4
+  optimizers/src/PowerLaw.h  1.3
+  optimizers/src/RosenND.cxx  1.2
+  optimizers/src/mainpage.h  1.1.1.1
+  optimizers/src/SumFunction.cxx  1.1.1.1
+  optimizers/src/AbsEdge.cxx  1.4
+  optimizers/src/MyFun.h  1.3
+  optimizers/src/ConstantValue.h  1.5
+  optimizers/src/Mcmc.cxx  1.6
+  optimizers/src/CompositeFunction.cxx  1.2
+  optimizers/src/BrokenPowerLaw.cxx  1.4
+  optimizers/src/RosenND.h  1.4
+  optimizers/src/Optimizer.cxx  1.9
+  optimizers/src/SConstruct  1.6
+  optimizers/src/Drmngb.cxx  1.11
+  optimizers/src/FunctionFactory.cxx  1.17
+  optimizers/src/Minuit.cxx  1.12
+  optimizers/src/PowerLaw.cxx  1.8
+  optimizers/src/Function.cxx  1.10
+  optimizers/src/test/main.cxx  1.18
+  optimizers/xml/BadModel.xml  1.1
+  optimizers/xml/FunctionModels.dtd  1.1
+  optimizers/xml/FunctionModels.xml  1.1
+
+    *
+------------------------------------------------------------
 User: jchiang  Mon Jan 30 11:39:48 PST 2006
 optimizers/doc
 

@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: jchiang  Mon Jan 30 11:38:56 PST 2006
+optimizers/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+add compile flags for Darwin
+    *
+------------------------------------------------------------
 TAG
 Tag name: v2r5, operation: add
 Package: optimizers

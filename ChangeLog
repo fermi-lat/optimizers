@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: jchiang  Wed Feb 15 14:04:08 PST 2006
+optimizers/src
+
+Modified Files:
+	newMinuit.cxx 
+Log Message:
+disable newMinuit until it is supported on Windows in extlibs; tagging v2r5p2
+    *
+------------------------------------------------------------
+User: jchiang  Wed Feb 15 14:04:08 PST 2006
 optimizers/doc
 
 Modified Files:

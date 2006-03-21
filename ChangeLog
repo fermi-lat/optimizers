@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: jchiang  Tue Mar 21 11:58:03 PST 2006
+optimizers/src
+
+Modified Files:
+	Mcmc.cxx 
+Log Message:
+add using CLHEP::RandFlat; tagging v2r5p3
+    *
+------------------------------------------------------------
 User: jchiang  Tue Mar 21 11:58:02 PST 2006
 optimizers/doc
 

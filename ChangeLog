@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: jchiang  Tue Mar 21 15:14:32 PST 2006
+optimizers/doc
+
+Modified Files:
+	release.notes 
+Log Message:
+replace explicit version numbers with v* in req file; tagging v2r5p4
+    *
+------------------------------------------------------------
+User: jchiang  Tue Mar 21 15:14:32 PST 2006
 optimizers/cmt
 
 Modified Files:

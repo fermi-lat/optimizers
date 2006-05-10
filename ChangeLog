@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: jchiang  Tue May  9 17:58:49 PDT 2006
+optimizers/src
+
+Modified Files:
+	newMinuit.cxx 
+Log Message:
+move hesse call to find_min
+    *
+------------------------------------------------------------
 User: jchiang  Tue May  9 17:57:38 PDT 2006
 optimizers/src/test
 

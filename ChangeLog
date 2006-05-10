@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: jchiang  Tue May  9 17:57:38 PDT 2006
+optimizers/src/test
+
+Modified Files:
+	main.cxx 
+Added Files:
+	TestOptimizer.h 
+Log Message:
+add TestOptimizer class
+    *
+------------------------------------------------------------
 TAG
 Tag name: v2r5p4, operation: add
 Package: optimizers

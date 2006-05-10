@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: jchiang  Wed May 10 11:06:27 PDT 2006
+optimizers/src/test
+
+Modified Files:
+	TestOptimizer.h main.cxx 
+Log Message:
+add OptimizerFactory; clean up test program a bit; exercise Optimzer choices more systematically
+    *
+------------------------------------------------------------
 User: jchiang  Wed May 10 11:06:26 PDT 2006
 optimizers/src
 

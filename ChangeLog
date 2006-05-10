@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: jchiang  Tue May  9 23:09:38 PDT 2006
+optimizers/optimizers
+
+Modified Files:
+	Drmngb.h Lbfgs.h Optimizer.h 
+Log Message:
+fix long-standing bug in Lbfgs constructor; use TestOptimizer interface in test program
+    *
+------------------------------------------------------------
 User: jchiang  Tue May  9 23:09:37 PDT 2006
 optimizers/cmt
 

@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: jchiang  Tue May  9 23:09:40 PDT 2006
+optimizers/src/test
+
+Modified Files:
+	TestOptimizer.h main.cxx 
+Log Message:
+fix long-standing bug in Lbfgs constructor; use TestOptimizer interface in test program
+    *
+------------------------------------------------------------
 User: jchiang  Tue May  9 23:09:39 PDT 2006
 optimizers/src
 

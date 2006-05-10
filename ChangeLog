@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: jchiang  Wed May 10 11:06:25 PDT 2006
+optimizers/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+add OptimizerFactory; clean up test program a bit; exercise Optimzer choices more systematically
+    *
+------------------------------------------------------------
 User: jchiang  Tue May  9 23:09:40 PDT 2006
 optimizers/src/test
 

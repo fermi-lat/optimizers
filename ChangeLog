@@ -1,5 +1,18 @@
 ------------------------------------------------------------
 User: jchiang  Wed May 10 11:06:26 PDT 2006
+optimizers/src
+
+Modified Files:
+	Optimizer.cxx 
+Added Files:
+	NewMinuit.cxx OptimizerFactory.cxx Util.cxx 
+Removed Files:
+	newMinuit.cxx 
+Log Message:
+add OptimizerFactory; clean up test program a bit; exercise Optimzer choices more systematically
+    *
+------------------------------------------------------------
+User: jchiang  Wed May 10 11:06:26 PDT 2006
 optimizers/optimizers
 
 Added Files:

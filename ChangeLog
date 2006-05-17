@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: pln  Wed May 17 15:20:12 PDT 2006
+optimizers/src
+
+Modified Files:
+	NewMinuit.cxx 
+Log Message:
+Increase maximum number of function calls.
+
+    *
+------------------------------------------------------------
 User: pln  Wed May 17 15:19:57 PDT 2006
 optimizers/optimizers
 

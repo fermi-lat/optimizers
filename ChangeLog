@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: jchiang  Mon Jun 12 08:57:42 PDT 2006
+optimizers/src
+
+Modified Files:
+	NewMinuit.cxx 
+Log Message:
+use ROOT::Minuit2 in NewMinuit
+    *
+------------------------------------------------------------
 User: jchiang  Mon Jun 12 08:57:41 PDT 2006
 optimizers/optimizers
 

@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: jchiang  Mon Jun 12 08:57:41 PDT 2006
+optimizers/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+use ROOT::Minuit2 in NewMinuit
+    *
+------------------------------------------------------------
 TAG
 Tag name: v2r6, operation: add
 Package: optimizers

@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: jchiang  Fri Jul  7 12:41:40 PDT 2006
+optimizers/src
+
+Added Files:
+	Amoeba.cxx amoeba.c nrutil.c nrutil.h 
+Log Message:
+add Amoeba class
+    *
+------------------------------------------------------------
+User: jchiang  Fri Jul  7 12:41:40 PDT 2006
 optimizers/optimizers
 
 Added Files:

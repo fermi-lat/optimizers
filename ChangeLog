@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: jchiang  Mon Jul 10 08:58:43 PDT 2006
+optimizers/src
+
+Modified Files:
+	Amoeba.cxx 
+Log Message:
+still more workarounds for broken linkage on Windows
+    *
+------------------------------------------------------------
+User: jchiang  Mon Jul 10 08:58:43 PDT 2006
 optimizers/cmt
 
 Modified Files:

@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: jchiang  Tue Jul 11 21:04:48 PDT 2006
+optimizers/src
+
+Modified Files:
+	Amoeba.cxx 
+Log Message:
+bug fix: allow simplex to shrink
+    *
+------------------------------------------------------------
 User: jchiang  Tue Jul 11 19:11:38 PDT 2006
 optimizers/src
 

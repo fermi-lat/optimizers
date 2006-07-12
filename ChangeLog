@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: jchiang  Tue Jul 11 19:11:38 PDT 2006
+optimizers/src
+
+Modified Files:
+	Amoeba.cxx 
+Log Message:
+refactor from singleton
+    *
+------------------------------------------------------------
 User: jchiang  Tue Jul 11 19:11:37 PDT 2006
 optimizers/optimizers
 

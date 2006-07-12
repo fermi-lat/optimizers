@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: jchiang  Tue Jul 11 19:11:37 PDT 2006
+optimizers/optimizers
+
+Modified Files:
+	Amoeba.h 
+Log Message:
+refactor from singleton
+    *
+------------------------------------------------------------
 TAG
 Tag name: v2r7p1, operation: add
 Package: optimizers

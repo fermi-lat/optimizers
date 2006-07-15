@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: jchiang  Sat Jul 15 07:43:27 PDT 2006
+optimizers/optimizers
+
+Modified Files:
+	Amoeba.h 
+Log Message:
+add default step param
+    *
+------------------------------------------------------------
 TAG
 Tag name: v2r7p2, operation: add
 Package: optimizers

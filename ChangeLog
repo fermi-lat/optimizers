@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: pln  Tue Aug 22 15:22:40 PDT 2006
+optimizers/optimizers
+
+Modified Files:
+	Drmngb.h Lbfgs.h Minuit.h NewMinuit.h OptPP.h Optimizer.h 
+Log Message:
+Add an operator<< to the Optimizer class
+
+    *
+------------------------------------------------------------
 TAG
 Tag name: v2r7p4, operation: add
 Package: optimizers

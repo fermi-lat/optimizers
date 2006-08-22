@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: pln  Tue Aug 22 15:23:07 PDT 2006
+optimizers/src
+
+Modified Files:
+	Drmngb.cxx Lbfgs.cxx Minuit.cxx NewMinuit.cxx OptPP.cxx 
+	Optimizer.cxx 
+Log Message:
+Add an operator<< to the Optimizer class
+
+    *
+------------------------------------------------------------
 User: pln  Tue Aug 22 15:22:40 PDT 2006
 optimizers/optimizers
 

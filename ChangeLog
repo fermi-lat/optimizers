@@ -1,4 +1,16 @@
 ------------------------------------------------------------
+User: pln  Fri Aug 25 15:29:24 PDT 2006
+optimizers/src
+
+Modified Files:
+	OptimizerFactory.cxx 
+Added Files:
+	Powell.cxx 
+Log Message:
+Add a new optimizer class: Powell.
+Implements Powell's method, which doesn't use function derivatives.
+    *
+------------------------------------------------------------
 TAG
 Tag name: v2r7p5, operation: add
 Package: optimizers

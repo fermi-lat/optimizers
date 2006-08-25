@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: pln  Fri Aug 25 15:29:49 PDT 2006
+optimizers/src/test
+
+Modified Files:
+	main.cxx 
+Log Message:
+Add a new optimizer class: Powell.
+Implements Powell's method, which doesn't use function derivatives.
+
+    *
+------------------------------------------------------------
 User: pln  Fri Aug 25 15:29:24 PDT 2006
 optimizers/src
 

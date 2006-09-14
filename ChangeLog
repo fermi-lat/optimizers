@@ -1,4 +1,17 @@
 ------------------------------------------------------------
+User: pln  Thu Sep 14 11:02:58 PDT 2006
+optimizers/src
+
+Modified Files:
+	OptimizerFactory.cxx 
+Added Files:
+	drmnfb_routines.c Drmnfb.cxx 
+Log Message:
+Add new class Drmnfg.  It's like Drmngb but it calculates its own
+gradients using finite differences.
+
+    *
+------------------------------------------------------------
 User: pln  Thu Sep 14 11:02:32 PDT 2006
 optimizers/optimizers
 

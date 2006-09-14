@@ -1,4 +1,16 @@
 ------------------------------------------------------------
+User: pln  Thu Sep 14 11:02:32 PDT 2006
+optimizers/optimizers
+
+Modified Files:
+	Optimizer.h 
+Added Files:
+	Drmnfb.h 
+Log Message:
+Add new class Drmnfg.  It's like Drmngb but it calculates its own
+gradients using finite differences.
+    *
+------------------------------------------------------------
 TAG
 Tag name: v2r7p6, operation: add
 Package: optimizers

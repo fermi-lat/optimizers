@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: jchiang  Tue Nov 28 08:51:43 PST 2006
+optimizers/optimizers
+
+Modified Files:
+	NewMinuit.h Optimizer.h 
+Log Message:
+check Nukri's covarianceMatrix changes after bringing them up-to-date to the current version of the package
+    *
+------------------------------------------------------------
 TAG
 Tag name: v2r7p7, operation: add
 Package: optimizers

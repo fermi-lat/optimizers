@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: jchiang  Mon Jan 29 10:14:21 PST 2007
+optimizers/src
+
+Modified Files:
+	Amoeba.cxx 
+Log Message:
+fix floating point error bug and erroneous minimum reporting in amoeba; reactivate unit tests
+    *
+------------------------------------------------------------
 User: jchiang  Tue Nov 28 08:51:44 PST 2006
 optimizers/src
 

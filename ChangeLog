@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: jchiang  Sun Apr  8 15:40:51 PDT 2007
+optimizers/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+treat case where denominator of relative error is zero using an absolute convergence criterion explicitly; tagging v2r8p1
+    *
+------------------------------------------------------------
 TAG
 Tag name: v2r8, operation: add
 Package: optimizers

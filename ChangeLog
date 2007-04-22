@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: burnett  Sat Apr 21 20:32:48 PDT 2007
+optimizers/src
+
+Modified Files:
+	lbfgs_routines.c 
+Log Message:
+kluge fix for VS2005
+    *
+------------------------------------------------------------
 TAG
 Tag name: v2r8p1, operation: add
 Package: optimizers

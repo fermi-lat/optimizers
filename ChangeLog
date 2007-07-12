@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: jchiang  Thu Jul 12 15:43:44 PDT 2007
+optimizers/src/test
+
+Modified Files:
+	main.cxx 
+Log Message:
+add Function::rescale member function
+    *
+------------------------------------------------------------
+User: jchiang  Thu Jul 12 15:43:44 PDT 2007
 optimizers/src
 
 Modified Files:

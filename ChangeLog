@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: jchiang  Fri Jul 13 08:12:44 PDT 2007
+optimizers/src
+
+Modified Files:
+	Function.cxx 
+Log Message:
+add Function::normPar member function
+    *
+------------------------------------------------------------
 User: jchiang  Fri Jul 13 08:12:43 PDT 2007
 optimizers/optimizers
 

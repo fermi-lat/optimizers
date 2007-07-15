@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: jchiang  Sun Jul 15 16:25:17 PDT 2007
+optimizers/doc
+
+Modified Files:
+	release.notes 
+Log Message:
+comment out debug print statements; tagging v2r9p1
+    *
+------------------------------------------------------------
+User: jchiang  Sun Jul 15 16:25:17 PDT 2007
 optimizers/cmt
 
 Modified Files:

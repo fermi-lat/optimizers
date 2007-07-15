@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: jchiang  Sun Jul 15 16:25:17 PDT 2007
+optimizers/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+comment out debug print statements; tagging v2r9p1
+    *
+------------------------------------------------------------
 TAG
 Tag name: v2r9, operation: add
 Package: optimizers

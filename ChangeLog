@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: jchiang  Wed Jul 25 12:22:48 PDT 2007
+optimizers/src/test
+
+Modified Files:
+	main.cxx 
+Log Message:
+remove HAVE_NEW_MINUIT ifdefs; tagging v2r10
+    *
+------------------------------------------------------------
+User: jchiang  Wed Jul 25 12:22:48 PDT 2007
 optimizers/src
 
 Modified Files:

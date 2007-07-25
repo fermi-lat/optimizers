@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: jchiang  Wed Jul 25 12:22:48 PDT 2007
+optimizers/doc
+
+Modified Files:
+	release.notes 
+Log Message:
+remove HAVE_NEW_MINUIT ifdefs; tagging v2r10
+    *
+------------------------------------------------------------
 User: jchiang  Wed Jul 25 12:22:47 PDT 2007
 optimizers/cmt
 

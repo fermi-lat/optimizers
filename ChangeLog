@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: jchiang  Fri Aug 31 14:42:01 PDT 2007
+optimizers/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+bug fix in parameter name handling in NewMinuit; tagging v2r11
+    *
+------------------------------------------------------------
 TAG
 Tag name: v2r10, operation: add
 Package: optimizers

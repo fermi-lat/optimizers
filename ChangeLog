@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: jchiang  Fri Aug 31 14:42:01 PDT 2007
+optimizers/src
+
+Modified Files:
+	NewMinuit.cxx 
+Log Message:
+bug fix in parameter name handling in NewMinuit; tagging v2r11
+    *
+------------------------------------------------------------
+User: jchiang  Fri Aug 31 14:42:01 PDT 2007
 optimizers/doc
 
 Modified Files:

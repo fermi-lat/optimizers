@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: golpa  Mon Oct  1 08:40:05 PDT 2007
+optimizers/src/test
+
+Modified Files:
+	main.cxx 
+Log Message:
+Use commonUtilities
+    *
+------------------------------------------------------------
 TAG
 Tag name: v2r11, operation: add
 Package: optimizers

@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: golpa  Mon Dec 10 13:32:19 PST 2007
+optimizers
+
+Added Files:
+	SConscript optimizersLib.py 
+Log Message:
+Initial import of SCons files
+    *
+------------------------------------------------------------
 TAG
 Tag name: v2r12, operation: add
 Package: optimizers

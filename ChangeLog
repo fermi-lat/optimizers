@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: golpa  Wed Feb 20 09:00:52 PST 2008
+optimizers
+
+Modified Files:
+	optimizersLib.py 
+Log Message:
+optimizers depends on minuit libraries
+    *
+------------------------------------------------------------
 TAG
 Tag name: optimizers-02-12-02, operation: add
 Package: optimizers

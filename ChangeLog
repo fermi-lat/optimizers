@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+TAG
+Tag name: v2r12p2, operation: mov
+Package: optimizers
+User: glast  Fri Feb 22 13:48:31 2008
+Files:
+  optimizers/optimizersLib.py  1.2
+
+    *
+------------------------------------------------------------
 User: golpa  Wed Feb 20 09:00:52 PST 2008
 optimizers
 

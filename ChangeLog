@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: glastrm  Mon Feb 25 21:16:58 PST 2008
+ScienceTools-scons/optimizers
+
+Modified Files:
+	optimizersLib.py SConscript 
+Log Message:
+Set lib dependencies up for when building libraries
+    *
+------------------------------------------------------------
 TAG
 Tag name: optimizers-02-12-02, operation: mov
 Package: optimizers

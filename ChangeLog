@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: glastrm  Thu Jun 19 16:28:37 PDT 2008
+ScienceTools-scons/optimizers
+
+Modified Files:
+	SConscript 
+Log Message:
+Added Author and Version fields
+    *
+------------------------------------------------------------
 TAG
 Tag name: optimizers-02-12-02, operation: mov
 Package: optimizers

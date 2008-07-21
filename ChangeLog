@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+TAG
+Tag name: v2r12p3, operation: mov
+Package: optimizers
+User: glastrm  Mon Jul 21 15:31:06 2008
+Files:
+  optimizers/SConscript  1.6
+
+    *
+------------------------------------------------------------
 User: glastrm  Mon Jul 21 15:31:00 PDT 2008
 optimizers
 

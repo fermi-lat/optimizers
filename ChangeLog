@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: jchiang  Thu Sep 25 17:26:25 PDT 2008
+optimizers/optimizers
+
+Modified Files:
+	Function.h 
+Log Message:
+make some member functions virtual so that they can be reimplemented by CompositeLikelihood
+    *
+------------------------------------------------------------
 TAG
 Tag name: ScienceTools-09-06-00, operation: del
 Package: optimizers

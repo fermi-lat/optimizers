@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: jchiang  Wed Oct 29 12:52:58 PDT 2008
+optimizers/src
+
+Modified Files:
+	NewMinuit.cxx 
+Log Message:
+set default strategy in NewMinuit to 2
+    *
+------------------------------------------------------------
+User: jchiang  Wed Oct 29 12:52:58 PDT 2008
 optimizers/optimizers
 
 Modified Files:

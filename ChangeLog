@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: jchiang  Wed Oct 29 12:52:58 PDT 2008
+optimizers/optimizers
+
+Modified Files:
+	Optimizer.h 
+Log Message:
+set default strategy in NewMinuit to 2
+    *
+------------------------------------------------------------
 TAG
 Tag name: optimizers-02-13-00, operation: add
 Package: optimizers

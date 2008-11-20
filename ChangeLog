@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: jchiang  Thu Nov 20 07:47:12 PST 2008
+optimizers/src
+
+Modified Files:
+	NewMinuit.cxx 
+Log Message:
+restore default value of minimization strategy to 1
+    *
+------------------------------------------------------------
+User: jchiang  Thu Nov 20 07:47:12 PST 2008
 optimizers/optimizers
 
 Modified Files:

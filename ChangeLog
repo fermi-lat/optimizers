@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: jchiang  Sun Dec 14 13:42:44 PST 2008
+optimizers/src
+
+Modified Files:
+	minuit.f 
+Log Message:
+comment out welcome message; stephen's mods to handle newlines; declare integer vlen
+    *
+------------------------------------------------------------
 User: jchiang  Sun Dec 14 13:34:59 PST 2008
 optimizers/src
 

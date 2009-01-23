@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: pln  Fri Jan 23 15:16:12 PST 2009
+optimizers/optimizers
+
+Modified Files:
+	f2c_types.h 
+Log Message:
+Modified f2c variable types integer and logical for 64-bit gcc.
+
+    *
+------------------------------------------------------------
 TAG
 Tag name: optimizers-02-14-02, operation: add
 Package: optimizers

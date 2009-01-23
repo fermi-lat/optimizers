@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: pln  Thu Jan 22 18:04:34 PST 2009
+optimizers/optimizers
+
+Modified Files:
+	Minuit.h f2c_types.h 
+Log Message:
+Fix inconsistencies of f2c data types which may cause segfault in
+64-bit architecture.
+
+    *
+------------------------------------------------------------
 TAG
 Tag name: ScienceTools-09-09-00, operation: add
 Package: optimizers

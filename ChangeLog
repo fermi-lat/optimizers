@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: jchiang  Thu Jan 22 21:27:38 PST 2009
+optimizers/src
+
+Modified Files:
+	Minuit.cxx OptimizerFactory.cxx 
+Log Message:
+provide class qualitifier for setStrategy member function definition; minor reformating
+    *
+------------------------------------------------------------
 User: pln  Thu Jan 22 18:04:41 PST 2009
 optimizers/src
 

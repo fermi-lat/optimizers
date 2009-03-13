@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: pln  Thu Mar 12 17:19:39 PDT 2009
+optimizers/optimizers
+
+Modified Files:
+	NewMinuit.h Minuit.h Optimizer.h 
+Log Message:
+Add a Minos method for the Minuit and NewMinuit optimizers. 
+It's a no-op for the other optimizers.
+
+    *
+------------------------------------------------------------
 TAG
 Tag name: ScienceTools-09-10-00, operation: add
 Package: optimizers

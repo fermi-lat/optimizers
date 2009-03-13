@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: pln  Fri Mar 13 13:58:44 PDT 2009
+ScienceTools-scons/optimizers/src
+
+Modified Files:
+	Minuit.cxx NewMinuit.cxx 
+Log Message:
+Try again.  Some updates didn't take.
+
+    *
+------------------------------------------------------------
 TAG
 Tag name: optimizers-02-14-04, operation: add
 Package: optimizers

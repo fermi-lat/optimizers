@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: jchiang  Mon Mar 16 17:55:35 PDT 2009
+optimizers/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+fix for windows build (and posix execution); tagging v2r14p6
+    *
+------------------------------------------------------------
 TAG
 Tag name: optimizers-02-14-05, operation: add
 Package: optimizers

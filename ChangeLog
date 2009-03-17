@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: jchiang  Mon Mar 16 17:55:35 PDT 2009
+optimizers/optimizers
+
+Modified Files:
+	Optimizer.h 
+Log Message:
+fix for windows build (and posix execution); tagging v2r14p6
+    *
+------------------------------------------------------------
+User: jchiang  Mon Mar 16 17:55:35 PDT 2009
 optimizers/doc
 
 Modified Files:

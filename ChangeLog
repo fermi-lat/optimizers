@@ -1,4 +1,12 @@
 ------------------------------------------------------------
+User: glastrm  Wed Mar 18 13:30:36 PDT 2009
+optimizers
+
+Modified Files:
+	SConscript 
+Log Message:
+    *
+------------------------------------------------------------
 TAG
 Tag name: v2r14p7, operation: add
 Package: optimizers

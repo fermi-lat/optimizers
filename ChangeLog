@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: pln  Wed Mar 18 13:27:13 PDT 2009
+ScienceTools-scons/optimizers/src
+
+Modified Files:
+	Minuit.cxx NewMinuit.cxx 
+Log Message:
+In Minos, test parameter number for validity.
+
+    *
+------------------------------------------------------------
 TAG
 Tag name: optimizers-02-14-06, operation: add
 Package: optimizers

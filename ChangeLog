@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: jchiang  Thu Mar 19 15:12:28 PDT 2009
+optimizers/src
+
+Modified Files:
+	Minuit.cxx 
+Log Message:
+restore line lost in conflicting cvs  updates
+    *
+------------------------------------------------------------
 TAG
 Tag name: v2r14p8, operation: add
 Package: optimizers

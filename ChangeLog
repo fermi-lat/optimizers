@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: jchiang  Thu Mar 19 22:19:55 PDT 2009
+optimizers/src
+
+Modified Files:
+	Minuit.cxx NewMinuit.cxx 
+Log Message:
+'unset' numPars in case the number of free parameters changes.  comment out debug statement.
+    *
+------------------------------------------------------------
 TAG
 Tag name: optimizers-02-14-09, operation: add
 Package: optimizers

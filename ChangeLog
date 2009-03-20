@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: jchiang  Fri Mar 20 13:52:22 PDT 2009
+optimizers/optimizers
+
+Modified Files:
+	NewMinuit.h 
+Log Message:
+restore previous Minos implementation using m_min data member; factor out setTolerance (for no real reason any longer)
+    *
+------------------------------------------------------------
 User: jchiang  Thu Mar 19 23:56:54 PDT 2009
 optimizers/src
 

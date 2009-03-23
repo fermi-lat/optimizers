@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: jchiang  Mon Mar 23 16:43:44 PDT 2009
+optimizers/optimizers
+
+Modified Files:
+	Amoeba.h 
+Log Message:
+set tolerance to be absolute in Amoeba
+    *
+------------------------------------------------------------
 TAG
 Tag name: ScienceTools-09-11-00, operation: add
 Package: optimizers

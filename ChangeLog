@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: jchiang  Mon Mar 23 16:43:45 PDT 2009
+optimizers/src
+
+Modified Files:
+	Amoeba.cxx 
+Log Message:
+set tolerance to be absolute in Amoeba
+    *
+------------------------------------------------------------
 User: jchiang  Mon Mar 23 16:43:44 PDT 2009
 optimizers/optimizers
 

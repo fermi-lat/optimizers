@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: jchiang  Wed Mar 25 21:05:36 PDT 2009
+optimizers/src/test
+
+Modified Files:
+	main.cxx 
+Log Message:
+restore test conditions in test code
+    *
+------------------------------------------------------------
 TAG
 Tag name: optimizers-02-15-00, operation: add
 Package: optimizers

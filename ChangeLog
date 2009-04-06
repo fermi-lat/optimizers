@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: glastrm  Mon Apr  6 09:02:02 PDT 2009
+ScienceTools-scons/optimizers
+
+Modified Files:
+	SConscript 
+Log Message:
+TRAP_FPE is now set by SConstruct. No need to locally check
+    *
+------------------------------------------------------------
 TAG
 Tag name: optimizers-02-15-01, operation: add
 Package: optimizers

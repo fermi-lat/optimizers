@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: jchiang  Thu Apr  9 08:10:33 PDT 2009
+optimizers/src
+
+Modified Files:
+	Amoeba.cxx 
+Log Message:
+factor of 2 fix in absolute tolerance calculation
+
+    *
+------------------------------------------------------------
 TAG
 Tag name: optimizers-02-15-01, operation: mov
 Package: optimizers

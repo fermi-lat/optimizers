@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: pln  Tue Apr 14 10:21:22 PDT 2009
+optimizers/src
+
+Modified Files:
+	NewMinuit.cxx 
+Log Message:
+Temporarily disable the use of the gradient until we can find why it
+prevents convergence.
+
+    *
+------------------------------------------------------------
 User: jchiang  Thu Apr  9 08:10:33 PDT 2009
 optimizers/src
 

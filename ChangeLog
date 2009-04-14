@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: pln  Tue Apr 14 10:21:28 PDT 2009
+optimizers/optimizers
+
+Modified Files:
+	NewMinuit.h 
+Log Message:
+Temporarily disable the use of the gradient until we can find why it
+prevents convergence.
+
+    *
+------------------------------------------------------------
 User: pln  Tue Apr 14 10:21:22 PDT 2009
 optimizers/src
 

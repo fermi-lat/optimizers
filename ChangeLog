@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: pln  Thu Apr 16 14:32:35 PDT 2009
+optimizers/src/test
+
+Modified Files:
+	TestOptimizer.h 
+Log Message:
+Migrad will work properly with derivatives in ROOT versions 5.18 and 5.20.
+Absolute convergence test is used in test program.
+
+    *
+------------------------------------------------------------
 User: pln  Thu Apr 16 14:32:33 PDT 2009
 optimizers/optimizers
 

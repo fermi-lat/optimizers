@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: pln  Thu Apr 16 14:32:27 PDT 2009
+optimizers/src
+
+Modified Files:
+	NewMinuit.cxx 
+Log Message:
+Migrad will work properly with derivatives in ROOT versions 5.18 and 5.20.
+Absolute convergence test is used in test program.
+
+    *
+------------------------------------------------------------
 User: jchiang  Tue Apr 14 11:37:12 PDT 2009
 optimizers/src/test
 

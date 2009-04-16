@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: pln  Thu Apr 16 14:33:18 PDT 2009
+optimizers/src/test
+
+Modified Files:
+	main.cxx 
+Log Message:
+Rosenbrock test bounds moved out so Migrad will converge.
+
+    *
+------------------------------------------------------------
 User: pln  Thu Apr 16 14:32:35 PDT 2009
 optimizers/src/test
 

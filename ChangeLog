@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: pln  Thu Apr 16 14:56:06 PDT 2009
+optimizers/src
+
+Modified Files:
+	NewMinuit.cxx 
+Log Message:
+Oops.  I forgot to remove some debug print statements before committing.
+
+    *
+------------------------------------------------------------
 TAG
 Tag name: v2r15p3, operation: add
 Package: optimizers

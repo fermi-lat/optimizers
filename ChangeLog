@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: pln  Wed Apr 22 14:14:57 PDT 2009
+optimizers/src
+
+Modified Files:
+	Drmnfb.cxx 
+Log Message:
+Fixed the ABSOLUTE convergence test to prevent stopping prematurely.
+
+    *
+------------------------------------------------------------
 TAG
 Tag name: optimizers-02-15-05, operation: add
 Package: optimizers

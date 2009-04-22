@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: pln  Tue Apr 21 17:05:23 PDT 2009
+optimizers/optimizers
+
+Modified Files:
+	NewMinuit.h 
+Log Message:
+Give NewMinuit a copy constructor and operator= since m_min is created with "new".
+
+    *
+------------------------------------------------------------
 TAG
 Tag name: optimizers-02-15-04, operation: add
 Package: optimizers

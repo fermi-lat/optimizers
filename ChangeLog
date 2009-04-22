@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: pln  Tue Apr 21 17:12:34 PDT 2009
+optimizers/src
+
+Modified Files:
+	Lbfgs.cxx 
+Log Message:
+Fixed bug in absolute convergence test.  Now it passes the 2D Rosenbrock test.
+
+    *
+------------------------------------------------------------
 User: pln  Tue Apr 21 17:05:27 PDT 2009
 optimizers/src
 

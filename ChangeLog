@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: pln  Tue Apr 21 17:05:27 PDT 2009
+optimizers/src
+
+Modified Files:
+	NewMinuit.cxx 
+Log Message:
+Give NewMinuit a copy constructor and operator= since m_min is created with "new".
+
+    *
+------------------------------------------------------------
 User: pln  Tue Apr 21 17:05:23 PDT 2009
 optimizers/optimizers
 

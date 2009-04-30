@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: pln  Thu Apr 30 15:27:53 PDT 2009
+optimizers/src
+
+Modified Files:
+	Minuit.cxx 
+Log Message:
+Make Minuit use the MINIMIZE method instead of MIGRAD.  More reliable.
+
+    *
+------------------------------------------------------------
 TAG
 Tag name: optimizers-02-15-06, operation: add
 Package: optimizers

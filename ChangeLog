@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: pln  Thu Apr 30 14:18:52 PDT 2009
+optimizers/optimizers
+
+Modified Files:
+	Drmngb.h Drmnfb.h Optimizer.h Lbfgs.h Minuit.h NewMinuit.h 
+	Powell.h 
+Log Message:
+Added a method find_min_only which doesn't calculate errors, for speed.
+
+    *
+------------------------------------------------------------
 User: pln  Wed Apr 22 14:14:57 PDT 2009
 optimizers/src
 

@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: pln  Tue May 12 15:42:59 PDT 2009
+ScienceTools-scons/optimizers/src
+
+Modified Files:
+	Minuit.cxx 
+Log Message:
+This should allow both 32 and 64 bit architectures.
+f2c.h is modified to get rid of long integers; f2c_types.h agrees with it.
+
+    *
+------------------------------------------------------------
 User: pln  Tue May 12 15:42:55 PDT 2009
 ScienceTools-scons/optimizers/optimizers
 

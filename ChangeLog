@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: jchiang  Wed May 13 21:57:55 PDT 2009
+optimizers/src
+
+Modified Files:
+	FunctionTest.cxx 
+Log Message:
+comment out debug statements
+
+    *
+------------------------------------------------------------
 User: jchiang  Wed May 13 21:52:27 PDT 2009
 optimizers/src
 

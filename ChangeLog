@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: jchiang  Wed May 13 21:52:27 PDT 2009
+optimizers/src
+
+Modified Files:
+	FunctionTest.cxx 
+Log Message:
+update FunctionTest for Functions with fixed parameters
+    *
+------------------------------------------------------------
 TAG
 Tag name: optimizers-02-15-08, operation: add
 Package: optimizers

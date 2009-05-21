@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: pln  Thu May 21 10:59:42 PDT 2009
+ScienceTools-scons/optimizers/optimizers
+
+Modified Files:
+	NewMinuit.h 
+Log Message:
+Restored the use of the gradient.  I am told that Heather applied the
+necessary patch to ROOT/Minuit2.
+
+    *
+------------------------------------------------------------
 TAG
 Tag name: optimizers-02-15-09, operation: add
 Package: optimizers

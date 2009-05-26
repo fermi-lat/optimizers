@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: pln  Tue May 26 14:46:18 PDT 2009
+ScienceTools-scons/optimizers/src
+
+Modified Files:
+	NewMinuit.cxx 
+Log Message:
+Fix some syntax errors that the Windows compiler catches, but not gcc.
+
+    *
+------------------------------------------------------------
 TAG
 Tag name: ScienceTools-09-13-00, operation: add
 Package: optimizers

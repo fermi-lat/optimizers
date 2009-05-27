@@ -1,4 +1,22 @@
 ------------------------------------------------------------
+User: pln  Wed May 27 13:53:04 PDT 2009
+ScienceTools-scons/optimizers/optimizers
+
+Modified Files:
+	Lbfgs.h Minuit.h NewMinuit.h Optimizer.h 
+Added Files:
+	ModNewton.h 
+Log Message:
+New class ModNewton includes both DRMNGB and DRMNFB since they are so
+similar.  The difference is an argument in the constructor.  The old
+names are still used by FunctionFactory, but it uses the new class.
+Keep the old ones until we are sure this works.
+All the optimizers that are commonly used will now stop after a maximum
+number of function evaluations.  They now have setMaxEval() and
+getMaxEval() methods.  The default value is 100 * number of params.
+
+    *
+------------------------------------------------------------
 User: pln  Tue May 26 14:46:18 PDT 2009
 ScienceTools-scons/optimizers/src
 

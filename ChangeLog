@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: pln  Wed May 27 17:41:00 PDT 2009
+ScienceTools-scons/optimizers/optimizers
+
+Modified Files:
+	Lbfgs.h 
+Log Message:
+Fix a small error.
+
+    *
+------------------------------------------------------------
 TAG
 Tag name: optimizers-02-15-10, operation: add
 Package: optimizers

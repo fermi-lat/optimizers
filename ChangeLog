@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: jchiang  Sat May 30 13:30:05 PDT 2009
+optimizers/optimizers
+
+Modified Files:
+	Minuit.h 
+Log Message:
+comment out unimplemented member function to prevent unresolved function error when importing in python
+    *
+------------------------------------------------------------
 User: pln  Wed May 27 17:41:00 PDT 2009
 ScienceTools-scons/optimizers/optimizers
 

@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: pln  Thu Jun  4 16:20:24 PDT 2009
+ScienceTools-scons/optimizers/optimizers
+
+Modified Files:
+	NewMinuit.h 
+Log Message:
+Override CheckGradient so it won't compare analytic and numerical 
+gradients.  For some reason this causes problems in the field.
+
+    *
+------------------------------------------------------------
 User: jchiang  Mon Jun  1 08:25:12 PDT 2009
 optimizers/src
 

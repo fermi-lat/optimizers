@@ -1,4 +1,20 @@
 ------------------------------------------------------------
+User: pln  Wed Jun 10 16:21:31 PDT 2009
+ScienceTools-scons/optimizers/src
+
+Modified Files:
+	Drmnfb.cxx Drmngb.cxx Lbfgs.cxx Minuit.cxx ModNewton.cxx 
+	NewMinuit.cxx OptPP.cxx Powell.cxx 
+Log Message:
+Change find_min and find_min only to return an integer return code.
+0=good, 1=too many iterations, other value=bad.  Bad values are
+specific to the optimizer.  I hope this doesn't break anything.
+Optimizers will no longer throw exceptions on too many iterations.
+New method setMaxEval sets the max number of iterations.  getRetCode
+gives the return code, same as the return value of find_min.
+
+    *
+------------------------------------------------------------
 User: pln  Wed Jun 10 16:21:27 PDT 2009
 ScienceTools-scons/optimizers/optimizers
 

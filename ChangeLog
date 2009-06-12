@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: jchiang  Thu Jun 11 21:34:05 PDT 2009
+optimizers/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+tagging v2r16p2
+    *
+------------------------------------------------------------
 TAG
 Tag name: optimizers-02-16-01, operation: add
 Package: optimizers

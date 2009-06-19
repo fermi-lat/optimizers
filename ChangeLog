@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: jchiang  Thu Jun 18 20:38:50 PDT 2009
+optimizers/src
+
+Modified Files:
+	Function.cxx Parameter.cxx 
+Log Message:
+Parameter class refactoring
+    *
+------------------------------------------------------------
+User: jchiang  Thu Jun 18 20:38:50 PDT 2009
 optimizers/optimizers
 
 Modified Files:

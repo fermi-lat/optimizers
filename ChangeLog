@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: jchiang  Fri Jun 19 13:42:59 PDT 2009
+optimizers/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+clean up in Function.cxx; tagging v2r17
+    *
+------------------------------------------------------------
 User: jchiang  Thu Jun 18 20:38:50 PDT 2009
 optimizers/src
 

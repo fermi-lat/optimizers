@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: jchiang  Mon Jun 29 12:33:27 PDT 2009
+optimizers/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+ensure Minuit::Minos starts number parameters with 0 in public interface; tagging v2r17p1
+    *
+------------------------------------------------------------
 TAG
 Tag name: optimizers-02-17-00, operation: add
 Package: optimizers

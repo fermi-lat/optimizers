@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: jrb  Tue Jul 14 11:51:54 PDT 2009
+ScienceTools-scons/optimizers
+
+Modified Files:
+	SConscript 
+Log Message:
+Change to registerTargets
+
+    *
+------------------------------------------------------------
 User: heather  Wed Jul  1 10:02:02 PDT 2009
 optimizers/doc
 

@@ -38,7 +38,7 @@ namespace optimizers {
       delete m_min;
       m_min = new ROOT::Minuit2::FunctionMinimum(*(rhs.m_min));
       return *this;
-  };
+  }
 
   //Copy constructor
   NewMinuit::NewMinuit(const NewMinuit & x) : Optimizer(x), 
@@ -46,7 +46,7 @@ namespace optimizers {
         m_strategy(x.m_strategy)
   {
       m_min = new ROOT::Minuit2::FunctionMinimum(*(x.m_min));
-  };
+  }
 
   // Call Minuit's MIGRAD to find the minimum of the function
   int NewMinuit::find_min(int verbose, double tol, int TolType) {

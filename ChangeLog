@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: elwinter  Thu Jul 30 10:05:55 PDT 2009
+optimizers/optimizers
+
+Modified Files:
+      Tag: ScienceToolsv9r15p2
+	Drmnfb.h Drmngb.h Lbfgs.h Minuit.h 
+Log Message:
+Imported changes from FSSC.
+    *
+------------------------------------------------------------
 TAG
 Tag name: optimizers-02-17-02, operation: add
 Package: optimizers

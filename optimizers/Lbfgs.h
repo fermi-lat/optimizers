@@ -12,7 +12,7 @@
 #include "optimizers/Optimizer.h"
 //#include "optimizers/Function.h"
 #include "optimizers/Statistic.h"
-#include "optimizers/f2c_types.h"
+#include "f2c/f2c.h"
 #include <string>
 
 namespace optimizers {

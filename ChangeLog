@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: elwinter  Wed Dec 16 15:16:49 PST 2009
+optimizers/src
+
+Modified Files:
+	FunctionTest.cxx 
+Log Message:
+Changed an assert() check for floating-point equality to a absolute
+tolerance check. Otherwise, this test would fail almost uniformly.
+
+    *
+------------------------------------------------------------
 TAG
 Tag name: ScienceTools-09-15-06, operation: add
 Package: optimizers

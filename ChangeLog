@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: cohen  Thu May  6 03:29:48 PDT 2010
+optimizers/optimizers
+
+Modified Files:
+	Optimizer.h 
+Log Message:
+python wrapup ends up looking at the signature of the base class when using CompositeLikelihood, rather than the Minuit and NewMinuit C++ signatures
+    *
+------------------------------------------------------------
 TAG
 Tag name: optimizers-02-18-00, operation: add
 Package: optimizers

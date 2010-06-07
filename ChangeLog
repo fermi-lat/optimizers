@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: jchiang  Mon Jun  7 10:59:11 PDT 2010
+optimizers/optimizers
+
+Modified Files:
+	Function.h Optimizer.h 
+Log Message:
+make fetchParamValues virtual so that subclasses can override
+    *
+------------------------------------------------------------
 User: cohen  Thu May  6 03:29:48 PDT 2010
 optimizers/optimizers
 

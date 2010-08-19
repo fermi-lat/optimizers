@@ -1,5 +1,117 @@
 ------------------------------------------------------------
 TAG
+Tag name: ScienceTools-09-18-01, operation: add
+Package: optimizers
+User: glastrm  Thu Aug 19 07:06:59 2010
+Files:
+  optimizers/optimizersLib.py  1.3
+  optimizers/.cvsignore  1.2
+  optimizers/ChangeLog  1.708
+  optimizers/SConscript  1.47
+  optimizers/cmt/.cvsignore  1.1.1.1
+  optimizers/cmt/requirements  1.108
+  optimizers/doc/release.notes  1.80
+  optimizers/doc/Doxyfile  1.13
+  optimizers/optimizers/OutOfBounds.h  1.2
+  optimizers/optimizers/Function.h  1.18
+  optimizers/optimizers/ParameterNotFound.h  1.1.1.1
+  optimizers/optimizers/Drmnfb.h  1.3
+  optimizers/optimizers/Optimizer.h  1.24
+  optimizers/optimizers/Exception.h  1.3
+  optimizers/optimizers/FunctionTest.h  1.3
+  optimizers/optimizers/ModNewton.h  1.2
+  optimizers/optimizers/Mcmc.h  1.5
+  optimizers/optimizers/dArg.h  1.1.1.1
+  optimizers/optimizers/OptPP.h  1.4
+  optimizers/optimizers/Functor.h  1.1
+  optimizers/optimizers/SumFunction.h  1.2
+  optimizers/optimizers/ChiSq.h  1.1
+  optimizers/optimizers/Dom.h  1.7
+  optimizers/optimizers/Amoeba.h  1.6
+  optimizers/optimizers/CompositeFunction.h  1.4
+  optimizers/optimizers/Minuit.h  1.23
+  optimizers/optimizers/f2c_types.h  1.4
+  optimizers/optimizers/NewMinuit.h  1.22
+  optimizers/optimizers/Statistic.h  1.4
+  optimizers/optimizers/Util.h  1.1
+  optimizers/optimizers/Parameter.h  1.11
+  optimizers/optimizers/FunctionFactory.h  1.4
+  optimizers/optimizers/Lbfgs.h  1.14
+  optimizers/optimizers/ProductFunction.h  1.1.1.1
+  optimizers/optimizers/Powell.h  1.3
+  optimizers/optimizers/Drmngb.h  1.12
+  optimizers/optimizers/Arg.h  1.1.1.1
+  optimizers/optimizers/OptimizerFactory.h  1.1
+  optimizers/python/test.py  1.1
+  optimizers/python/optimizers.i  1.5
+  optimizers/python/.cvsignore  1.1
+  optimizers/python/FF_test.py  1.3
+  optimizers/python/PrototypeFactory.py  1.3
+  optimizers/python/Makefile  1.13
+  optimizers/src/drmnfb_routines.c  1.1
+  optimizers/src/dgaus8.c  1.1.1.1
+  optimizers/src/OptimizerFactory.cxx  1.8
+  optimizers/src/drmnfb_routines.f  1.1
+  optimizers/src/dgaus8.f  1.1
+  optimizers/src/ChiSq.cxx  1.1
+  optimizers/src/dpptri-blas.f  1.1
+  optimizers/src/Dom.cxx  1.9
+  optimizers/src/dpptri-blas.c  1.2
+  optimizers/src/minuit.f  1.2
+  optimizers/src/dpptri.f  1.1
+  optimizers/src/buildBase  1.5
+  optimizers/src/drmngb_routines.c  1.2
+  optimizers/src/ModNewton.cxx  1.2
+  optimizers/src/OptPP.cxx  1.6
+  optimizers/src/minuit_routines.c  1.3
+  optimizers/src/lbfgs_routines.c  1.2
+  optimizers/src/Rosen.h  1.6
+  optimizers/src/Parameter.cxx  1.13
+  optimizers/src/ProductFunction.cxx  1.1.1.1
+  optimizers/src/intrac.c  1.1.1.1
+  optimizers/src/BrokenPowerLaw.h  1.3
+  optimizers/src/Util.cxx  1.1
+  optimizers/src/Rosen.cxx  1.4
+  optimizers/src/Gaussian.h  1.3
+  optimizers/src/Gaussian.cxx  1.5
+  optimizers/src/Lbfgs.cxx  1.12
+  optimizers/src/AbsEdge.h  1.2
+  optimizers/src/dpptri.c  1.1.1.1
+  optimizers/src/MyFun.cxx  1.3
+  optimizers/src/FunctionTest.cxx  1.9
+  optimizers/src/Drmnfb.cxx  1.5
+  optimizers/src/PowerLaw.h  1.3
+  optimizers/src/RosenND.cxx  1.2
+  optimizers/src/mainpage.h  1.1.1.1
+  optimizers/src/SumFunction.cxx  1.1.1.1
+  optimizers/src/NewMinuit.cxx  1.27
+  optimizers/src/lbfgs.f  1.1
+  optimizers/src/AbsEdge.cxx  1.4
+  optimizers/src/MyFun.h  1.3
+  optimizers/src/Powell.cxx  1.3
+  optimizers/src/ConstantValue.h  1.6
+  optimizers/src/drmngb_routines.f  1.1
+  optimizers/src/CompositeFunction.cxx  1.2
+  optimizers/src/BrokenPowerLaw.cxx  1.5
+  optimizers/src/Mcmc.cxx  1.8
+  optimizers/src/RosenND.h  1.4
+  optimizers/src/Optimizer.cxx  1.16
+  optimizers/src/SConstruct  1.6
+  optimizers/src/Drmngb.cxx  1.17
+  optimizers/src/FunctionFactory.cxx  1.19
+  optimizers/src/Amoeba.cxx  1.11
+  optimizers/src/Minuit.cxx  1.31
+  optimizers/src/PowerLaw.cxx  1.9
+  optimizers/src/Function.cxx  1.14
+  optimizers/src/test/main.cxx  1.33
+  optimizers/src/test/TestOptimizer.h  1.5
+  optimizers/xml/BadModel.xml  1.1
+  optimizers/xml/FunctionModels.dtd  1.1
+  optimizers/xml/FunctionModels.xml  1.1
+
+    *
+------------------------------------------------------------
+TAG
 Tag name: ScienceTools-09-18-00, operation: add
 Package: optimizers
 User: glastrm  Mon Aug 16 00:38:27 2010

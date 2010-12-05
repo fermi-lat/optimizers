@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: jchiang  Sat Dec  4 23:31:31 PST 2010
+ScienceTools-scons/optimizers/src
+
+Modified Files:
+	NewMinuit.cxx 
+Log Message:
+FunctionMinimum fix in find_min to restore best-fit params after hesse call
+    *
+------------------------------------------------------------
 TAG
 Tag name: ScienceTools-09-19-00, operation: add
 Package: optimizers

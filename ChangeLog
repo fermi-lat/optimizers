@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: jchiang  Sun Dec  5 09:41:12 PST 2010
+ScienceTools-scons/optimizers/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+bug-fix for large negative TS values seen by Jean: restore best-fit parameter values after call hesse, Minos, MnCoutours, etc.
+
+    *
+------------------------------------------------------------
 User: jchiang  Sun Dec  5 09:32:50 PST 2010
 ScienceTools-scons/optimizers/src
 

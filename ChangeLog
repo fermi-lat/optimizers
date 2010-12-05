@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: jchiang  Sun Dec  5 09:05:55 PST 2010
+ScienceTools-scons/optimizers/src
+
+Modified Files:
+	Minuit.cxx 
+Log Message:
+reset best-fit parameter values after each Minuit operation
+
+    *
+------------------------------------------------------------
 User: jchiang  Sun Dec  5 08:45:59 PST 2010
 ScienceTools-scons/optimizers/src
 

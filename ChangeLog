@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: jchiang  Sun Dec  5 09:32:50 PST 2010
+ScienceTools-scons/optimizers/src
+
+Modified Files:
+	Minuit.cxx 
+Log Message:
+remove blank lines
+    *
+------------------------------------------------------------
 User: jchiang  Sun Dec  5 09:23:58 PST 2010
 ScienceTools-scons/optimizers/optimizers
 

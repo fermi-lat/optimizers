@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: jchiang  Wed Jan 26 11:16:00 PST 2011
+ScienceTools-scons/optimizers
+
+Modified Files:
+	SConscript 
+Log Message:
+skip f2c'd optimizers
+    *
+------------------------------------------------------------
 TAG
 Tag name: ScienceTools-09-20-00, operation: add
 Package: optimizers

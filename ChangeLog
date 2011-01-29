@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: jchiang  Fri Jan 28 20:40:22 PST 2011
+ScienceTools-scons/optimizers/optimizers
+
+Modified Files:
+	Parameter.h 
+Log Message:
+add access to priors in Parameter objects
+    *
+------------------------------------------------------------
 TAG
 Tag name: optimizers-02-20-01, operation: add
 Package: optimizers

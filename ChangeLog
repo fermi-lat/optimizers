@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: jchiang  Fri Jan 28 20:40:23 PST 2011
+ScienceTools-scons/optimizers/src
+
+Modified Files:
+	Parameter.cxx 
+Log Message:
+add access to priors in Parameter objects
+    *
+------------------------------------------------------------
 User: jchiang  Fri Jan 28 20:40:22 PST 2011
 ScienceTools-scons/optimizers/optimizers
 

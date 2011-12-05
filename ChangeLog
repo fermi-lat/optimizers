@@ -1,5 +1,57 @@
 ------------------------------------------------------------
 TAG
+Tag name: ScienceTools-09-26-00, operation: add
+Package: optimizers
+User: jchiang  Mon Dec  5 15:53:23 2011
+Files:
+  optimizers/optimizersLib.py  1.3
+  optimizers/.cvsignore  1.2
+  optimizers/ChangeLog  1.757
+  optimizers/SConscript  1.52
+  optimizers/cmt/.cvsignore  1.1.1.1
+  optimizers/cmt/requirements  1.112
+  optimizers/doc/release.notes  1.84
+  optimizers/doc/Doxyfile  1.13
+  optimizers/optimizers/OutOfBounds.h  1.2
+  optimizers/optimizers/Function.h  1.19
+  optimizers/optimizers/ParameterNotFound.h  1.1.1.1
+  optimizers/optimizers/Drmnfb.h  1.3
+  optimizers/optimizers/Optimizer.h  1.25
+  optimizers/optimizers/Exception.h  1.3
+  optimizers/optimizers/FunctionTest.h  1.3
+  optimizers/optimizers/ModNewton.h  1.2
+  optimizers/optimizers/Mcmc.h  1.5
+  optimizers/optimizers/dArg.h  1.1.1.1
+  optimizers/optimizers/OptPP.h  1.4
+  optimizers/optimizers/Functor.h  1.1
+  optimizers/optimizers/SumFunction.h  1.2
+  optimizers/optimizers/ChiSq.h  1.1
+  optimizers/optimizers/Dom.h  1.7
+  optimizers/optimizers/Amoeba.h  1.6
+  optimizers/optimizers/CompositeFunction.h  1.4
+  optimizers/optimizers/Minuit.h  1.24
+  optimizers/optimizers/f2c_types.h  1.4
+  optimizers/optimizers/NewMinuit.h  1.23
+  optimizers/optimizers/Statistic.h  1.4
+  optimizers/optimizers/Util.h  1.1
+  optimizers/optimizers/Parameter.h  1.16
+  optimizers/optimizers/FunctionFactory.h  1.4
+  optimizers/optimizers/Lbfgs.h  1.14
+  optimizers/optimizers/ProductFunction.h  1.1.1.1
+  optimizers/optimizers/Powell.h  1.3
+  optimizers/optimizers/Drmngb.h  1.12
+  optimizers/optimizers/Arg.h  1.1.1.1
+  optimizers/optimizers/OptimizerFactory.h  1.1
+  optimizers/python/test.py  1.1
+  optimizers/python/optimizers.i  1.5
+  optimizers/python/.cvsignore  1.1
+  optimizers/python/FF_test.py  1.3
+  optimizers/python/PrototypeFactory.py  1.3
+  optimizers/python/Makefile  1.13
+
+    *
+------------------------------------------------------------
+TAG
 Tag name: ScienceTools-09-25-02, operation: add
 Package: optimizers
 User: jchiang  Sun Oct  9 21:01:48 2011

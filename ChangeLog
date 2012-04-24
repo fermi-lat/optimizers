@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: jchiang  Tue Apr 24 11:32:20 PDT 2012
+optimizers
+
+Modified Files:
+	SConscript 
+Log Message:
+stag/GoGui_auto-tag
+    *
+------------------------------------------------------------
 User: jchiang  Tue Apr 24 11:23:11 PDT 2012
 ScienceTools-scons/optimizers/src/test
 

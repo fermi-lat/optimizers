@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: jchiang  Tue Apr 24 11:23:11 PDT 2012
+ScienceTools-scons/optimizers/src/test
+
+Modified Files:
+	main.cxx 
+Log Message:
+move Gaussian.h to public interface so that Likelihood package can apply the ScaleFactor decorator
+    *
+------------------------------------------------------------
+User: jchiang  Tue Apr 24 11:23:11 PDT 2012
 ScienceTools-scons/optimizers/src
 
 Modified Files:

@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: jchiang  Tue Nov 19 18:34:49 PST 2013
+ScienceTools-scons/optimizers/src
+
+Modified Files:
+	NewMinuit.cxx 
+Log Message:
+throw exception if Minuit2::MnMinos does not find a valid lower or upper confidence limit
+    *
+------------------------------------------------------------
 TAG
 Tag name: ScienceTools-09-32-05, operation: add
 Package: optimizers

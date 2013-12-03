@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: jchiang  Mon Dec  2 21:53:07 PST 2013
+ScienceTools-scons/optimizers/src
+
+Modified Files:
+	Minuit.cxx NewMinuit.cxx 
+Added Files:
+	RosenBounded.cxx RosenBounded.h StMnMinos.cxx StMnMinos.h 
+Log Message:
+add StMnMinos, a subclass of Minuit2::MnMinos that enforces the parameter bounds and allows for one-sided error estimates; expose minos methods in Optimizer base class
+    *
+------------------------------------------------------------
 User: jchiang  Mon Dec  2 21:53:06 PST 2013
 ScienceTools-scons/optimizers/optimizers
 

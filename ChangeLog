@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: jchiang  Mon Dec  2 21:53:06 PST 2013
+ScienceTools-scons/optimizers/optimizers
+
+Modified Files:
+	Minuit.h NewMinuit.h Optimizer.h 
+Log Message:
+add StMnMinos, a subclass of Minuit2::MnMinos that enforces the parameter bounds and allows for one-sided error estimates; expose minos methods in Optimizer base class
+    *
+------------------------------------------------------------
 TAG
 Tag name: optimizers-02-22-01, operation: add
 Package: optimizers

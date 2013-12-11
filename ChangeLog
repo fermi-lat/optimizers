@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: jchiang  Wed Dec 11 10:20:59 PST 2013
+ScienceTools-scons/optimizers/src
+
+Modified Files:
+	NewMinuit.cxx StMnMinos.cxx StMnMinos.h 
+Log Message:
+Johann's rescaling for properly bounded error search in StMnMinos
+    *
+------------------------------------------------------------
 User: jchiang  Wed Dec 11 10:20:58 PST 2013
 ScienceTools-scons/optimizers/optimizers
 

@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: jchiang  Wed Dec 11 12:30:01 PST 2013
+ScienceTools-scons/optimizers/src
+
+Modified Files:
+	StMnMinos.cxx 
+Log Message:
+sign change for lower bounds
+    *
+------------------------------------------------------------
 User: jchiang  Wed Dec 11 10:20:59 PST 2013
 ScienceTools-scons/optimizers/src/test
 

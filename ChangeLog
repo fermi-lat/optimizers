@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: jchiang  Wed Dec 11 10:20:58 PST 2013
+ScienceTools-scons/optimizers/optimizers
+
+Modified Files:
+	NewMinuit.h Optimizer.h 
+Log Message:
+Johann's rescaling for properly bounded error search in StMnMinos
+    *
+------------------------------------------------------------
 TAG
 Tag name: optimizers-02-23-00, operation: add
 Package: optimizers

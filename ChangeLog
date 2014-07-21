@@ -1,5 +1,21 @@
 ------------------------------------------------------------
 TAG
+Tag name: ScienceTools-09-34-01, operation: add
+Package: optimizers
+User: glastrm  Sun Jul 20 22:32:15 2014
+Files:
+  optimizers/optimizersLib.py  1.4
+  optimizers/.cvsignore  1.2
+  optimizers/ChangeLog  1.834
+  optimizers/SConscript  1.61
+  optimizers/cmt/.cvsignore  1.1.1.1
+  optimizers/cmt/requirements  1.120
+  optimizers/doc/release.notes  1.92
+  optimizers/doc/Doxyfile  1.13
+
+    *
+------------------------------------------------------------
+TAG
 Tag name: ScienceTools-09-34-00, operation: add
 Package: optimizers
 User: glastrm  Tue Jul  1 14:06:45 2014

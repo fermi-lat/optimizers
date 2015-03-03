@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: jchiang  Tue Mar  3 10:03:49 PST 2015
+ScienceTools-scons/optimizers/src/test
+
+Modified Files:
+	main.cxx 
+Log Message:
+refactor Function class hierarchy; add m_scalingFunction data member
+    *
+------------------------------------------------------------
+User: jchiang  Tue Mar  3 10:03:49 PST 2015
 ScienceTools-scons/optimizers/src
 
 Modified Files:

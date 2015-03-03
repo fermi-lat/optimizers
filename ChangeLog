@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: jchiang  Tue Mar  3 13:40:22 PST 2015
+ScienceTools-scons/optimizers/optimizers
+
+Modified Files:
+	Function.h 
+Log Message:
+provide access to m_scalingFunction
+    *
+------------------------------------------------------------
 TAG
 Tag name: optimizers-03-00-02, operation: add
 Package: optimizers

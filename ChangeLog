@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: jchiang  Tue Mar  3 13:40:22 PST 2015
+ScienceTools-scons/optimizers/src
+
+Modified Files:
+	Function.cxx 
+Log Message:
+provide access to m_scalingFunction
+    *
+------------------------------------------------------------
+User: jchiang  Tue Mar  3 13:40:22 PST 2015
 ScienceTools-scons/optimizers/optimizers
 
 Modified Files:

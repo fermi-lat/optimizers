@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: jchiang  Tue Mar  3 13:18:13 PST 2015
+ScienceTools-scons/optimizers/src/test
+
+Modified Files:
+	main.cxx 
+Log Message:
+implement copy constructor and copy assignment operator for Function since it now has a pointer data member
+    *
+------------------------------------------------------------
+User: jchiang  Tue Mar  3 13:18:13 PST 2015
 ScienceTools-scons/optimizers/src
 
 Modified Files:

@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: jchiang  Thu Mar 19 11:31:25 PDT 2015
+ScienceTools-scons/optimizers/optimizers
+
+Modified Files:
+	Function.h FunctionFactory.h 
+Log Message:
+add FunctionFactory::addFunc member function which obtains the function name from the functio itself
+    *
+------------------------------------------------------------
 TAG
 Tag name: optimizers-03-00-04, operation: add
 Package: optimizers

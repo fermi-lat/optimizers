@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: jchiang  Fri Mar 20 22:36:46 PDT 2015
+ScienceTools-scons/optimizers/optimizers
+
+Modified Files:
+	Arg.h ChiSq.h CompositeFunction.h Function.h FunctionFactory.h 
+	Gaussian.h ProductFunction.h Statistic.h SumFunction.h dArg.h 
+Log Message:
+pass optimizers::Arg as const arguments to value and derivByParamImp functions
+    *
+------------------------------------------------------------
 TAG
 Tag name: optimizers-03-00-05, operation: add
 Package: optimizers

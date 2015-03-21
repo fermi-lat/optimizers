@@ -1,4 +1,17 @@
 ------------------------------------------------------------
+User: jchiang  Fri Mar 20 22:36:47 PDT 2015
+ScienceTools-scons/optimizers/src
+
+Modified Files:
+	AbsEdge.cxx AbsEdge.h BrokenPowerLaw.cxx BrokenPowerLaw.h 
+	ChiSq.cxx ConstantValue.h Function.cxx FunctionFactory.cxx 
+	Gaussian.cxx MyFun.cxx MyFun.h PowerLaw.cxx PowerLaw.h 
+	ProductFunction.cxx Rosen.cxx Rosen.h RosenBounded.cxx 
+	RosenBounded.h RosenND.cxx RosenND.h SumFunction.cxx 
+Log Message:
+pass optimizers::Arg as const arguments to value and derivByParamImp functions
+    *
+------------------------------------------------------------
 User: jchiang  Fri Mar 20 22:36:46 PDT 2015
 ScienceTools-scons/optimizers/optimizers
 

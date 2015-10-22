@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: cohen  Thu Oct 22 06:45:52 PDT 2015
+ScienceTools-scons/optimizers/src
+
+Modified Files:
+	Parameter.cxx 
+Log Message:
+fix a booho from previous commit
+    *
+------------------------------------------------------------
 TAG
 Tag name: optimizers-04-01-00, operation: add
 Package: optimizers

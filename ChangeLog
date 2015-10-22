@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: cohen  Thu Oct 22 05:55:41 PDT 2015
+ScienceTools-scons/optimizers/src
+
+Modified Files:
+	NewMinuit.cxx Parameter.cxx 
+Log Message:
+provide the parameter extension to deal with no bounds or single sided bounds
+    *
+------------------------------------------------------------
 User: mdwood  Sat Oct 17 10:19:59 PDT 2015
 optimizers/optimizers
 

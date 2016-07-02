@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: echarles  Fri Jul  1 18:05:26 PDT 2016
+optimizers/optimizers
+
+Modified Files:
+	Parameter.h 
+Log Message:
+Added has_prior and const version of log_prior to Parameter interface
+    *
+------------------------------------------------------------
 TAG
 Tag name: ScienceTools-11-01-01, operation: add
 Package: optimizers

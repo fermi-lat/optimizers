@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: echarles  Wed Jul 27 11:24:25 PDT 2016
+optimizers/optimizers
+
+Modified Files:
+	Minuit.h NewMinuit.h Optimizer.h 
+Log Message:
+Modify Minuit to fall back to using numerical derivatives if MINOS fails.  Also, allow users to call Minuit::doCmd directry
+    *
+------------------------------------------------------------
 TAG
 Tag name: ScienceTools-11-02-00, operation: add
 Package: optimizers

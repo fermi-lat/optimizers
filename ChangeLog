@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: echarles  Wed Jul 27 11:24:25 PDT 2016
+optimizers/src
+
+Modified Files:
+	Minuit.cxx NewMinuit.cxx 
+Log Message:
+Modify Minuit to fall back to using numerical derivatives if MINOS fails.  Also, allow users to call Minuit::doCmd directry
+    *
+------------------------------------------------------------
+User: echarles  Wed Jul 27 11:24:25 PDT 2016
 optimizers/optimizers
 
 Modified Files:

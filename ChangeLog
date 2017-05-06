@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: jrb  Fri May  5 17:56:14 PDT 2017
+optimizers
+
+Modified Files:
+	optimizersLib.py 
+Log Message:
+updates so that ST_User can be ROOTless
+    *
+------------------------------------------------------------
 TAG
 Tag name: ScienceTools-11-05-03, operation: add
 Package: optimizers

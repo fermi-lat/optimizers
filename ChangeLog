@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: echarles  Thu Aug 17 16:41:50 PDT 2017
+optimizers/src
+
+Modified Files:
+	Minuit.cxx 
+Log Message:
+Added option to use numeric derivatives to Minuit minimizer interface
+    *
+------------------------------------------------------------
+User: echarles  Thu Aug 17 16:41:50 PDT 2017
 optimizers/optimizers
 
 Modified Files:

@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: echarles  Thu Aug 17 16:41:50 PDT 2017
+optimizers/optimizers
+
+Modified Files:
+	Optimizer.h Minuit.h 
+Log Message:
+Added option to use numeric derivatives to Minuit minimizer interface
+    *
+------------------------------------------------------------
 User: jrb  Mon May  8 18:10:59 PDT 2017
 optimizers/cmt
 

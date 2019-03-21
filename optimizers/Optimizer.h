@@ -100,7 +100,7 @@ public:
    virtual std::ostream& put (std::ostream& s) const = 0;
    
    //! Pass a command string to Minuit
-   virtual int doCmd(std::string command, bool set_npar=false) {;}
+   virtual int doCmd(std::string command, bool set_npar=false) { return 0;}
   
 protected:
 

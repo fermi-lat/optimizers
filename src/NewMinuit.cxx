@@ -18,6 +18,7 @@
 #include "Minuit2/FunctionMinimum.h"
 #include "Minuit2/MnHesse.h"
 #include "Minuit2/MnPrint.h"
+#include "Minuit2/MnMatrix.h"
 #include "optimizers/Exception.h"
 #include "optimizers/OutOfBounds.h"
 #include "StMnMinos.h"
@@ -300,6 +301,12 @@ namespace optimizers {
     return grad;
   }
 
+  const ROOT::Minuit2::MinimumError& NewMinuit::minuitError() const {
+    static const ROOT::Minuit2::MinimumError null_error(1);
+    return m_min == 0 ? null_error : m_min->Error();
+  }
+  
+
   // Get the uncertainty values from covariance matrix
    const std::vector<double> & NewMinuit::getUncertainty(bool useBase) {
       std::vector<double> parValues;
@@ -322,6 +329,22 @@ namespace optimizers {
   std::ostream& NewMinuit::put (std::ostream& s) const {
     s << m_min->UserState();
     return s;
+  }
+
+  std::vector<std::vector<double> > NewMinuit::minuitInvHessian() const {
+    std::vector<std::vector<double> > inv_hesse;
+    if ( m_min == 0 ) return inv_hesse;
+    const ROOT::Minuit2::MnAlgebraicSymMatrix& inv_mat = m_min->Error().InvHessian();
+    
+    for (unsigned int x = 0; x < inv_mat.Nrow(); ++x) {
+      std::vector<double> vec;
+      for (unsigned int y = 0; y < inv_mat.Nrow(); ++y) {
+	vec.push_back(inv_mat(x,y));
+      }
+      inv_hesse.push_back(vec);
+    }
+
+
   }
 
    std::vector<std::vector<double> > NewMinuit::covarianceMatrix() const {

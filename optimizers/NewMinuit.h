@@ -15,6 +15,7 @@
 #include "Minuit2/MnStrategy.h"
 #include "Minuit2/MnUserParameterState.h"
 #include "Minuit2/FunctionMinimum.h"
+#include "Minuit2/MinimumError.h"
 
 namespace optimizers {
 
@@ -72,9 +73,24 @@ namespace optimizers {
         return m_strategy_value;
      }
 
+    const ROOT::Minuit2::MinimumError& minuitError() const;
+
+    double minuitDcovar() const {return minuitError().Dcovar();}
+    bool minuitIsAccurate() const {return minuitError().IsAccurate();}
+    bool minuitIsValid() const {return minuitError().IsValid();}
+    bool minuitIsPosDef() const {return minuitError().IsPosDef();}
+    bool minuitIsMadePosDef() const {return minuitError().IsMadePosDef();}
+    bool minuitHesseFailed() const {return minuitError().HesseFailed();}
+    bool minuitInvertFailed() const {return minuitError().InvertFailed();}
+    bool minuitIsAvailable() const {return minuitError().IsAvailable();}
+
+    std::vector<std::vector<double> > minuitInvHessian() const;
+
     double getDistance(void) const {return m_distance;};
     virtual const std::vector<double> & getUncertainty(bool useBase = false);
     virtual std::vector<std::vector<double> > covarianceMatrix() const;
+    
+
     virtual std::ostream& put (std::ostream& s) const;
     std::pair<double,double> Minos(unsigned int n, double level=1., bool numericDeriv=false);
 

@@ -73,7 +73,26 @@ namespace optimizers {
         return m_strategy_value;
      }
 
+
+    const ROOT::Minuit2::MnUserParameterState& userState() const;
     const ROOT::Minuit2::MinimumError& minuitError() const;
+
+    std::vector<std::vector<double> >  userCovariance() const;
+    const std::vector<double>& userGlobalCC() const;
+
+    // hessian (inverse of covariance matrix)
+    std::vector<std::vector<double> > userHessian() const;
+    
+    // covariance matrix status (0 = not valid, 1 approximate, 2, full but made pos def, 3 accurate and not pos def
+    int userCovarianceStatus() const { return userState().CovarianceStatus(); } 
+        
+    bool userIsValid() const {return userState().IsValid();}
+    bool userHasCovariance() const {return userState().HasCovariance();}
+    bool userHasGlobalCC() const {return userState().HasGlobalCC();}    
+    double userFval() const {return userState().Fval();}
+    double userEdm() const {return userState().Edm();}
+    unsigned int userNFcn() const {return userState().NFcn();}  
+
 
     double minuitDcovar() const {return minuitError().Dcovar();}
     bool minuitIsAccurate() const {return minuitError().IsAccurate();}

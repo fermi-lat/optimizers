@@ -301,6 +301,12 @@ namespace optimizers {
     return grad;
   }
 
+  const ROOT::Minuit2::MnUserParameterState& NewMinuit::userState() const {
+    static const ROOT::Minuit2::MnUserParameterState null_state;
+    return m_min == 0 ? null_state : m_min->UserState();
+  }
+
+
   const ROOT::Minuit2::MinimumError& NewMinuit::minuitError() const {
     static const ROOT::Minuit2::MinimumError null_error(1);
     return m_min == 0 ? null_error : m_min->Error();
@@ -331,6 +337,43 @@ namespace optimizers {
     return s;
   }
 
+  std::vector<std::vector<double> >  NewMinuit::userCovariance() const {
+    std::vector<std::vector<double> > cov;
+    if ( m_min == 0 ) return cov;
+    const ROOT::Minuit2::MnUserCovariance& userCov = m_min->UserState().Covariance();
+    
+    for (unsigned int x = 0; x < userCov.Nrow(); ++x) {
+      std::vector<double> vec;
+      for (unsigned int y = 0; y < userCov.Nrow(); ++y) {
+	vec.push_back(userCov(x,y));
+      }
+      cov.push_back(vec);
+    }
+    return cov;
+  }
+
+  const std::vector<double>& NewMinuit::userGlobalCC() const {
+    static const std::vector<double> null_globalcc;
+    return m_min == 0 ? null_globalcc : m_min->UserState().GlobalCC().GlobalCC();    
+  }
+
+  
+  std::vector<std::vector<double> >  NewMinuit::userHessian() const {
+    std::vector<std::vector<double> > hesse;
+    if ( m_min == 0 ) return hesse;
+    ROOT::Minuit2::MnUserCovariance mn_hesse(m_min->UserState().Hessian());
+    
+    for (unsigned int x = 0; x < mn_hesse.Nrow(); ++x) {
+      std::vector<double> vec;
+      for (unsigned int y = 0; y < mn_hesse.Nrow(); ++y) {
+	vec.push_back(mn_hesse(x,y));
+      }
+      hesse.push_back(vec);
+    }
+    return hesse;
+  }
+
+
   std::vector<std::vector<double> > NewMinuit::minuitInvHessian() const {
     std::vector<std::vector<double> > inv_hesse;
     if ( m_min == 0 ) return inv_hesse;
@@ -343,8 +386,7 @@ namespace optimizers {
       }
       inv_hesse.push_back(vec);
     }
-
-
+    return inv_hesse;
   }
 
    std::vector<std::vector<double> > NewMinuit::covarianceMatrix() const {

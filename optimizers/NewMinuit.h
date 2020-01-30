@@ -15,6 +15,7 @@
 #include "Minuit2/MnStrategy.h"
 #include "Minuit2/MnUserParameterState.h"
 #include "Minuit2/FunctionMinimum.h"
+#include "Minuit2/MinimumError.h"
 
 namespace optimizers {
 
@@ -72,9 +73,43 @@ namespace optimizers {
         return m_strategy_value;
      }
 
+
+    const ROOT::Minuit2::MnUserParameterState& userState() const;
+    const ROOT::Minuit2::MinimumError& minuitError() const;
+
+    std::vector<std::vector<double> >  userCovariance() const;
+    const std::vector<double>& userGlobalCC() const;
+
+    // hessian (inverse of covariance matrix)
+    std::vector<std::vector<double> > userHessian() const;
+    
+    // covariance matrix status (0 = not valid, 1 approximate, 2, full but made pos def, 3 accurate and not pos def
+    int userCovarianceStatus() const { return userState().CovarianceStatus(); } 
+        
+    bool userIsValid() const {return userState().IsValid();}
+    bool userHasCovariance() const {return userState().HasCovariance();}
+    bool userHasGlobalCC() const {return userState().HasGlobalCC();}    
+    double userFval() const {return userState().Fval();}
+    double userEdm() const {return userState().Edm();}
+    unsigned int userNFcn() const {return userState().NFcn();}  
+
+
+    double minuitDcovar() const {return minuitError().Dcovar();}
+    bool minuitIsAccurate() const {return minuitError().IsAccurate();}
+    bool minuitIsValid() const {return minuitError().IsValid();}
+    bool minuitIsPosDef() const {return minuitError().IsPosDef();}
+    bool minuitIsMadePosDef() const {return minuitError().IsMadePosDef();}
+    bool minuitHesseFailed() const {return minuitError().HesseFailed();}
+    bool minuitInvertFailed() const {return minuitError().InvertFailed();}
+    bool minuitIsAvailable() const {return minuitError().IsAvailable();}
+
+    std::vector<std::vector<double> > minuitInvHessian() const;
+
     double getDistance(void) const {return m_distance;};
     virtual const std::vector<double> & getUncertainty(bool useBase = false);
     virtual std::vector<std::vector<double> > covarianceMatrix() const;
+    
+
     virtual std::ostream& put (std::ostream& s) const;
     std::pair<double,double> Minos(unsigned int n, double level=1., bool numericDeriv=false);
 

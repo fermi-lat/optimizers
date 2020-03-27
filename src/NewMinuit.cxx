@@ -131,11 +131,7 @@ namespace optimizers {
       throw Exception("Minuit: find_min must be executed before hesse");
     ROOT::Minuit2::MnHesse hesse(m_strategy);
 #ifndef BUILD_WITHOUT_ROOT
-#if ROOT_SVN_REVISION > 23900
     hesse(m_FCN, *m_min, m_maxEval);
-#else
-    m_min->UserState() = hesse(m_FCN, m_min->UserParameters(), m_maxEval);
-#endif
 #else
     hesse(m_FCN, *m_min, m_maxEval);
 #endif

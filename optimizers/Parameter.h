@@ -172,6 +172,10 @@ public:
       m_alwaysFixed = par->m_alwaysFixed;
    }
 
+   const Parameter* getParRef() const {
+     return m_par_ref;
+   } 
+  
    void setPrior(Function & log_prior);
 
    inline bool has_prior() const { return m_log_prior != 0; }

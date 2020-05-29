@@ -202,6 +202,9 @@ public:
       return m_genericName;
    }
 
+   /// Hook for sub-classes to return a nested function, if it existis, this is for debugging
+   virtual const Function * nested_function() const { return 0; }
+
    /// @brief Rescale the overall normalization of the model (by adjusting
    /// the appropriate parameter). 
    /// @return Boolean value: true if rescaling was accomplished, false if

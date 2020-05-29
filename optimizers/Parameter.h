@@ -101,6 +101,7 @@ public:
       return m_scale;
    }
 
+
    /// "true" value access
    virtual void setTrueValue(double trueValue);
    double getTrueValue() const {
@@ -172,6 +173,21 @@ public:
       m_alwaysFixed = par->m_alwaysFixed;
    }
 
+   void setDataValues(const Parameter& par) {
+      m_name = par.m_name;
+      m_value = par.m_value;
+      m_minValue = par.m_minValue;
+      m_maxValue = par.m_maxValue;
+      m_free = par.m_free;
+      m_scale = par.m_scale;
+      m_error = par.m_error;
+      m_alwaysFixed = par.m_alwaysFixed;
+   }
+     
+   const Parameter* getParRef() const {
+     return m_par_ref;
+   } 
+  
    void setPrior(Function & log_prior);
 
    inline bool has_prior() const { return m_log_prior != 0; }

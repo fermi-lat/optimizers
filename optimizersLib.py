@@ -6,13 +6,14 @@ def generate(env, **kw):
     env.Tool('st_facilitiesLib')
     env.Tool('addLibrary', library = env['cfitsioLibs'])
     env.Tool('addLibrary', library = env['clhepLibs'])
-    if env.get('CONTAINERNAME', '') == 'ScienceTools_User':
-        env.Tool('addLibrary', library = env['minuit2Libs'])
-    else:
-        env.Tool('addLibrary', library = env['rootLibs'])
-        env.Tool('addLibrary', library = env['rootGuiLibs'])
-        env.Tool('addLibrary', library = env['minuitLibs'])
-
+    env.Tool('addLibrary', library = env['minuit2Libs'])
+    #if env.get('CONTAINERNAME', '') == 'ScienceTools_User':
+    #    env.Tool('addLibrary', library = env['minuit2Libs'])
+    #else:
+        #env.Tool('addLibrary', library = env['rootLibs'])
+        #env.Tool('addLibrary', library = env['rootGuiLibs'])
+        #env.Tool('addLibrary', library = env['minuitLibs'])
+        
     env.Tool('addLibrary', library = env['f2cLibs'])
 
 def exists(env):

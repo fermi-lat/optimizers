@@ -11,11 +11,11 @@
 #include <vector>
 #include "optimizers/Optimizer.h"
 #include "optimizers/Statistic.h"
-#include "Minuit2/Minuit2/FCNGradientBase.h"
-#include "Minuit2/Minuit2/MnStrategy.h"
-#include "Minuit2/Minuit2/MnUserParameterState.h"
-#include "Minuit2/Minuit2/FunctionMinimum.h"
-#include "Minuit2/Minuit2/MinimumError.h"
+#include "Minuit2/FCNGradientBase.h"
+#include "Minuit2/MnStrategy.h"
+#include "Minuit2/MnUserParameterState.h"
+#include "Minuit2/FunctionMinimum.h"
+#include "Minuit2/MinimumError.h"
 
 namespace optimizers {
 

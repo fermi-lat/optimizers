@@ -13,7 +13,7 @@
 #define optimizers_StMnMinos_h
 
 #include <iostream>
-#include "Minuit2/Minuit2/MnMinos.h"
+#include "Minuit2/MnMinos.h"
 
 namespace optimizers {
 

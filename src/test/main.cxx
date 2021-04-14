@@ -18,7 +18,7 @@
 #include <iostream>
 #include <vector>
 
-#include "Minuit2/MnPrint.h"
+#include "Minuit2/Minuit2/MnPrint.h"
 
 #include "optimizers/Amoeba.h"
 #include "optimizers/ChiSq.h"

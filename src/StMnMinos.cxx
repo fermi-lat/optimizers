@@ -20,11 +20,11 @@
 
 //#include "Minuit2/MnMinos.h"
 #include "StMnMinos.h"
-#include "Minuit2/Minuit2/FunctionMinimum.h"
-#include "Minuit2/Minuit2/FCNBase.h"
-#include "Minuit2/Minuit2/MnFunctionCross.h"
-#include "Minuit2/Minuit2/MnCross.h"
-#include "Minuit2/Minuit2/MinosError.h"
+#include "Minuit2/FunctionMinimum.h"
+#include "Minuit2/FCNBase.h"
+#include "Minuit2/MnFunctionCross.h"
+#include "Minuit2/MnCross.h"
+#include "Minuit2/MinosError.h"
         
 namespace optimizers {
 

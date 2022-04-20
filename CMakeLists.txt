@@ -55,7 +55,6 @@ target_include_directories(
 
 
 ###### Tests ######
-
 add_executable(test_optimizers src/test/main.cxx)
 target_link_libraries(test_optimizers PRIVATE optimizers)
 target_include_directories(
@@ -78,8 +77,8 @@ install(DIRECTORY optimizers DESTINATION ${FERMI_INSTALL_INCLUDEDIR})
 install(DIRECTORY xml/ DESTINATION ${FERMI_INSTALL_XMLDIR})
 
 install(
-  TARGETS optimizers
-  # EXPORT fermiTargets
+  TARGETS optimizers test_optimizers
+  EXPORT fermiTargets
   RUNTIME DESTINATION ${CMAKE_INSTALL_BINDIR}
   LIBRARY DESTINATION lib
   ARCHIVE DESTINATION lib

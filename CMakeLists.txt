@@ -70,3 +70,18 @@ if(${CMAKE_SYSTEM_NAME} MATCHES "Posix")
 elseif(${CMAKE_SYSTEM_NAME} MATCHES "Darwin")
   target_compile_definitions(test_optimizers PRIVATE "DARWIN")
 endif()
+
+###############################################################
+# Installation
+###############################################################
+install(DIRECTORY optimizers DESTINATION ${FERMI_INSTALL_INCLUDEDIR})
+install(DIRECTORY xml/ DESTINATION ${FERMI_INSTALL_XMLDIR})
+
+install(
+  TARGETS optimizers
+  # EXPORT fermiTargets
+  RUNTIME DESTINATION ${CMAKE_INSTALL_BINDIR}
+  LIBRARY DESTINATION lib
+  ARCHIVE DESTINATION lib
+  INCLUDES DESTINATION ${CMAKE_INSTALL_INCLUDEDIR}
+)

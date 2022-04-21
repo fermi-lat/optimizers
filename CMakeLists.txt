@@ -44,7 +44,8 @@ add_library(
 
 target_link_libraries(
   optimizers
-  PUBLIC PkgConfig::cfitsio CLHEP::CLHEP PkgConfig::f2c Minuit2::Minuit2 st_facilities xmlBase
+  PUBLIC xmlBase PkgConfig::xerces-c Minuit2::Minuit2
+  PRIVATE PkgConfig::cfitsio CLHEP::CLHEP PkgConfig::f2c st_facilities
 )
 
 target_include_directories(
@@ -53,10 +54,12 @@ target_include_directories(
   $<INSTALL_INTERFACE:>
 )
 
+target_compile_definitions(optimizers PRIVATE BUILD_WITHOUT_ROOT)
+
 
 ###### Tests ######
 add_executable(test_optimizers src/test/main.cxx)
-target_link_libraries(test_optimizers PRIVATE optimizers)
+target_link_libraries(test_optimizers PRIVATE optimizers st_facilities)
 target_include_directories(
   test_optimizers PUBLIC
   $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}>

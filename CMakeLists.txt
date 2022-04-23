@@ -77,7 +77,7 @@ endif()
 # Installation
 ###############################################################
 install(DIRECTORY optimizers DESTINATION ${FERMI_INSTALL_INCLUDEDIR})
-install(DIRECTORY xml/ DESTINATION ${FERMI_INSTALL_XMLDIR})
+install(DIRECTORY xml/ DESTINATION ${FERMI_INSTALL_XMLDIR}/fermi/optimizers)
 
 install(
   TARGETS optimizers test_optimizers

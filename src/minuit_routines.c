@@ -194,18 +194,18 @@ static integer c__10 = 10;
 /* $Id$ */
 
 /* $Log$
-/* Revision 1.2  2004/06/10 17:27:19  jchiang
-/* comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
-/*
-/* Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
-/* First import
-/*
-/* Revision 1.2  2003/05/21 21:31:14  pln
-/* Change #include line for f2c.h to aid compilation on Windows.
-/*
-/* Revision 1.1  2003/05/20 21:07:38  pln
-/* Minuit optimizer from CERN
-/* */
+ * Revision 1.2  2004/06/10 17:27:19  jchiang
+ * comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
+ *
+ * Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
+ * First import
+ *
+ * Revision 1.2  2003/05/21 21:31:14  pln
+ * Change #include line for f2c.h to aid compilation on Windows.
+ *
+ * Revision 1.1  2003/05/20 21:07:38  pln
+ * Minuit optimizer from CERN
+ * */
 /* Revision 1.1.1.1  2000/06/08 11:19:18  andras */
 /* import of MINUIT from CERNlib 2000 */
 
@@ -266,18 +266,18 @@ COND CALL.\002/)";
 /* $Id$ */
 
 /* $Log$
-/* Revision 1.2  2004/06/10 17:27:19  jchiang
-/* comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
-/*
-/* Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
-/* First import
-/*
-/* Revision 1.2  2003/05/21 21:31:14  pln
-/* Change #include line for f2c.h to aid compilation on Windows.
-/*
-/* Revision 1.1  2003/05/20 21:07:38  pln
-/* Minuit optimizer from CERN
-/* */
+ * Revision 1.2  2004/06/10 17:27:19  jchiang
+ * comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
+ *
+ * Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
+ * First import
+ *
+ * Revision 1.2  2003/05/21 21:31:14  pln
+ * Change #include line for f2c.h to aid compilation on Windows.
+ *
+ * Revision 1.1  2003/05/20 21:07:38  pln
+ * Minuit optimizer from CERN
+ * */
 /* Revision 1.1.1.1  2000/06/08 11:19:21  andras */
 /* import of MINUIT from CERNlib 2000 */
 
@@ -294,18 +294,18 @@ COND CALL.\002/)";
 /* $Id$ */
 
 /* $Log$
-/* Revision 1.2  2004/06/10 17:27:19  jchiang
-/* comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
-/*
-/* Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
-/* First import
-/*
-/* Revision 1.2  2003/05/21 21:31:14  pln
-/* Change #include line for f2c.h to aid compilation on Windows.
-/*
-/* Revision 1.1  2003/05/20 21:07:38  pln
-/* Minuit optimizer from CERN
-/* */
+ * Revision 1.2  2004/06/10 17:27:19  jchiang
+ * comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
+ *
+ * Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
+ * First import
+ *
+ * Revision 1.2  2003/05/21 21:31:14  pln
+ * Change #include line for f2c.h to aid compilation on Windows.
+ *
+ * Revision 1.1  2003/05/20 21:07:38  pln
+ * Minuit optimizer from CERN
+ * */
 /* Revision 1.2  2001/01/02 08:35:54  andras */
 /* *** empty log message *** */
 
@@ -528,18 +528,18 @@ L_mintio:
 /* $Id$ */
 
 /* $Log$
-/* Revision 1.2  2004/06/10 17:27:19  jchiang
-/* comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
-/*
-/* Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
-/* First import
-/*
-/* Revision 1.2  2003/05/21 21:31:14  pln
-/* Change #include line for f2c.h to aid compilation on Windows.
-/*
-/* Revision 1.1  2003/05/20 21:07:38  pln
-/* Minuit optimizer from CERN
-/* */
+ * Revision 1.2  2004/06/10 17:27:19  jchiang
+ * comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
+ *
+ * Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
+ * First import
+ *
+ * Revision 1.2  2003/05/21 21:31:14  pln
+ * Change #include line for f2c.h to aid compilation on Windows.
+ *
+ * Revision 1.1  2003/05/20 21:07:38  pln
+ * Minuit optimizer from CERN
+ * */
 /* Revision 1.1.1.1  2000/06/08 11:19:18  andras */
 /* import of MINUIT from CERNlib 2000 */
 
@@ -565,18 +565,18 @@ L_mintio:
 /* $Id$ */
 
 /* $Log$
-/* Revision 1.2  2004/06/10 17:27:19  jchiang
-/* comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
-/*
-/* Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
-/* First import
-/*
-/* Revision 1.2  2003/05/21 21:31:14  pln
-/* Change #include line for f2c.h to aid compilation on Windows.
-/*
-/* Revision 1.1  2003/05/20 21:07:38  pln
-/* Minuit optimizer from CERN
-/* */
+ * Revision 1.2  2004/06/10 17:27:19  jchiang
+ * comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
+ *
+ * Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
+ * First import
+ *
+ * Revision 1.2  2003/05/21 21:31:14  pln
+ * Change #include line for f2c.h to aid compilation on Windows.
+ *
+ * Revision 1.1  2003/05/20 21:07:38  pln
+ * Minuit optimizer from CERN
+ * */
 /* Revision 1.1.1.1  2000/06/08 11:19:21  andras */
 /* import of MINUIT from CERNlib 2000 */
 
@@ -597,18 +597,18 @@ L_mintio:
 /* $Id$ */
 
 /* $Log$
-/* Revision 1.2  2004/06/10 17:27:19  jchiang
-/* comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
-/*
-/* Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
-/* First import
-/*
-/* Revision 1.2  2003/05/21 21:31:14  pln
-/* Change #include line for f2c.h to aid compilation on Windows.
-/*
-/* Revision 1.1  2003/05/20 21:07:38  pln
-/* Minuit optimizer from CERN
-/* */
+ * Revision 1.2  2004/06/10 17:27:19  jchiang
+ * comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
+ *
+ * Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
+ * First import
+ *
+ * Revision 1.2  2003/05/21 21:31:14  pln
+ * Change #include line for f2c.h to aid compilation on Windows.
+ *
+ * Revision 1.1  2003/05/20 21:07:38  pln
+ * Minuit optimizer from CERN
+ * */
 /* Revision 1.2  2001/01/02 08:35:54  andras */
 /* *** empty log message *** */
 
@@ -645,18 +645,18 @@ L_mintio:
 /* $Id$ */
 
 /* $Log$
-/* Revision 1.2  2004/06/10 17:27:19  jchiang
-/* comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
-/*
-/* Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
-/* First import
-/*
-/* Revision 1.2  2003/05/21 21:31:14  pln
-/* Change #include line for f2c.h to aid compilation on Windows.
-/*
-/* Revision 1.1  2003/05/20 21:07:38  pln
-/* Minuit optimizer from CERN
-/* */
+ * Revision 1.2  2004/06/10 17:27:19  jchiang
+ * comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
+ *
+ * Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
+ * First import
+ *
+ * Revision 1.2  2003/05/21 21:31:14  pln
+ * Change #include line for f2c.h to aid compilation on Windows.
+ *
+ * Revision 1.1  2003/05/20 21:07:38  pln
+ * Minuit optimizer from CERN
+ * */
 /* Revision 1.1.1.1  2000/06/08 11:19:18  andras */
 /* import of MINUIT from CERNlib 2000 */
 
@@ -687,18 +687,18 @@ L_mintio:
 /* $Id$ */
 
 /* $Log$
-/* Revision 1.2  2004/06/10 17:27:19  jchiang
-/* comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
-/*
-/* Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
-/* First import
-/*
-/* Revision 1.2  2003/05/21 21:31:14  pln
-/* Change #include line for f2c.h to aid compilation on Windows.
-/*
-/* Revision 1.1  2003/05/20 21:07:38  pln
-/* Minuit optimizer from CERN
-/* */
+ * Revision 1.2  2004/06/10 17:27:19  jchiang
+ * comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
+ *
+ * Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
+ * First import
+ *
+ * Revision 1.2  2003/05/21 21:31:14  pln
+ * Change #include line for f2c.h to aid compilation on Windows.
+ *
+ * Revision 1.1  2003/05/20 21:07:38  pln
+ * Minuit optimizer from CERN
+ * */
 /* Revision 1.1.1.1  2000/06/08 11:19:21  andras */
 /* import of MINUIT from CERNlib 2000 */
 
@@ -808,18 +808,18 @@ L240:
 /* $Id$ */
 
 /* $Log$
-/* Revision 1.2  2004/06/10 17:27:19  jchiang
-/* comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
-/*
-/* Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
-/* First import
-/*
-/* Revision 1.2  2003/05/21 21:31:14  pln
-/* Change #include line for f2c.h to aid compilation on Windows.
-/*
-/* Revision 1.1  2003/05/20 21:07:38  pln
-/* Minuit optimizer from CERN
-/* */
+ * Revision 1.2  2004/06/10 17:27:19  jchiang
+ * comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
+ *
+ * Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
+ * First import
+ *
+ * Revision 1.2  2003/05/21 21:31:14  pln
+ * Change #include line for f2c.h to aid compilation on Windows.
+ *
+ * Revision 1.1  2003/05/20 21:07:38  pln
+ * Minuit optimizer from CERN
+ * */
 /* Revision 1.1.1.1  2000/06/08 11:19:19  andras */
 /* import of MINUIT from CERNlib 2000 */
 
@@ -844,18 +844,18 @@ L240:
 /* $Id$ */
 
 /* $Log$
-/* Revision 1.2  2004/06/10 17:27:19  jchiang
-/* comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
-/*
-/* Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
-/* First import
-/*
-/* Revision 1.2  2003/05/21 21:31:14  pln
-/* Change #include line for f2c.h to aid compilation on Windows.
-/*
-/* Revision 1.1  2003/05/20 21:07:38  pln
-/* Minuit optimizer from CERN
-/* */
+ * Revision 1.2  2004/06/10 17:27:19  jchiang
+ * comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
+ *
+ * Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
+ * First import
+ *
+ * Revision 1.2  2003/05/21 21:31:14  pln
+ * Change #include line for f2c.h to aid compilation on Windows.
+ *
+ * Revision 1.1  2003/05/20 21:07:38  pln
+ * Minuit optimizer from CERN
+ * */
 /* Revision 1.1.1.1  2000/06/08 11:19:21  andras */
 /* import of MINUIT from CERNlib 2000 */
 
@@ -876,18 +876,18 @@ L240:
 /* $Id$ */
 
 /* $Log$
-/* Revision 1.2  2004/06/10 17:27:19  jchiang
-/* comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
-/*
-/* Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
-/* First import
-/*
-/* Revision 1.2  2003/05/21 21:31:14  pln
-/* Change #include line for f2c.h to aid compilation on Windows.
-/*
-/* Revision 1.1  2003/05/20 21:07:38  pln
-/* Minuit optimizer from CERN
-/* */
+ * Revision 1.2  2004/06/10 17:27:19  jchiang
+ * comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
+ *
+ * Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
+ * First import
+ *
+ * Revision 1.2  2003/05/21 21:31:14  pln
+ * Change #include line for f2c.h to aid compilation on Windows.
+ *
+ * Revision 1.1  2003/05/20 21:07:38  pln
+ * Minuit optimizer from CERN
+ * */
 /* Revision 1.2  2001/01/02 08:35:54  andras */
 /* *** empty log message *** */
 
@@ -943,18 +943,18 @@ L240:
 /* $Id$ */
 
 /* $Log$
-/* Revision 1.2  2004/06/10 17:27:19  jchiang
-/* comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
-/*
-/* Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
-/* First import
-/*
-/* Revision 1.2  2003/05/21 21:31:14  pln
-/* Change #include line for f2c.h to aid compilation on Windows.
-/*
-/* Revision 1.1  2003/05/20 21:07:38  pln
-/* Minuit optimizer from CERN
-/* */
+ * Revision 1.2  2004/06/10 17:27:19  jchiang
+ * comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
+ *
+ * Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
+ * First import
+ *
+ * Revision 1.2  2003/05/21 21:31:14  pln
+ * Change #include line for f2c.h to aid compilation on Windows.
+ *
+ * Revision 1.1  2003/05/20 21:07:38  pln
+ * Minuit optimizer from CERN
+ * */
 /* Revision 1.1.1.1  2000/06/08 11:19:19  andras */
 /* import of MINUIT from CERNlib 2000 */
 
@@ -978,18 +978,18 @@ L240:
 /* $Id$ */
 
 /* $Log$
-/* Revision 1.2  2004/06/10 17:27:19  jchiang
-/* comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
-/*
-/* Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
-/* First import
-/*
-/* Revision 1.2  2003/05/21 21:31:14  pln
-/* Change #include line for f2c.h to aid compilation on Windows.
-/*
-/* Revision 1.1  2003/05/20 21:07:38  pln
-/* Minuit optimizer from CERN
-/* */
+ * Revision 1.2  2004/06/10 17:27:19  jchiang
+ * comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
+ *
+ * Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
+ * First import
+ *
+ * Revision 1.2  2003/05/21 21:31:14  pln
+ * Change #include line for f2c.h to aid compilation on Windows.
+ *
+ * Revision 1.1  2003/05/20 21:07:38  pln
+ * Minuit optimizer from CERN
+ * */
 /* Revision 1.1.1.1  2000/06/08 11:19:21  andras */
 /* import of MINUIT from CERNlib 2000 */
 
@@ -1008,18 +1008,18 @@ L240:
 /* $Id$ */
 
 /* $Log$
-/* Revision 1.2  2004/06/10 17:27:19  jchiang
-/* comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
-/*
-/* Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
-/* First import
-/*
-/* Revision 1.2  2003/05/21 21:31:14  pln
-/* Change #include line for f2c.h to aid compilation on Windows.
-/*
-/* Revision 1.1  2003/05/20 21:07:38  pln
-/* Minuit optimizer from CERN
-/* */
+ * Revision 1.2  2004/06/10 17:27:19  jchiang
+ * comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
+ *
+ * Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
+ * First import
+ *
+ * Revision 1.2  2003/05/21 21:31:14  pln
+ * Change #include line for f2c.h to aid compilation on Windows.
+ *
+ * Revision 1.1  2003/05/20 21:07:38  pln
+ * Minuit optimizer from CERN
+ * */
 /* Revision 1.2  2001/01/02 08:35:54  andras */
 /* *** empty log message *** */
 
@@ -1063,18 +1063,18 @@ L240:
 /* $Id$ */
 
 /* $Log$
-/* Revision 1.2  2004/06/10 17:27:19  jchiang
-/* comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
-/*
-/* Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
-/* First import
-/*
-/* Revision 1.2  2003/05/21 21:31:14  pln
-/* Change #include line for f2c.h to aid compilation on Windows.
-/*
-/* Revision 1.1  2003/05/20 21:07:38  pln
-/* Minuit optimizer from CERN
-/* */
+ * Revision 1.2  2004/06/10 17:27:19  jchiang
+ * comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
+ *
+ * Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
+ * First import
+ *
+ * Revision 1.2  2003/05/21 21:31:14  pln
+ * Change #include line for f2c.h to aid compilation on Windows.
+ *
+ * Revision 1.1  2003/05/20 21:07:38  pln
+ * Minuit optimizer from CERN
+ * */
 /* Revision 1.1.1.1  2000/06/08 11:19:19  andras */
 /* import of MINUIT from CERNlib 2000 */
 
@@ -1139,18 +1139,18 @@ IGNORED.\002/)";
 /* $Id$ */
 
 /* $Log$
-/* Revision 1.2  2004/06/10 17:27:19  jchiang
-/* comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
-/*
-/* Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
-/* First import
-/*
-/* Revision 1.2  2003/05/21 21:31:14  pln
-/* Change #include line for f2c.h to aid compilation on Windows.
-/*
-/* Revision 1.1  2003/05/20 21:07:38  pln
-/* Minuit optimizer from CERN
-/* */
+ * Revision 1.2  2004/06/10 17:27:19  jchiang
+ * comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
+ *
+ * Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
+ * First import
+ *
+ * Revision 1.2  2003/05/21 21:31:14  pln
+ * Change #include line for f2c.h to aid compilation on Windows.
+ *
+ * Revision 1.1  2003/05/20 21:07:38  pln
+ * Minuit optimizer from CERN
+ * */
 /* Revision 1.1.1.1  2000/06/08 11:19:21  andras */
 /* import of MINUIT from CERNlib 2000 */
 
@@ -1169,18 +1169,18 @@ IGNORED.\002/)";
 /* $Id$ */
 
 /* $Log$
-/* Revision 1.2  2004/06/10 17:27:19  jchiang
-/* comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
-/*
-/* Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
-/* First import
-/*
-/* Revision 1.2  2003/05/21 21:31:14  pln
-/* Change #include line for f2c.h to aid compilation on Windows.
-/*
-/* Revision 1.1  2003/05/20 21:07:38  pln
-/* Minuit optimizer from CERN
-/* */
+ * Revision 1.2  2004/06/10 17:27:19  jchiang
+ * comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
+ *
+ * Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
+ * First import
+ *
+ * Revision 1.2  2003/05/21 21:31:14  pln
+ * Change #include line for f2c.h to aid compilation on Windows.
+ *
+ * Revision 1.1  2003/05/20 21:07:38  pln
+ * Minuit optimizer from CERN
+ * */
 /* Revision 1.2  2001/01/02 08:35:54  andras */
 /* *** empty log message *** */
 
@@ -1451,18 +1451,18 @@ L1350:
 /* $Id$ */
 
 /* $Log$
-/* Revision 1.2  2004/06/10 17:27:19  jchiang
-/* comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
-/*
-/* Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
-/* First import
-/*
-/* Revision 1.2  2003/05/21 21:31:14  pln
-/* Change #include line for f2c.h to aid compilation on Windows.
-/*
-/* Revision 1.1  2003/05/20 21:07:38  pln
-/* Minuit optimizer from CERN
-/* */
+ * Revision 1.2  2004/06/10 17:27:19  jchiang
+ * comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
+ *
+ * Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
+ * First import
+ *
+ * Revision 1.2  2003/05/21 21:31:14  pln
+ * Change #include line for f2c.h to aid compilation on Windows.
+ *
+ * Revision 1.1  2003/05/20 21:07:38  pln
+ * Minuit optimizer from CERN
+ * */
 /* Revision 1.1.1.1  2000/06/08 11:19:19  andras */
 /* import of MINUIT from CERNlib 2000 */
 
@@ -1507,18 +1507,18 @@ L1350:
 /* $Id$ */
 
 /* $Log$
-/* Revision 1.2  2004/06/10 17:27:19  jchiang
-/* comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
-/*
-/* Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
-/* First import
-/*
-/* Revision 1.2  2003/05/21 21:31:14  pln
-/* Change #include line for f2c.h to aid compilation on Windows.
-/*
-/* Revision 1.1  2003/05/20 21:07:38  pln
-/* Minuit optimizer from CERN
-/* */
+ * Revision 1.2  2004/06/10 17:27:19  jchiang
+ * comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
+ *
+ * Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
+ * First import
+ *
+ * Revision 1.2  2003/05/21 21:31:14  pln
+ * Change #include line for f2c.h to aid compilation on Windows.
+ *
+ * Revision 1.1  2003/05/20 21:07:38  pln
+ * Minuit optimizer from CERN
+ * */
 /* Revision 1.1.1.1  2000/06/08 11:19:21  andras */
 /* import of MINUIT from CERNlib 2000 */
 
@@ -1553,18 +1553,18 @@ L1350:
 /* $Id$ */
 
 /* $Log$
-/* Revision 1.2  2004/06/10 17:27:19  jchiang
-/* comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
-/*
-/* Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
-/* First import
-/*
-/* Revision 1.2  2003/05/21 21:31:14  pln
-/* Change #include line for f2c.h to aid compilation on Windows.
-/*
-/* Revision 1.1  2003/05/20 21:07:38  pln
-/* Minuit optimizer from CERN
-/* */
+ * Revision 1.2  2004/06/10 17:27:19  jchiang
+ * comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
+ *
+ * Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
+ * First import
+ *
+ * Revision 1.2  2003/05/21 21:31:14  pln
+ * Change #include line for f2c.h to aid compilation on Windows.
+ *
+ * Revision 1.1  2003/05/20 21:07:38  pln
+ * Minuit optimizer from CERN
+ * */
 /* Revision 1.2  2001/01/02 08:35:54  andras */
 /* *** empty log message *** */
 
@@ -1668,18 +1668,18 @@ L900:
 /* $Id$ */
 
 /* $Log$
-/* Revision 1.2  2004/06/10 17:27:19  jchiang
-/* comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
-/*
-/* Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
-/* First import
-/*
-/* Revision 1.2  2003/05/21 21:31:14  pln
-/* Change #include line for f2c.h to aid compilation on Windows.
-/*
-/* Revision 1.1  2003/05/20 21:07:38  pln
-/* Minuit optimizer from CERN
-/* */
+ * Revision 1.2  2004/06/10 17:27:19  jchiang
+ * comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
+ *
+ * Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
+ * First import
+ *
+ * Revision 1.2  2003/05/21 21:31:14  pln
+ * Change #include line for f2c.h to aid compilation on Windows.
+ *
+ * Revision 1.1  2003/05/20 21:07:38  pln
+ * Minuit optimizer from CERN
+ * */
 /* Revision 1.1.1.1  2000/06/08 11:19:19  andras */
 /* import of MINUIT from CERNlib 2000 */
 
@@ -1747,18 +1747,18 @@ L900:
 /* $Id$ */
 
 /* $Log$
-/* Revision 1.2  2004/06/10 17:27:19  jchiang
-/* comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
-/*
-/* Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
-/* First import
-/*
-/* Revision 1.2  2003/05/21 21:31:14  pln
-/* Change #include line for f2c.h to aid compilation on Windows.
-/*
-/* Revision 1.1  2003/05/20 21:07:38  pln
-/* Minuit optimizer from CERN
-/* */
+ * Revision 1.2  2004/06/10 17:27:19  jchiang
+ * comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
+ *
+ * Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
+ * First import
+ *
+ * Revision 1.2  2003/05/21 21:31:14  pln
+ * Change #include line for f2c.h to aid compilation on Windows.
+ *
+ * Revision 1.1  2003/05/20 21:07:38  pln
+ * Minuit optimizer from CERN
+ * */
 /* Revision 1.1.1.1  2000/06/08 11:19:21  andras */
 /* import of MINUIT from CERNlib 2000 */
 
@@ -1785,18 +1785,18 @@ L900:
 /* $Id$ */
 
 /* $Log$
-/* Revision 1.2  2004/06/10 17:27:19  jchiang
-/* comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
-/*
-/* Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
-/* First import
-/*
-/* Revision 1.2  2003/05/21 21:31:14  pln
-/* Change #include line for f2c.h to aid compilation on Windows.
-/*
-/* Revision 1.1  2003/05/20 21:07:38  pln
-/* Minuit optimizer from CERN
-/* */
+ * Revision 1.2  2004/06/10 17:27:19  jchiang
+ * comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
+ *
+ * Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
+ * First import
+ *
+ * Revision 1.2  2003/05/21 21:31:14  pln
+ * Change #include line for f2c.h to aid compilation on Windows.
+ *
+ * Revision 1.1  2003/05/20 21:07:38  pln
+ * Minuit optimizer from CERN
+ * */
 /* Revision 1.2  2001/01/02 08:35:54  andras */
 /* *** empty log message *** */
 
@@ -2209,18 +2209,18 @@ L2000:
 /* $Id$ */
 
 /* $Log$
-/* Revision 1.2  2004/06/10 17:27:19  jchiang
-/* comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
-/*
-/* Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
-/* First import
-/*
-/* Revision 1.2  2003/05/21 21:31:14  pln
-/* Change #include line for f2c.h to aid compilation on Windows.
-/*
-/* Revision 1.1  2003/05/20 21:07:38  pln
-/* Minuit optimizer from CERN
-/* */
+ * Revision 1.2  2004/06/10 17:27:19  jchiang
+ * comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
+ *
+ * Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
+ * First import
+ *
+ * Revision 1.2  2003/05/21 21:31:14  pln
+ * Change #include line for f2c.h to aid compilation on Windows.
+ *
+ * Revision 1.1  2003/05/20 21:07:38  pln
+ * Minuit optimizer from CERN
+ * */
 /* Revision 1.1.1.1  2000/06/08 11:19:19  andras */
 /* import of MINUIT from CERNlib 2000 */
 
@@ -2270,18 +2270,18 @@ AND HAS INPUT\002,i5,\002 NUMERIC FIELDS, BUT MINUIT CAN ACCEPT ONLY\002,i3)";
 /* $Id$ */
 
 /* $Log$
-/* Revision 1.2  2004/06/10 17:27:19  jchiang
-/* comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
-/*
-/* Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
-/* First import
-/*
-/* Revision 1.2  2003/05/21 21:31:14  pln
-/* Change #include line for f2c.h to aid compilation on Windows.
-/*
-/* Revision 1.1  2003/05/20 21:07:38  pln
-/* Minuit optimizer from CERN
-/* */
+ * Revision 1.2  2004/06/10 17:27:19  jchiang
+ * comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
+ *
+ * Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
+ * First import
+ *
+ * Revision 1.2  2003/05/21 21:31:14  pln
+ * Change #include line for f2c.h to aid compilation on Windows.
+ *
+ * Revision 1.1  2003/05/20 21:07:38  pln
+ * Minuit optimizer from CERN
+ * */
 /* Revision 1.1.1.1  2000/06/08 11:19:21  andras */
 /* import of MINUIT from CERNlib 2000 */
 
@@ -2492,18 +2492,18 @@ L900:
 /* $Id$ */
 
 /* $Log$
-/* Revision 1.2  2004/06/10 17:27:19  jchiang
-/* comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
-/*
-/* Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
-/* First import
-/*
-/* Revision 1.2  2003/05/21 21:31:14  pln
-/* Change #include line for f2c.h to aid compilation on Windows.
-/*
-/* Revision 1.1  2003/05/20 21:07:38  pln
-/* Minuit optimizer from CERN
-/* */
+ * Revision 1.2  2004/06/10 17:27:19  jchiang
+ * comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
+ *
+ * Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
+ * First import
+ *
+ * Revision 1.2  2003/05/21 21:31:14  pln
+ * Change #include line for f2c.h to aid compilation on Windows.
+ *
+ * Revision 1.1  2003/05/20 21:07:38  pln
+ * Minuit optimizer from CERN
+ * */
 /* Revision 1.1.1.1  2000/06/08 11:19:19  andras */
 /* import of MINUIT from CERNlib 2000 */
 
@@ -2577,18 +2577,18 @@ L900:
 /* $Id$ */
 
 /* $Log$
-/* Revision 1.2  2004/06/10 17:27:19  jchiang
-/* comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
-/*
-/* Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
-/* First import
-/*
-/* Revision 1.2  2003/05/21 21:31:14  pln
-/* Change #include line for f2c.h to aid compilation on Windows.
-/*
-/* Revision 1.1  2003/05/20 21:07:38  pln
-/* Minuit optimizer from CERN
-/* */
+ * Revision 1.2  2004/06/10 17:27:19  jchiang
+ * comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
+ *
+ * Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
+ * First import
+ *
+ * Revision 1.2  2003/05/21 21:31:14  pln
+ * Change #include line for f2c.h to aid compilation on Windows.
+ *
+ * Revision 1.1  2003/05/20 21:07:38  pln
+ * Minuit optimizer from CERN
+ * */
 /* Revision 1.1.1.1  2000/06/08 11:19:21  andras */
 /* import of MINUIT from CERNlib 2000 */
 
@@ -2612,18 +2612,18 @@ L900:
 /* $Id$ */
 
 /* $Log$
-/* Revision 1.2  2004/06/10 17:27:19  jchiang
-/* comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
-/*
-/* Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
-/* First import
-/*
-/* Revision 1.2  2003/05/21 21:31:14  pln
-/* Change #include line for f2c.h to aid compilation on Windows.
-/*
-/* Revision 1.1  2003/05/20 21:07:38  pln
-/* Minuit optimizer from CERN
-/* */
+ * Revision 1.2  2004/06/10 17:27:19  jchiang
+ * comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
+ *
+ * Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
+ * First import
+ *
+ * Revision 1.2  2003/05/21 21:31:14  pln
+ * Change #include line for f2c.h to aid compilation on Windows.
+ *
+ * Revision 1.1  2003/05/20 21:07:38  pln
+ * Minuit optimizer from CERN
+ * */
 /* Revision 1.2  2001/01/02 08:35:54  andras */
 /* *** empty log message *** */
 
@@ -3139,18 +3139,18 @@ L1000:
 /* $Id$ */
 
 /* $Log$
-/* Revision 1.2  2004/06/10 17:27:19  jchiang
-/* comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
-/*
-/* Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
-/* First import
-/*
-/* Revision 1.2  2003/05/21 21:31:14  pln
-/* Change #include line for f2c.h to aid compilation on Windows.
-/*
-/* Revision 1.1  2003/05/20 21:07:38  pln
-/* Minuit optimizer from CERN
-/* */
+ * Revision 1.2  2004/06/10 17:27:19  jchiang
+ * comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
+ *
+ * Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
+ * First import
+ *
+ * Revision 1.2  2003/05/21 21:31:14  pln
+ * Change #include line for f2c.h to aid compilation on Windows.
+ *
+ * Revision 1.1  2003/05/20 21:07:38  pln
+ * Minuit optimizer from CERN
+ * */
 /* Revision 1.1.1.1  2000/06/08 11:19:19  andras */
 /* import of MINUIT from CERNlib 2000 */
 
@@ -3184,18 +3184,18 @@ L1000:
 /* $Id$ */
 
 /* $Log$
-/* Revision 1.2  2004/06/10 17:27:19  jchiang
-/* comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
-/*
-/* Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
-/* First import
-/*
-/* Revision 1.2  2003/05/21 21:31:14  pln
-/* Change #include line for f2c.h to aid compilation on Windows.
-/*
-/* Revision 1.1  2003/05/20 21:07:38  pln
-/* Minuit optimizer from CERN
-/* */
+ * Revision 1.2  2004/06/10 17:27:19  jchiang
+ * comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
+ *
+ * Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
+ * First import
+ *
+ * Revision 1.2  2003/05/21 21:31:14  pln
+ * Change #include line for f2c.h to aid compilation on Windows.
+ *
+ * Revision 1.1  2003/05/20 21:07:38  pln
+ * Minuit optimizer from CERN
+ * */
 /* Revision 1.1.1.1  2000/06/08 11:19:21  andras */
 /* import of MINUIT from CERNlib 2000 */
 
@@ -3216,18 +3216,18 @@ L1000:
 /* $Id$ */
 
 /* $Log$
-/* Revision 1.2  2004/06/10 17:27:19  jchiang
-/* comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
-/*
-/* Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
-/* First import
-/*
-/* Revision 1.2  2003/05/21 21:31:14  pln
-/* Change #include line for f2c.h to aid compilation on Windows.
-/*
-/* Revision 1.1  2003/05/20 21:07:38  pln
-/* Minuit optimizer from CERN
-/* */
+ * Revision 1.2  2004/06/10 17:27:19  jchiang
+ * comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
+ *
+ * Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
+ * First import
+ *
+ * Revision 1.2  2003/05/21 21:31:14  pln
+ * Change #include line for f2c.h to aid compilation on Windows.
+ *
+ * Revision 1.1  2003/05/20 21:07:38  pln
+ * Minuit optimizer from CERN
+ * */
 /* Revision 1.2  2001/01/02 08:35:54  andras */
 /* *** empty log message *** */
 
@@ -3299,18 +3299,18 @@ L1000:
 /* $Id$ */
 
 /* $Log$
-/* Revision 1.2  2004/06/10 17:27:19  jchiang
-/* comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
-/*
-/* Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
-/* First import
-/*
-/* Revision 1.2  2003/05/21 21:31:14  pln
-/* Change #include line for f2c.h to aid compilation on Windows.
-/*
-/* Revision 1.1  2003/05/20 21:07:38  pln
-/* Minuit optimizer from CERN
-/* */
+ * Revision 1.2  2004/06/10 17:27:19  jchiang
+ * comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
+ *
+ * Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
+ * First import
+ *
+ * Revision 1.2  2003/05/21 21:31:14  pln
+ * Change #include line for f2c.h to aid compilation on Windows.
+ *
+ * Revision 1.1  2003/05/20 21:07:38  pln
+ * Minuit optimizer from CERN
+ * */
 /* Revision 1.1.1.1  2000/06/08 11:19:19  andras */
 /* import of MINUIT from CERNlib 2000 */
 
@@ -3379,18 +3379,18 @@ T.  MNDERI'/        ' PAR    DERIV     STEP      MINSTEP   OPTSTEP ',       \
 /* $Id$ */
 
 /* $Log$
-/* Revision 1.2  2004/06/10 17:27:19  jchiang
-/* comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
-/*
-/* Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
-/* First import
-/*
-/* Revision 1.2  2003/05/21 21:31:14  pln
-/* Change #include line for f2c.h to aid compilation on Windows.
-/*
-/* Revision 1.1  2003/05/20 21:07:38  pln
-/* Minuit optimizer from CERN
-/* */
+ * Revision 1.2  2004/06/10 17:27:19  jchiang
+ * comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
+ *
+ * Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
+ * First import
+ *
+ * Revision 1.2  2003/05/21 21:31:14  pln
+ * Change #include line for f2c.h to aid compilation on Windows.
+ *
+ * Revision 1.1  2003/05/20 21:07:38  pln
+ * Minuit optimizer from CERN
+ * */
 /* Revision 1.1.1.1  2000/06/08 11:19:21  andras */
 /* import of MINUIT from CERNlib 2000 */
 
@@ -3412,18 +3412,18 @@ T.  MNDERI'/        ' PAR    DERIV     STEP      MINSTEP   OPTSTEP ',       \
 /* $Id$ */
 
 /* $Log$
-/* Revision 1.2  2004/06/10 17:27:19  jchiang
-/* comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
-/*
-/* Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
-/* First import
-/*
-/* Revision 1.2  2003/05/21 21:31:14  pln
-/* Change #include line for f2c.h to aid compilation on Windows.
-/*
-/* Revision 1.1  2003/05/20 21:07:38  pln
-/* Minuit optimizer from CERN
-/* */
+ * Revision 1.2  2004/06/10 17:27:19  jchiang
+ * comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
+ *
+ * Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
+ * First import
+ *
+ * Revision 1.2  2003/05/21 21:31:14  pln
+ * Change #include line for f2c.h to aid compilation on Windows.
+ *
+ * Revision 1.1  2003/05/20 21:07:38  pln
+ * Minuit optimizer from CERN
+ * */
 /* Revision 1.2  2001/01/02 08:35:54  andras */
 /* *** empty log message *** */
 
@@ -3617,18 +3617,18 @@ L150:
 /* $Id$ */
 
 /* $Log$
-/* Revision 1.2  2004/06/10 17:27:19  jchiang
-/* comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
-/*
-/* Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
-/* First import
-/*
-/* Revision 1.2  2003/05/21 21:31:14  pln
-/* Change #include line for f2c.h to aid compilation on Windows.
-/*
-/* Revision 1.1  2003/05/20 21:07:38  pln
-/* Minuit optimizer from CERN
-/* */
+ * Revision 1.2  2004/06/10 17:27:19  jchiang
+ * comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
+ *
+ * Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
+ * First import
+ *
+ * Revision 1.2  2003/05/21 21:31:14  pln
+ * Change #include line for f2c.h to aid compilation on Windows.
+ *
+ * Revision 1.1  2003/05/20 21:07:38  pln
+ * Minuit optimizer from CERN
+ * */
 /* Revision 1.1.1.1  2000/06/08 11:19:19  andras */
 /* import of MINUIT from CERNlib 2000 */
 
@@ -3652,18 +3652,18 @@ L150:
 /* $Id$ */
 
 /* $Log$
-/* Revision 1.2  2004/06/10 17:27:19  jchiang
-/* comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
-/*
-/* Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
-/* First import
-/*
-/* Revision 1.2  2003/05/21 21:31:14  pln
-/* Change #include line for f2c.h to aid compilation on Windows.
-/*
-/* Revision 1.1  2003/05/20 21:07:38  pln
-/* Minuit optimizer from CERN
-/* */
+ * Revision 1.2  2004/06/10 17:27:19  jchiang
+ * comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
+ *
+ * Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
+ * First import
+ *
+ * Revision 1.2  2003/05/21 21:31:14  pln
+ * Change #include line for f2c.h to aid compilation on Windows.
+ *
+ * Revision 1.1  2003/05/20 21:07:38  pln
+ * Minuit optimizer from CERN
+ * */
 /* Revision 1.1.1.1  2000/06/08 11:19:21  andras */
 /* import of MINUIT from CERNlib 2000 */
 
@@ -3683,18 +3683,18 @@ L150:
 /* $Id$ */
 
 /* $Log$
-/* Revision 1.2  2004/06/10 17:27:19  jchiang
-/* comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
-/*
-/* Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
-/* First import
-/*
-/* Revision 1.2  2003/05/21 21:31:14  pln
-/* Change #include line for f2c.h to aid compilation on Windows.
-/*
-/* Revision 1.1  2003/05/20 21:07:38  pln
-/* Minuit optimizer from CERN
-/* */
+ * Revision 1.2  2004/06/10 17:27:19  jchiang
+ * comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
+ *
+ * Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
+ * First import
+ *
+ * Revision 1.2  2003/05/21 21:31:14  pln
+ * Change #include line for f2c.h to aid compilation on Windows.
+ *
+ * Revision 1.1  2003/05/20 21:07:38  pln
+ * Minuit optimizer from CERN
+ * */
 /* Revision 1.2  2001/01/02 08:35:54  andras */
 /* *** empty log message *** */
 
@@ -3723,18 +3723,18 @@ L150:
 /* $Id$ */
 
 /* $Log$
-/* Revision 1.2  2004/06/10 17:27:19  jchiang
-/* comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
-/*
-/* Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
-/* First import
-/*
-/* Revision 1.2  2003/05/21 21:31:14  pln
-/* Change #include line for f2c.h to aid compilation on Windows.
-/*
-/* Revision 1.1  2003/05/20 21:07:38  pln
-/* Minuit optimizer from CERN
-/* */
+ * Revision 1.2  2004/06/10 17:27:19  jchiang
+ * comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
+ *
+ * Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
+ * First import
+ *
+ * Revision 1.2  2003/05/21 21:31:14  pln
+ * Change #include line for f2c.h to aid compilation on Windows.
+ *
+ * Revision 1.1  2003/05/20 21:07:38  pln
+ * Minuit optimizer from CERN
+ * */
 /* Revision 1.1.1.1  2000/06/08 11:19:19  andras */
 /* import of MINUIT from CERNlib 2000 */
 
@@ -3763,18 +3763,18 @@ L150:
 /* $Id$ */
 
 /* $Log$
-/* Revision 1.2  2004/06/10 17:27:19  jchiang
-/* comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
-/*
-/* Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
-/* First import
-/*
-/* Revision 1.2  2003/05/21 21:31:14  pln
-/* Change #include line for f2c.h to aid compilation on Windows.
-/*
-/* Revision 1.1  2003/05/20 21:07:38  pln
-/* Minuit optimizer from CERN
-/* */
+ * Revision 1.2  2004/06/10 17:27:19  jchiang
+ * comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
+ *
+ * Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
+ * First import
+ *
+ * Revision 1.2  2003/05/21 21:31:14  pln
+ * Change #include line for f2c.h to aid compilation on Windows.
+ *
+ * Revision 1.1  2003/05/20 21:07:38  pln
+ * Minuit optimizer from CERN
+ * */
 /* Revision 1.1.1.1  2000/06/08 11:19:21  andras */
 /* import of MINUIT from CERNlib 2000 */
 
@@ -4077,18 +4077,18 @@ L240:
 /* $Id$ */
 
 /* $Log$
-/* Revision 1.2  2004/06/10 17:27:19  jchiang
-/* comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
-/*
-/* Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
-/* First import
-/*
-/* Revision 1.2  2003/05/21 21:31:14  pln
-/* Change #include line for f2c.h to aid compilation on Windows.
-/*
-/* Revision 1.1  2003/05/20 21:07:38  pln
-/* Minuit optimizer from CERN
-/* */
+ * Revision 1.2  2004/06/10 17:27:19  jchiang
+ * comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
+ *
+ * Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
+ * First import
+ *
+ * Revision 1.2  2003/05/21 21:31:14  pln
+ * Change #include line for f2c.h to aid compilation on Windows.
+ *
+ * Revision 1.1  2003/05/20 21:07:38  pln
+ * Minuit optimizer from CERN
+ * */
 /* Revision 1.1.1.1  2000/06/08 11:19:19  andras */
 /* import of MINUIT from CERNlib 2000 */
 
@@ -4123,18 +4123,18 @@ L240:
 /* $Id$ */
 
 /* $Log$
-/* Revision 1.2  2004/06/10 17:27:19  jchiang
-/* comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
-/*
-/* Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
-/* First import
-/*
-/* Revision 1.2  2003/05/21 21:31:14  pln
-/* Change #include line for f2c.h to aid compilation on Windows.
-/*
-/* Revision 1.1  2003/05/20 21:07:38  pln
-/* Minuit optimizer from CERN
-/* */
+ * Revision 1.2  2004/06/10 17:27:19  jchiang
+ * comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
+ *
+ * Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
+ * First import
+ *
+ * Revision 1.2  2003/05/21 21:31:14  pln
+ * Change #include line for f2c.h to aid compilation on Windows.
+ *
+ * Revision 1.1  2003/05/20 21:07:38  pln
+ * Minuit optimizer from CERN
+ * */
 /* Revision 1.1.1.1  2000/06/08 11:19:21  andras */
 /* import of MINUIT from CERNlib 2000 */
 
@@ -4153,18 +4153,18 @@ L240:
 /* $Id$ */
 
 /* $Log$
-/* Revision 1.2  2004/06/10 17:27:19  jchiang
-/* comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
-/*
-/* Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
-/* First import
-/*
-/* Revision 1.2  2003/05/21 21:31:14  pln
-/* Change #include line for f2c.h to aid compilation on Windows.
-/*
-/* Revision 1.1  2003/05/20 21:07:38  pln
-/* Minuit optimizer from CERN
-/* */
+ * Revision 1.2  2004/06/10 17:27:19  jchiang
+ * comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
+ *
+ * Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
+ * First import
+ *
+ * Revision 1.2  2003/05/21 21:31:14  pln
+ * Change #include line for f2c.h to aid compilation on Windows.
+ *
+ * Revision 1.1  2003/05/20 21:07:38  pln
+ * Minuit optimizer from CERN
+ * */
 /* Revision 1.2  2001/01/02 08:35:54  andras */
 /* *** empty log message *** */
 
@@ -4274,18 +4274,18 @@ ATED.", (ftnlen)54);
 /* $Id$ */
 
 /* $Log$
-/* Revision 1.2  2004/06/10 17:27:19  jchiang
-/* comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
-/*
-/* Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
-/* First import
-/*
-/* Revision 1.2  2003/05/21 21:31:14  pln
-/* Change #include line for f2c.h to aid compilation on Windows.
-/*
-/* Revision 1.1  2003/05/20 21:07:38  pln
-/* Minuit optimizer from CERN
-/* */
+ * Revision 1.2  2004/06/10 17:27:19  jchiang
+ * comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
+ *
+ * Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
+ * First import
+ *
+ * Revision 1.2  2003/05/21 21:31:14  pln
+ * Change #include line for f2c.h to aid compilation on Windows.
+ *
+ * Revision 1.1  2003/05/20 21:07:38  pln
+ * Minuit optimizer from CERN
+ * */
 /* Revision 1.1.1.1  2000/06/08 11:19:19  andras */
 /* import of MINUIT from CERNlib 2000 */
 
@@ -4313,18 +4313,18 @@ ATED.", (ftnlen)54);
 /* $Id$ */
 
 /* $Log$
-/* Revision 1.2  2004/06/10 17:27:19  jchiang
-/* comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
-/*
-/* Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
-/* First import
-/*
-/* Revision 1.2  2003/05/21 21:31:14  pln
-/* Change #include line for f2c.h to aid compilation on Windows.
-/*
-/* Revision 1.1  2003/05/20 21:07:38  pln
-/* Minuit optimizer from CERN
-/* */
+ * Revision 1.2  2004/06/10 17:27:19  jchiang
+ * comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
+ *
+ * Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
+ * First import
+ *
+ * Revision 1.2  2003/05/21 21:31:14  pln
+ * Change #include line for f2c.h to aid compilation on Windows.
+ *
+ * Revision 1.1  2003/05/20 21:07:38  pln
+ * Minuit optimizer from CERN
+ * */
 /* Revision 1.1.1.1  2000/06/08 11:19:21  andras */
 /* import of MINUIT from CERNlib 2000 */
 
@@ -4349,18 +4349,18 @@ ATED.", (ftnlen)54);
 /* $Id$ */
 
 /* $Log$
-/* Revision 1.2  2004/06/10 17:27:19  jchiang
-/* comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
-/*
-/* Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
-/* First import
-/*
-/* Revision 1.2  2003/05/21 21:31:14  pln
-/* Change #include line for f2c.h to aid compilation on Windows.
-/*
-/* Revision 1.1  2003/05/20 21:07:38  pln
-/* Minuit optimizer from CERN
-/* */
+ * Revision 1.2  2004/06/10 17:27:19  jchiang
+ * comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
+ *
+ * Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
+ * First import
+ *
+ * Revision 1.2  2003/05/21 21:31:14  pln
+ * Change #include line for f2c.h to aid compilation on Windows.
+ *
+ * Revision 1.1  2003/05/20 21:07:38  pln
+ * Minuit optimizer from CERN
+ * */
 /* Revision 1.2  2001/01/02 08:35:54  andras */
 /* *** empty log message *** */
 
@@ -4426,18 +4426,18 @@ L990:
 /* $Id$ */
 
 /* $Log$
-/* Revision 1.2  2004/06/10 17:27:19  jchiang
-/* comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
-/*
-/* Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
-/* First import
-/*
-/* Revision 1.2  2003/05/21 21:31:14  pln
-/* Change #include line for f2c.h to aid compilation on Windows.
-/*
-/* Revision 1.1  2003/05/20 21:07:38  pln
-/* Minuit optimizer from CERN
-/* */
+ * Revision 1.2  2004/06/10 17:27:19  jchiang
+ * comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
+ *
+ * Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
+ * First import
+ *
+ * Revision 1.2  2003/05/21 21:31:14  pln
+ * Change #include line for f2c.h to aid compilation on Windows.
+ *
+ * Revision 1.1  2003/05/20 21:07:38  pln
+ * Minuit optimizer from CERN
+ * */
 /* Revision 1.1.1.1  2000/06/08 11:19:19  andras */
 /* import of MINUIT from CERNlib 2000 */
 
@@ -4455,18 +4455,18 @@ L990:
 /* $Id$ */
 
 /* $Log$
-/* Revision 1.2  2004/06/10 17:27:19  jchiang
-/* comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
-/*
-/* Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
-/* First import
-/*
-/* Revision 1.2  2003/05/21 21:31:14  pln
-/* Change #include line for f2c.h to aid compilation on Windows.
-/*
-/* Revision 1.1  2003/05/20 21:07:38  pln
-/* Minuit optimizer from CERN
-/* */
+ * Revision 1.2  2004/06/10 17:27:19  jchiang
+ * comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
+ *
+ * Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
+ * First import
+ *
+ * Revision 1.2  2003/05/21 21:31:14  pln
+ * Change #include line for f2c.h to aid compilation on Windows.
+ *
+ * Revision 1.1  2003/05/20 21:07:38  pln
+ * Minuit optimizer from CERN
+ * */
 /* Revision 1.1.1.1  2000/06/08 11:19:21  andras */
 /* import of MINUIT from CERNlib 2000 */
 
@@ -4489,18 +4489,18 @@ L990:
 /* $Id$ */
 
 /* $Log$
-/* Revision 1.2  2004/06/10 17:27:19  jchiang
-/* comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
-/*
-/* Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
-/* First import
-/*
-/* Revision 1.2  2003/05/21 21:31:14  pln
-/* Change #include line for f2c.h to aid compilation on Windows.
-/*
-/* Revision 1.1  2003/05/20 21:07:38  pln
-/* Minuit optimizer from CERN
-/* */
+ * Revision 1.2  2004/06/10 17:27:19  jchiang
+ * comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
+ *
+ * Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
+ * First import
+ *
+ * Revision 1.2  2003/05/21 21:31:14  pln
+ * Change #include line for f2c.h to aid compilation on Windows.
+ *
+ * Revision 1.1  2003/05/20 21:07:38  pln
+ * Minuit optimizer from CERN
+ * */
 /* Revision 1.2  2001/01/02 08:35:54  andras */
 /* *** empty log message *** */
 
@@ -4549,18 +4549,18 @@ L990:
 /* $Id$ */
 
 /* $Log$
-/* Revision 1.2  2004/06/10 17:27:19  jchiang
-/* comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
-/*
-/* Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
-/* First import
-/*
-/* Revision 1.2  2003/05/21 21:31:14  pln
-/* Change #include line for f2c.h to aid compilation on Windows.
-/*
-/* Revision 1.1  2003/05/20 21:07:38  pln
-/* Minuit optimizer from CERN
-/* */
+ * Revision 1.2  2004/06/10 17:27:19  jchiang
+ * comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
+ *
+ * Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
+ * First import
+ *
+ * Revision 1.2  2003/05/21 21:31:14  pln
+ * Change #include line for f2c.h to aid compilation on Windows.
+ *
+ * Revision 1.1  2003/05/20 21:07:38  pln
+ * Minuit optimizer from CERN
+ * */
 /* Revision 1.1.1.1  2000/06/08 11:19:19  andras */
 /* import of MINUIT from CERNlib 2000 */
 
@@ -4679,18 +4679,18 @@ GIVES UP'/)", 0 };
 /* $Id$ */
 
 /* $Log$
-/* Revision 1.2  2004/06/10 17:27:19  jchiang
-/* comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
-/*
-/* Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
-/* First import
-/*
-/* Revision 1.2  2003/05/21 21:31:14  pln
-/* Change #include line for f2c.h to aid compilation on Windows.
-/*
-/* Revision 1.1  2003/05/20 21:07:38  pln
-/* Minuit optimizer from CERN
-/* */
+ * Revision 1.2  2004/06/10 17:27:19  jchiang
+ * comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
+ *
+ * Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
+ * First import
+ *
+ * Revision 1.2  2003/05/21 21:31:14  pln
+ * Change #include line for f2c.h to aid compilation on Windows.
+ *
+ * Revision 1.1  2003/05/20 21:07:38  pln
+ * Minuit optimizer from CERN
+ * */
 /* Revision 1.1.1.1  2000/06/08 11:19:21  andras */
 /* import of MINUIT from CERNlib 2000 */
 
@@ -4711,18 +4711,18 @@ GIVES UP'/)", 0 };
 /* $Id$ */
 
 /* $Log$
-/* Revision 1.2  2004/06/10 17:27:19  jchiang
-/* comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
-/*
-/* Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
-/* First import
-/*
-/* Revision 1.2  2003/05/21 21:31:14  pln
-/* Change #include line for f2c.h to aid compilation on Windows.
-/*
-/* Revision 1.1  2003/05/20 21:07:38  pln
-/* Minuit optimizer from CERN
-/* */
+ * Revision 1.2  2004/06/10 17:27:19  jchiang
+ * comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
+ *
+ * Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
+ * First import
+ *
+ * Revision 1.2  2003/05/21 21:31:14  pln
+ * Change #include line for f2c.h to aid compilation on Windows.
+ *
+ * Revision 1.1  2003/05/20 21:07:38  pln
+ * Minuit optimizer from CERN
+ * */
 /* Revision 1.2  2001/01/02 08:35:54  andras */
 /* *** empty log message *** */
 
@@ -5373,18 +5373,18 @@ L5000:
 /* $Id$ */
 
 /* $Log$
-/* Revision 1.2  2004/06/10 17:27:19  jchiang
-/* comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
-/*
-/* Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
-/* First import
-/*
-/* Revision 1.2  2003/05/21 21:31:14  pln
-/* Change #include line for f2c.h to aid compilation on Windows.
-/*
-/* Revision 1.1  2003/05/20 21:07:38  pln
-/* Minuit optimizer from CERN
-/* */
+ * Revision 1.2  2004/06/10 17:27:19  jchiang
+ * comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
+ *
+ * Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
+ * First import
+ *
+ * Revision 1.2  2003/05/21 21:31:14  pln
+ * Change #include line for f2c.h to aid compilation on Windows.
+ *
+ * Revision 1.1  2003/05/20 21:07:38  pln
+ * Minuit optimizer from CERN
+ * */
 /* Revision 1.1.1.1  2000/06/08 11:19:19  andras */
 /* import of MINUIT from CERNlib 2000 */
 
@@ -5407,18 +5407,18 @@ L5000:
 /* $Id$ */
 
 /* $Log$
-/* Revision 1.2  2004/06/10 17:27:19  jchiang
-/* comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
-/*
-/* Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
-/* First import
-/*
-/* Revision 1.2  2003/05/21 21:31:14  pln
-/* Change #include line for f2c.h to aid compilation on Windows.
-/*
-/* Revision 1.1  2003/05/20 21:07:38  pln
-/* Minuit optimizer from CERN
-/* */
+ * Revision 1.2  2004/06/10 17:27:19  jchiang
+ * comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
+ *
+ * Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
+ * First import
+ *
+ * Revision 1.2  2003/05/21 21:31:14  pln
+ * Change #include line for f2c.h to aid compilation on Windows.
+ *
+ * Revision 1.1  2003/05/20 21:07:38  pln
+ * Minuit optimizer from CERN
+ * */
 /* Revision 1.1.1.1  2000/06/08 11:19:21  andras */
 /* import of MINUIT from CERNlib 2000 */
 
@@ -5438,18 +5438,18 @@ L5000:
 /* $Id$ */
 
 /* $Log$
-/* Revision 1.2  2004/06/10 17:27:19  jchiang
-/* comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
-/*
-/* Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
-/* First import
-/*
-/* Revision 1.2  2003/05/21 21:31:14  pln
-/* Change #include line for f2c.h to aid compilation on Windows.
-/*
-/* Revision 1.1  2003/05/20 21:07:38  pln
-/* Minuit optimizer from CERN
-/* */
+ * Revision 1.2  2004/06/10 17:27:19  jchiang
+ * comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
+ *
+ * Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
+ * First import
+ *
+ * Revision 1.2  2003/05/21 21:31:14  pln
+ * Change #include line for f2c.h to aid compilation on Windows.
+ *
+ * Revision 1.1  2003/05/20 21:07:38  pln
+ * Minuit optimizer from CERN
+ * */
 /* Revision 1.2  2001/01/02 08:35:54  andras */
 /* *** empty log message *** */
 
@@ -5484,18 +5484,18 @@ L5000:
 /* $Id$ */
 
 /* $Log$
-/* Revision 1.2  2004/06/10 17:27:19  jchiang
-/* comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
-/*
-/* Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
-/* First import
-/*
-/* Revision 1.2  2003/05/21 21:31:14  pln
-/* Change #include line for f2c.h to aid compilation on Windows.
-/*
-/* Revision 1.1  2003/05/20 21:07:38  pln
-/* Minuit optimizer from CERN
-/* */
+ * Revision 1.2  2004/06/10 17:27:19  jchiang
+ * comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
+ *
+ * Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
+ * First import
+ *
+ * Revision 1.2  2003/05/21 21:31:14  pln
+ * Change #include line for f2c.h to aid compilation on Windows.
+ *
+ * Revision 1.1  2003/05/20 21:07:38  pln
+ * Minuit optimizer from CERN
+ * */
 /* Revision 1.1.1.1  2000/06/08 11:19:19  andras */
 /* import of MINUIT from CERNlib 2000 */
 
@@ -5526,18 +5526,18 @@ L5000:
 /* $Id$ */
 
 /* $Log$
-/* Revision 1.2  2004/06/10 17:27:19  jchiang
-/* comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
-/*
-/* Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
-/* First import
-/*
-/* Revision 1.2  2003/05/21 21:31:14  pln
-/* Change #include line for f2c.h to aid compilation on Windows.
-/*
-/* Revision 1.1  2003/05/20 21:07:38  pln
-/* Minuit optimizer from CERN
-/* */
+ * Revision 1.2  2004/06/10 17:27:19  jchiang
+ * comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
+ *
+ * Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
+ * First import
+ *
+ * Revision 1.2  2003/05/21 21:31:14  pln
+ * Change #include line for f2c.h to aid compilation on Windows.
+ *
+ * Revision 1.1  2003/05/20 21:07:38  pln
+ * Minuit optimizer from CERN
+ * */
 /* Revision 1.1.1.1  2000/06/08 11:19:21  andras */
 /* import of MINUIT from CERNlib 2000 */
 
@@ -5557,18 +5557,18 @@ L5000:
 /* $Id$ */
 
 /* $Log$
-/* Revision 1.2  2004/06/10 17:27:19  jchiang
-/* comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
-/*
-/* Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
-/* First import
-/*
-/* Revision 1.2  2003/05/21 21:31:14  pln
-/* Change #include line for f2c.h to aid compilation on Windows.
-/*
-/* Revision 1.1  2003/05/20 21:07:38  pln
-/* Minuit optimizer from CERN
-/* */
+ * Revision 1.2  2004/06/10 17:27:19  jchiang
+ * comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
+ *
+ * Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
+ * First import
+ *
+ * Revision 1.2  2003/05/21 21:31:14  pln
+ * Change #include line for f2c.h to aid compilation on Windows.
+ *
+ * Revision 1.1  2003/05/20 21:07:38  pln
+ * Minuit optimizer from CERN
+ * */
 /* Revision 1.2  2001/01/02 08:35:54  andras */
 /* *** empty log message *** */
 
@@ -5680,18 +5680,18 @@ L300:
 /* $Id$ */
 
 /* $Log$
-/* Revision 1.2  2004/06/10 17:27:19  jchiang
-/* comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
-/*
-/* Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
-/* First import
-/*
-/* Revision 1.2  2003/05/21 21:31:14  pln
-/* Change #include line for f2c.h to aid compilation on Windows.
-/*
-/* Revision 1.1  2003/05/20 21:07:38  pln
-/* Minuit optimizer from CERN
-/* */
+ * Revision 1.2  2004/06/10 17:27:19  jchiang
+ * comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
+ *
+ * Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
+ * First import
+ *
+ * Revision 1.2  2003/05/21 21:31:14  pln
+ * Change #include line for f2c.h to aid compilation on Windows.
+ *
+ * Revision 1.1  2003/05/20 21:07:38  pln
+ * Minuit optimizer from CERN
+ * */
 /* Revision 1.1.1.1  2000/06/08 11:19:19  andras */
 /* import of MINUIT from CERNlib 2000 */
 
@@ -5738,18 +5738,18 @@ ESTORED TO VARIABLE.\002)";
 /* $Id$ */
 
 /* $Log$
-/* Revision 1.2  2004/06/10 17:27:19  jchiang
-/* comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
-/*
-/* Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
-/* First import
-/*
-/* Revision 1.2  2003/05/21 21:31:14  pln
-/* Change #include line for f2c.h to aid compilation on Windows.
-/*
-/* Revision 1.1  2003/05/20 21:07:38  pln
-/* Minuit optimizer from CERN
-/* */
+ * Revision 1.2  2004/06/10 17:27:19  jchiang
+ * comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
+ *
+ * Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
+ * First import
+ *
+ * Revision 1.2  2003/05/21 21:31:14  pln
+ * Change #include line for f2c.h to aid compilation on Windows.
+ *
+ * Revision 1.1  2003/05/20 21:07:38  pln
+ * Minuit optimizer from CERN
+ * */
 /* Revision 1.1.1.1  2000/06/08 11:19:21  andras */
 /* import of MINUIT from CERNlib 2000 */
 
@@ -5770,18 +5770,18 @@ ESTORED TO VARIABLE.\002)";
 /* $Id$ */
 
 /* $Log$
-/* Revision 1.2  2004/06/10 17:27:19  jchiang
-/* comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
-/*
-/* Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
-/* First import
-/*
-/* Revision 1.2  2003/05/21 21:31:14  pln
-/* Change #include line for f2c.h to aid compilation on Windows.
-/*
-/* Revision 1.1  2003/05/20 21:07:38  pln
-/* Minuit optimizer from CERN
-/* */
+ * Revision 1.2  2004/06/10 17:27:19  jchiang
+ * comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
+ *
+ * Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
+ * First import
+ *
+ * Revision 1.2  2003/05/21 21:31:14  pln
+ * Change #include line for f2c.h to aid compilation on Windows.
+ *
+ * Revision 1.1  2003/05/20 21:07:38  pln
+ * Minuit optimizer from CERN
+ * */
 /* Revision 1.2  2001/01/02 08:35:54  andras */
 /* *** empty log message *** */
 
@@ -5934,18 +5934,18 @@ L300:
 /* $Id$ */
 
 /* $Log$
-/* Revision 1.2  2004/06/10 17:27:19  jchiang
-/* comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
-/*
-/* Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
-/* First import
-/*
-/* Revision 1.2  2003/05/21 21:31:14  pln
-/* Change #include line for f2c.h to aid compilation on Windows.
-/*
-/* Revision 1.1  2003/05/20 21:07:38  pln
-/* Minuit optimizer from CERN
-/* */
+ * Revision 1.2  2004/06/10 17:27:19  jchiang
+ * comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
+ *
+ * Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
+ * First import
+ *
+ * Revision 1.2  2003/05/21 21:31:14  pln
+ * Change #include line for f2c.h to aid compilation on Windows.
+ *
+ * Revision 1.1  2003/05/20 21:07:38  pln
+ * Minuit optimizer from CERN
+ * */
 /* Revision 1.1.1.1  2000/06/08 11:19:19  andras */
 /* import of MINUIT from CERNlib 2000 */
 
@@ -5997,18 +5997,18 @@ LATIONS BY FCN\002/\002 TO FORCE ACCEPTANCE, ENTER \"SET GRAD    1\"\002/)";
 /* $Id$ */
 
 /* $Log$
-/* Revision 1.2  2004/06/10 17:27:19  jchiang
-/* comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
-/*
-/* Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
-/* First import
-/*
-/* Revision 1.2  2003/05/21 21:31:14  pln
-/* Change #include line for f2c.h to aid compilation on Windows.
-/*
-/* Revision 1.1  2003/05/20 21:07:38  pln
-/* Minuit optimizer from CERN
-/* */
+ * Revision 1.2  2004/06/10 17:27:19  jchiang
+ * comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
+ *
+ * Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
+ * First import
+ *
+ * Revision 1.2  2003/05/21 21:31:14  pln
+ * Change #include line for f2c.h to aid compilation on Windows.
+ *
+ * Revision 1.1  2003/05/20 21:07:38  pln
+ * Minuit optimizer from CERN
+ * */
 /* Revision 1.1.1.1  2000/06/08 11:19:21  andras */
 /* import of MINUIT from CERNlib 2000 */
 
@@ -6031,18 +6031,18 @@ LATIONS BY FCN\002/\002 TO FORCE ACCEPTANCE, ENTER \"SET GRAD    1\"\002/)";
 /* $Id$ */
 
 /* $Log$
-/* Revision 1.2  2004/06/10 17:27:19  jchiang
-/* comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
-/*
-/* Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
-/* First import
-/*
-/* Revision 1.2  2003/05/21 21:31:14  pln
-/* Change #include line for f2c.h to aid compilation on Windows.
-/*
-/* Revision 1.1  2003/05/20 21:07:38  pln
-/* Minuit optimizer from CERN
-/* */
+ * Revision 1.2  2004/06/10 17:27:19  jchiang
+ * comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
+ *
+ * Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
+ * First import
+ *
+ * Revision 1.2  2003/05/21 21:31:14  pln
+ * Change #include line for f2c.h to aid compilation on Windows.
+ *
+ * Revision 1.1  2003/05/20 21:07:38  pln
+ * Minuit optimizer from CERN
+ * */
 /* Revision 1.2  2001/01/02 08:35:54  andras */
 /* *** empty log message *** */
 
@@ -6140,18 +6140,18 @@ L2000:
 /* $Id$ */
 
 /* $Log$
-/* Revision 1.2  2004/06/10 17:27:19  jchiang
-/* comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
-/*
-/* Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
-/* First import
-/*
-/* Revision 1.2  2003/05/21 21:31:14  pln
-/* Change #include line for f2c.h to aid compilation on Windows.
-/*
-/* Revision 1.1  2003/05/20 21:07:38  pln
-/* Minuit optimizer from CERN
-/* */
+ * Revision 1.2  2004/06/10 17:27:19  jchiang
+ * comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
+ *
+ * Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
+ * First import
+ *
+ * Revision 1.2  2003/05/21 21:31:14  pln
+ * Change #include line for f2c.h to aid compilation on Windows.
+ *
+ * Revision 1.1  2003/05/20 21:07:38  pln
+ * Minuit optimizer from CERN
+ * */
 /* Revision 1.1.1.1  2000/06/08 11:19:20  andras */
 /* import of MINUIT from CERNlib 2000 */
 
@@ -6890,18 +6890,18 @@ L99:
 /* $Id$ */
 
 /* $Log$
-/* Revision 1.2  2004/06/10 17:27:19  jchiang
-/* comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
-/*
-/* Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
-/* First import
-/*
-/* Revision 1.2  2003/05/21 21:31:14  pln
-/* Change #include line for f2c.h to aid compilation on Windows.
-/*
-/* Revision 1.1  2003/05/20 21:07:38  pln
-/* Minuit optimizer from CERN
-/* */
+ * Revision 1.2  2004/06/10 17:27:19  jchiang
+ * comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
+ *
+ * Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
+ * First import
+ *
+ * Revision 1.2  2003/05/21 21:31:14  pln
+ * Change #include line for f2c.h to aid compilation on Windows.
+ *
+ * Revision 1.1  2003/05/20 21:07:38  pln
+ * Minuit optimizer from CERN
+ * */
 /* Revision 1.1.1.1  2000/06/08 11:19:20  andras */
 /* import of MINUIT from CERNlib 2000 */
 
@@ -6954,18 +6954,18 @@ L99:
 /* $Id$ */
 
 /* $Log$
-/* Revision 1.2  2004/06/10 17:27:19  jchiang
-/* comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
-/*
-/* Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
-/* First import
-/*
-/* Revision 1.2  2003/05/21 21:31:14  pln
-/* Change #include line for f2c.h to aid compilation on Windows.
-/*
-/* Revision 1.1  2003/05/20 21:07:38  pln
-/* Minuit optimizer from CERN
-/* */
+ * Revision 1.2  2004/06/10 17:27:19  jchiang
+ * comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
+ *
+ * Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
+ * First import
+ *
+ * Revision 1.2  2003/05/21 21:31:14  pln
+ * Change #include line for f2c.h to aid compilation on Windows.
+ *
+ * Revision 1.1  2003/05/20 21:07:38  pln
+ * Minuit optimizer from CERN
+ * */
 /* Revision 1.1.1.1  2000/06/08 11:19:21  andras */
 /* import of MINUIT from CERNlib 2000 */
 
@@ -6985,18 +6985,18 @@ L99:
 /* $Id$ */
 
 /* $Log$
-/* Revision 1.2  2004/06/10 17:27:19  jchiang
-/* comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
-/*
-/* Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
-/* First import
-/*
-/* Revision 1.2  2003/05/21 21:31:14  pln
-/* Change #include line for f2c.h to aid compilation on Windows.
-/*
-/* Revision 1.1  2003/05/20 21:07:38  pln
-/* Minuit optimizer from CERN
-/* */
+ * Revision 1.2  2004/06/10 17:27:19  jchiang
+ * comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
+ *
+ * Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
+ * First import
+ *
+ * Revision 1.2  2003/05/21 21:31:14  pln
+ * Change #include line for f2c.h to aid compilation on Windows.
+ *
+ * Revision 1.1  2003/05/20 21:07:38  pln
+ * Minuit optimizer from CERN
+ * */
 /* Revision 1.2  2001/01/02 08:35:54  andras */
 /* *** empty log message *** */
 
@@ -7125,18 +7125,18 @@ L60:
 /* $Id$ */
 
 /* $Log$
-/* Revision 1.2  2004/06/10 17:27:19  jchiang
-/* comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
-/*
-/* Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
-/* First import
-/*
-/* Revision 1.2  2003/05/21 21:31:14  pln
-/* Change #include line for f2c.h to aid compilation on Windows.
-/*
-/* Revision 1.1  2003/05/20 21:07:38  pln
-/* Minuit optimizer from CERN
-/* */
+ * Revision 1.2  2004/06/10 17:27:19  jchiang
+ * comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
+ *
+ * Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
+ * First import
+ *
+ * Revision 1.2  2003/05/21 21:31:14  pln
+ * Change #include line for f2c.h to aid compilation on Windows.
+ *
+ * Revision 1.1  2003/05/20 21:07:38  pln
+ * Minuit optimizer from CERN
+ * */
 /* Revision 1.1.1.1  2000/06/08 11:19:20  andras */
 /* import of MINUIT from CERNlib 2000 */
 
@@ -7207,18 +7207,18 @@ L60:
 /* $Id$ */
 
 /* $Log$
-/* Revision 1.2  2004/06/10 17:27:19  jchiang
-/* comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
-/*
-/* Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
-/* First import
-/*
-/* Revision 1.2  2003/05/21 21:31:14  pln
-/* Change #include line for f2c.h to aid compilation on Windows.
-/*
-/* Revision 1.1  2003/05/20 21:07:38  pln
-/* Minuit optimizer from CERN
-/* */
+ * Revision 1.2  2004/06/10 17:27:19  jchiang
+ * comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
+ *
+ * Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
+ * First import
+ *
+ * Revision 1.2  2003/05/21 21:31:14  pln
+ * Change #include line for f2c.h to aid compilation on Windows.
+ *
+ * Revision 1.1  2003/05/20 21:07:38  pln
+ * Minuit optimizer from CERN
+ * */
 /* Revision 1.1.1.1  2000/06/08 11:19:21  andras */
 /* import of MINUIT from CERNlib 2000 */
 
@@ -7242,18 +7242,18 @@ L60:
 /* $Id$ */
 
 /* $Log$
-/* Revision 1.2  2004/06/10 17:27:19  jchiang
-/* comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
-/*
-/* Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
-/* First import
-/*
-/* Revision 1.2  2003/05/21 21:31:14  pln
-/* Change #include line for f2c.h to aid compilation on Windows.
-/*
-/* Revision 1.1  2003/05/20 21:07:38  pln
-/* Minuit optimizer from CERN
-/* */
+ * Revision 1.2  2004/06/10 17:27:19  jchiang
+ * comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
+ *
+ * Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
+ * First import
+ *
+ * Revision 1.2  2003/05/21 21:31:14  pln
+ * Change #include line for f2c.h to aid compilation on Windows.
+ *
+ * Revision 1.1  2003/05/20 21:07:38  pln
+ * Minuit optimizer from CERN
+ * */
 /* Revision 1.2  2001/01/02 08:35:54  andras */
 /* *** empty log message *** */
 
@@ -7606,18 +7606,18 @@ L900:
 /* $Id$ */
 
 /* $Log$
-/* Revision 1.2  2004/06/10 17:27:19  jchiang
-/* comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
-/*
-/* Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
-/* First import
-/*
-/* Revision 1.2  2003/05/21 21:31:14  pln
-/* Change #include line for f2c.h to aid compilation on Windows.
-/*
-/* Revision 1.1  2003/05/20 21:07:38  pln
-/* Minuit optimizer from CERN
-/* */
+ * Revision 1.2  2004/06/10 17:27:19  jchiang
+ * comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
+ *
+ * Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
+ * First import
+ *
+ * Revision 1.2  2003/05/21 21:31:14  pln
+ * Change #include line for f2c.h to aid compilation on Windows.
+ *
+ * Revision 1.1  2003/05/20 21:07:38  pln
+ * Minuit optimizer from CERN
+ * */
 /* Revision 1.1.1.1  2000/06/08 11:19:20  andras */
 /* import of MINUIT from CERNlib 2000 */
 
@@ -7685,18 +7685,18 @@ AL MINIMUM\002)";
 /* $Id$ */
 
 /* $Log$
-/* Revision 1.2  2004/06/10 17:27:19  jchiang
-/* comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
-/*
-/* Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
-/* First import
-/*
-/* Revision 1.2  2003/05/21 21:31:14  pln
-/* Change #include line for f2c.h to aid compilation on Windows.
-/*
-/* Revision 1.1  2003/05/20 21:07:38  pln
-/* Minuit optimizer from CERN
-/* */
+ * Revision 1.2  2004/06/10 17:27:19  jchiang
+ * comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
+ *
+ * Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
+ * First import
+ *
+ * Revision 1.2  2003/05/21 21:31:14  pln
+ * Change #include line for f2c.h to aid compilation on Windows.
+ *
+ * Revision 1.1  2003/05/20 21:07:38  pln
+ * Minuit optimizer from CERN
+ * */
 /* Revision 1.1.1.1  2000/06/08 11:19:21  andras */
 /* import of MINUIT from CERNlib 2000 */
 
@@ -7719,18 +7719,18 @@ AL MINIMUM\002)";
 /* $Id$ */
 
 /* $Log$
-/* Revision 1.2  2004/06/10 17:27:19  jchiang
-/* comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
-/*
-/* Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
-/* First import
-/*
-/* Revision 1.2  2003/05/21 21:31:14  pln
-/* Change #include line for f2c.h to aid compilation on Windows.
-/*
-/* Revision 1.1  2003/05/20 21:07:38  pln
-/* Minuit optimizer from CERN
-/* */
+ * Revision 1.2  2004/06/10 17:27:19  jchiang
+ * comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
+ *
+ * Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
+ * First import
+ *
+ * Revision 1.2  2003/05/21 21:31:14  pln
+ * Change #include line for f2c.h to aid compilation on Windows.
+ *
+ * Revision 1.1  2003/05/20 21:07:38  pln
+ * Minuit optimizer from CERN
+ * */
 /* Revision 1.2  2001/01/02 08:35:54  andras */
 /* *** empty log message *** */
 
@@ -8036,18 +8036,18 @@ L380:
 /* $Id$ */
 
 /* $Log$
-/* Revision 1.2  2004/06/10 17:27:19  jchiang
-/* comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
-/*
-/* Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
-/* First import
-/*
-/* Revision 1.2  2003/05/21 21:31:14  pln
-/* Change #include line for f2c.h to aid compilation on Windows.
-/*
-/* Revision 1.1  2003/05/20 21:07:38  pln
-/* Minuit optimizer from CERN
-/* */
+ * Revision 1.2  2004/06/10 17:27:19  jchiang
+ * comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
+ *
+ * Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
+ * First import
+ *
+ * Revision 1.2  2003/05/21 21:31:14  pln
+ * Change #include line for f2c.h to aid compilation on Windows.
+ *
+ * Revision 1.1  2003/05/20 21:07:38  pln
+ * Minuit optimizer from CERN
+ * */
 /* Revision 1.1.1.1  2000/06/08 11:19:20  andras */
 /* import of MINUIT from CERNlib 2000 */
 
@@ -8070,18 +8070,18 @@ L380:
 /* $Id$ */
 
 /* $Log$
-/* Revision 1.2  2004/06/10 17:27:19  jchiang
-/* comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
-/*
-/* Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
-/* First import
-/*
-/* Revision 1.2  2003/05/21 21:31:14  pln
-/* Change #include line for f2c.h to aid compilation on Windows.
-/*
-/* Revision 1.1  2003/05/20 21:07:38  pln
-/* Minuit optimizer from CERN
-/* */
+ * Revision 1.2  2004/06/10 17:27:19  jchiang
+ * comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
+ *
+ * Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
+ * First import
+ *
+ * Revision 1.2  2003/05/21 21:31:14  pln
+ * Change #include line for f2c.h to aid compilation on Windows.
+ *
+ * Revision 1.1  2003/05/20 21:07:38  pln
+ * Minuit optimizer from CERN
+ * */
 /* Revision 1.1.1.1  2000/06/08 11:19:21  andras */
 /* import of MINUIT from CERNlib 2000 */
 
@@ -8101,18 +8101,18 @@ L380:
 /* $Id$ */
 
 /* $Log$
-/* Revision 1.2  2004/06/10 17:27:19  jchiang
-/* comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
-/*
-/* Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
-/* First import
-/*
-/* Revision 1.2  2003/05/21 21:31:14  pln
-/* Change #include line for f2c.h to aid compilation on Windows.
-/*
-/* Revision 1.1  2003/05/20 21:07:38  pln
-/* Minuit optimizer from CERN
-/* */
+ * Revision 1.2  2004/06/10 17:27:19  jchiang
+ * comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
+ *
+ * Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
+ * First import
+ *
+ * Revision 1.2  2003/05/21 21:31:14  pln
+ * Change #include line for f2c.h to aid compilation on Windows.
+ *
+ * Revision 1.1  2003/05/20 21:07:38  pln
+ * Minuit optimizer from CERN
+ * */
 /* Revision 1.2  2001/01/02 08:35:54  andras */
 /* *** empty log message *** */
 
@@ -8151,18 +8151,18 @@ L380:
 /* $Id$ */
 
 /* $Log$
-/* Revision 1.2  2004/06/10 17:27:19  jchiang
-/* comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
-/*
-/* Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
-/* First import
-/*
-/* Revision 1.2  2003/05/21 21:31:14  pln
-/* Change #include line for f2c.h to aid compilation on Windows.
-/*
-/* Revision 1.1  2003/05/20 21:07:38  pln
-/* Minuit optimizer from CERN
-/* */
+ * Revision 1.2  2004/06/10 17:27:19  jchiang
+ * comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
+ *
+ * Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
+ * First import
+ *
+ * Revision 1.2  2003/05/21 21:31:14  pln
+ * Change #include line for f2c.h to aid compilation on Windows.
+ *
+ * Revision 1.1  2003/05/20 21:07:38  pln
+ * Minuit optimizer from CERN
+ * */
 /* Revision 1.1.1.1  2000/06/08 11:19:20  andras */
 /* import of MINUIT from CERNlib 2000 */
 
@@ -8218,18 +8218,18 @@ L380:
 /* $Id$ */
 
 /* $Log$
-/* Revision 1.2  2004/06/10 17:27:19  jchiang
-/* comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
-/*
-/* Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
-/* First import
-/*
-/* Revision 1.2  2003/05/21 21:31:14  pln
-/* Change #include line for f2c.h to aid compilation on Windows.
-/*
-/* Revision 1.1  2003/05/20 21:07:38  pln
-/* Minuit optimizer from CERN
-/* */
+ * Revision 1.2  2004/06/10 17:27:19  jchiang
+ * comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
+ *
+ * Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
+ * First import
+ *
+ * Revision 1.2  2003/05/21 21:31:14  pln
+ * Change #include line for f2c.h to aid compilation on Windows.
+ *
+ * Revision 1.1  2003/05/20 21:07:38  pln
+ * Minuit optimizer from CERN
+ * */
 /* Revision 1.1.1.1  2000/06/08 11:19:21  andras */
 /* import of MINUIT from CERNlib 2000 */
 
@@ -8250,18 +8250,18 @@ L380:
 /* $Id$ */
 
 /* $Log$
-/* Revision 1.2  2004/06/10 17:27:19  jchiang
-/* comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
-/*
-/* Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
-/* First import
-/*
-/* Revision 1.2  2003/05/21 21:31:14  pln
-/* Change #include line for f2c.h to aid compilation on Windows.
-/*
-/* Revision 1.1  2003/05/20 21:07:38  pln
-/* Minuit optimizer from CERN
-/* */
+ * Revision 1.2  2004/06/10 17:27:19  jchiang
+ * comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
+ *
+ * Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
+ * First import
+ *
+ * Revision 1.2  2003/05/21 21:31:14  pln
+ * Change #include line for f2c.h to aid compilation on Windows.
+ *
+ * Revision 1.1  2003/05/20 21:07:38  pln
+ * Minuit optimizer from CERN
+ * */
 /* Revision 1.2  2001/01/02 08:35:54  andras */
 /* *** empty log message *** */
 
@@ -8385,18 +8385,18 @@ L35:
 /* $Id$ */
 
 /* $Log$
-/* Revision 1.2  2004/06/10 17:27:19  jchiang
-/* comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
-/*
-/* Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
-/* First import
-/*
-/* Revision 1.2  2003/05/21 21:31:14  pln
-/* Change #include line for f2c.h to aid compilation on Windows.
-/*
-/* Revision 1.1  2003/05/20 21:07:38  pln
-/* Minuit optimizer from CERN
-/* */
+ * Revision 1.2  2004/06/10 17:27:19  jchiang
+ * comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
+ *
+ * Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
+ * First import
+ *
+ * Revision 1.2  2003/05/21 21:31:14  pln
+ * Change #include line for f2c.h to aid compilation on Windows.
+ *
+ * Revision 1.1  2003/05/20 21:07:38  pln
+ * Minuit optimizer from CERN
+ * */
 /* Revision 1.1.1.1  2000/06/08 11:19:20  andras */
 /* import of MINUIT from CERNlib 2000 */
 
@@ -8419,18 +8419,18 @@ L35:
 /* $Id$ */
 
 /* $Log$
-/* Revision 1.2  2004/06/10 17:27:19  jchiang
-/* comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
-/*
-/* Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
-/* First import
-/*
-/* Revision 1.2  2003/05/21 21:31:14  pln
-/* Change #include line for f2c.h to aid compilation on Windows.
-/*
-/* Revision 1.1  2003/05/20 21:07:38  pln
-/* Minuit optimizer from CERN
-/* */
+ * Revision 1.2  2004/06/10 17:27:19  jchiang
+ * comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
+ *
+ * Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
+ * First import
+ *
+ * Revision 1.2  2003/05/21 21:31:14  pln
+ * Change #include line for f2c.h to aid compilation on Windows.
+ *
+ * Revision 1.1  2003/05/20 21:07:38  pln
+ * Minuit optimizer from CERN
+ * */
 /* Revision 1.1.1.1  2000/06/08 11:19:21  andras */
 /* import of MINUIT from CERNlib 2000 */
 
@@ -8452,18 +8452,18 @@ L35:
 /* $Id$ */
 
 /* $Log$
-/* Revision 1.2  2004/06/10 17:27:19  jchiang
-/* comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
-/*
-/* Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
-/* First import
-/*
-/* Revision 1.2  2003/05/21 21:31:14  pln
-/* Change #include line for f2c.h to aid compilation on Windows.
-/*
-/* Revision 1.1  2003/05/20 21:07:38  pln
-/* Minuit optimizer from CERN
-/* */
+ * Revision 1.2  2004/06/10 17:27:19  jchiang
+ * comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
+ *
+ * Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
+ * First import
+ *
+ * Revision 1.2  2003/05/21 21:31:14  pln
+ * Change #include line for f2c.h to aid compilation on Windows.
+ *
+ * Revision 1.1  2003/05/20 21:07:38  pln
+ * Minuit optimizer from CERN
+ * */
 /* Revision 1.2  2001/01/02 08:35:54  andras */
 /* *** empty log message *** */
 
@@ -8521,18 +8521,18 @@ L800:
 /* $Id$ */
 
 /* $Log$
-/* Revision 1.2  2004/06/10 17:27:19  jchiang
-/* comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
-/*
-/* Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
-/* First import
-/*
-/* Revision 1.2  2003/05/21 21:31:14  pln
-/* Change #include line for f2c.h to aid compilation on Windows.
-/*
-/* Revision 1.1  2003/05/20 21:07:38  pln
-/* Minuit optimizer from CERN
-/* */
+ * Revision 1.2  2004/06/10 17:27:19  jchiang
+ * comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
+ *
+ * Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
+ * First import
+ *
+ * Revision 1.2  2003/05/21 21:31:14  pln
+ * Change #include line for f2c.h to aid compilation on Windows.
+ *
+ * Revision 1.1  2003/05/20 21:07:38  pln
+ * Minuit optimizer from CERN
+ * */
 /* Revision 1.1.1.1  2000/06/08 11:19:20  andras */
 /* import of MINUIT from CERNlib 2000 */
 
@@ -8557,18 +8557,18 @@ L800:
 /* $Id$ */
 
 /* $Log$
-/* Revision 1.2  2004/06/10 17:27:19  jchiang
-/* comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
-/*
-/* Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
-/* First import
-/*
-/* Revision 1.2  2003/05/21 21:31:14  pln
-/* Change #include line for f2c.h to aid compilation on Windows.
-/*
-/* Revision 1.1  2003/05/20 21:07:38  pln
-/* Minuit optimizer from CERN
-/* */
+ * Revision 1.2  2004/06/10 17:27:19  jchiang
+ * comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
+ *
+ * Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
+ * First import
+ *
+ * Revision 1.2  2003/05/21 21:31:14  pln
+ * Change #include line for f2c.h to aid compilation on Windows.
+ *
+ * Revision 1.1  2003/05/20 21:07:38  pln
+ * Minuit optimizer from CERN
+ * */
 /* Revision 1.1.1.1  2000/06/08 11:19:21  andras */
 /* import of MINUIT from CERNlib 2000 */
 
@@ -8588,18 +8588,18 @@ L800:
 /* $Id$ */
 
 /* $Log$
-/* Revision 1.2  2004/06/10 17:27:19  jchiang
-/* comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
-/*
-/* Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
-/* First import
-/*
-/* Revision 1.2  2003/05/21 21:31:14  pln
-/* Change #include line for f2c.h to aid compilation on Windows.
-/*
-/* Revision 1.1  2003/05/20 21:07:38  pln
-/* Minuit optimizer from CERN
-/* */
+ * Revision 1.2  2004/06/10 17:27:19  jchiang
+ * comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
+ *
+ * Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
+ * First import
+ *
+ * Revision 1.2  2003/05/21 21:31:14  pln
+ * Change #include line for f2c.h to aid compilation on Windows.
+ *
+ * Revision 1.1  2003/05/20 21:07:38  pln
+ * Minuit optimizer from CERN
+ * */
 /* Revision 1.2  2001/01/02 08:35:54  andras */
 /* *** empty log message *** */
 
@@ -8629,18 +8629,18 @@ L800:
 /* $Id$ */
 
 /* $Log$
-/* Revision 1.2  2004/06/10 17:27:19  jchiang
-/* comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
-/*
-/* Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
-/* First import
-/*
-/* Revision 1.2  2003/05/21 21:31:14  pln
-/* Change #include line for f2c.h to aid compilation on Windows.
-/*
-/* Revision 1.1  2003/05/20 21:07:38  pln
-/* Minuit optimizer from CERN
-/* */
+ * Revision 1.2  2004/06/10 17:27:19  jchiang
+ * comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
+ *
+ * Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
+ * First import
+ *
+ * Revision 1.2  2003/05/21 21:31:14  pln
+ * Change #include line for f2c.h to aid compilation on Windows.
+ *
+ * Revision 1.1  2003/05/20 21:07:38  pln
+ * Minuit optimizer from CERN
+ * */
 /* Revision 1.1.1.1  2000/06/08 11:19:20  andras */
 /* import of MINUIT from CERNlib 2000 */
 
@@ -8704,18 +8704,18 @@ g15.5)";
 /* $Id$ */
 
 /* $Log$
-/* Revision 1.2  2004/06/10 17:27:19  jchiang
-/* comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
-/*
-/* Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
-/* First import
-/*
-/* Revision 1.2  2003/05/21 21:31:14  pln
-/* Change #include line for f2c.h to aid compilation on Windows.
-/*
-/* Revision 1.1  2003/05/20 21:07:38  pln
-/* Minuit optimizer from CERN
-/* */
+ * Revision 1.2  2004/06/10 17:27:19  jchiang
+ * comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
+ *
+ * Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
+ * First import
+ *
+ * Revision 1.2  2003/05/21 21:31:14  pln
+ * Change #include line for f2c.h to aid compilation on Windows.
+ *
+ * Revision 1.1  2003/05/20 21:07:38  pln
+ * Minuit optimizer from CERN
+ * */
 /* Revision 1.1.1.1  2000/06/08 11:19:21  andras */
 /* import of MINUIT from CERNlib 2000 */
 
@@ -8735,18 +8735,18 @@ g15.5)";
 /* $Id$ */
 
 /* $Log$
-/* Revision 1.2  2004/06/10 17:27:19  jchiang
-/* comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
-/*
-/* Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
-/* First import
-/*
-/* Revision 1.2  2003/05/21 21:31:14  pln
-/* Change #include line for f2c.h to aid compilation on Windows.
-/*
-/* Revision 1.1  2003/05/20 21:07:38  pln
-/* Minuit optimizer from CERN
-/* */
+ * Revision 1.2  2004/06/10 17:27:19  jchiang
+ * comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
+ *
+ * Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
+ * First import
+ *
+ * Revision 1.2  2003/05/21 21:31:14  pln
+ * Change #include line for f2c.h to aid compilation on Windows.
+ *
+ * Revision 1.1  2003/05/20 21:07:38  pln
+ * Minuit optimizer from CERN
+ * */
 /* Revision 1.2  2001/01/02 08:35:54  andras */
 /* *** empty log message *** */
 
@@ -8936,18 +8936,18 @@ L900:
 /* $Id$ */
 
 /* $Log$
-/* Revision 1.2  2004/06/10 17:27:19  jchiang
-/* comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
-/*
-/* Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
-/* First import
-/*
-/* Revision 1.2  2003/05/21 21:31:14  pln
-/* Change #include line for f2c.h to aid compilation on Windows.
-/*
-/* Revision 1.1  2003/05/20 21:07:38  pln
-/* Minuit optimizer from CERN
-/* */
+ * Revision 1.2  2004/06/10 17:27:19  jchiang
+ * comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
+ *
+ * Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
+ * First import
+ *
+ * Revision 1.2  2003/05/21 21:31:14  pln
+ * Change #include line for f2c.h to aid compilation on Windows.
+ *
+ * Revision 1.1  2003/05/20 21:07:38  pln
+ * Minuit optimizer from CERN
+ * */
 /* Revision 1.1.1.1  2000/06/08 11:19:20  andras */
 /* import of MINUIT from CERNlib 2000 */
 
@@ -9004,18 +9004,18 @@ L900:
 /* $Id$ */
 
 /* $Log$
-/* Revision 1.2  2004/06/10 17:27:19  jchiang
-/* comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
-/*
-/* Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
-/* First import
-/*
-/* Revision 1.2  2003/05/21 21:31:14  pln
-/* Change #include line for f2c.h to aid compilation on Windows.
-/*
-/* Revision 1.1  2003/05/20 21:07:38  pln
-/* Minuit optimizer from CERN
-/* */
+ * Revision 1.2  2004/06/10 17:27:19  jchiang
+ * comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
+ *
+ * Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
+ * First import
+ *
+ * Revision 1.2  2003/05/21 21:31:14  pln
+ * Change #include line for f2c.h to aid compilation on Windows.
+ *
+ * Revision 1.1  2003/05/20 21:07:38  pln
+ * Minuit optimizer from CERN
+ * */
 /* Revision 1.1.1.1  2000/06/08 11:19:21  andras */
 /* import of MINUIT from CERNlib 2000 */
 
@@ -9038,18 +9038,18 @@ L900:
 /* $Id$ */
 
 /* $Log$
-/* Revision 1.2  2004/06/10 17:27:19  jchiang
-/* comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
-/*
-/* Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
-/* First import
-/*
-/* Revision 1.2  2003/05/21 21:31:14  pln
-/* Change #include line for f2c.h to aid compilation on Windows.
-/*
-/* Revision 1.1  2003/05/20 21:07:38  pln
-/* Minuit optimizer from CERN
-/* */
+ * Revision 1.2  2004/06/10 17:27:19  jchiang
+ * comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
+ *
+ * Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
+ * First import
+ *
+ * Revision 1.2  2003/05/21 21:31:14  pln
+ * Change #include line for f2c.h to aid compilation on Windows.
+ *
+ * Revision 1.1  2003/05/20 21:07:38  pln
+ * Minuit optimizer from CERN
+ * */
 /* Revision 1.2  2001/01/02 08:35:54  andras */
 /* *** empty log message *** */
 
@@ -9369,18 +9369,18 @@ L100:
 /* $Id$ */
 
 /* $Log$
-/* Revision 1.2  2004/06/10 17:27:19  jchiang
-/* comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
-/*
-/* Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
-/* First import
-/*
-/* Revision 1.2  2003/05/21 21:31:14  pln
-/* Change #include line for f2c.h to aid compilation on Windows.
-/*
-/* Revision 1.1  2003/05/20 21:07:38  pln
-/* Minuit optimizer from CERN
-/* */
+ * Revision 1.2  2004/06/10 17:27:19  jchiang
+ * comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
+ *
+ * Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
+ * First import
+ *
+ * Revision 1.2  2003/05/21 21:31:14  pln
+ * Change #include line for f2c.h to aid compilation on Windows.
+ *
+ * Revision 1.1  2003/05/20 21:07:38  pln
+ * Minuit optimizer from CERN
+ * */
 /* Revision 1.1.1.1  2000/06/08 11:19:20  andras */
 /* import of MINUIT from CERNlib 2000 */
 
@@ -9426,18 +9426,18 @@ L100:
 /* $Id$ */
 
 /* $Log$
-/* Revision 1.2  2004/06/10 17:27:19  jchiang
-/* comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
-/*
-/* Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
-/* First import
-/*
-/* Revision 1.2  2003/05/21 21:31:14  pln
-/* Change #include line for f2c.h to aid compilation on Windows.
-/*
-/* Revision 1.1  2003/05/20 21:07:38  pln
-/* Minuit optimizer from CERN
-/* */
+ * Revision 1.2  2004/06/10 17:27:19  jchiang
+ * comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
+ *
+ * Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
+ * First import
+ *
+ * Revision 1.2  2003/05/21 21:31:14  pln
+ * Change #include line for f2c.h to aid compilation on Windows.
+ *
+ * Revision 1.1  2003/05/20 21:07:38  pln
+ * Minuit optimizer from CERN
+ * */
 /* Revision 1.1.1.1  2000/06/08 11:19:21  andras */
 /* import of MINUIT from CERNlib 2000 */
 
@@ -9458,18 +9458,18 @@ L100:
 /* $Id$ */
 
 /* $Log$
-/* Revision 1.2  2004/06/10 17:27:19  jchiang
-/* comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
-/*
-/* Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
-/* First import
-/*
-/* Revision 1.2  2003/05/21 21:31:14  pln
-/* Change #include line for f2c.h to aid compilation on Windows.
-/*
-/* Revision 1.1  2003/05/20 21:07:38  pln
-/* Minuit optimizer from CERN
-/* */
+ * Revision 1.2  2004/06/10 17:27:19  jchiang
+ * comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
+ *
+ * Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
+ * First import
+ *
+ * Revision 1.2  2003/05/21 21:31:14  pln
+ * Change #include line for f2c.h to aid compilation on Windows.
+ *
+ * Revision 1.1  2003/05/20 21:07:38  pln
+ * Minuit optimizer from CERN
+ * */
 /* Revision 1.2  2001/01/02 08:35:54  andras */
 /* *** empty log message *** */
 
@@ -9594,18 +9594,18 @@ L500:
 /* $Id$ */
 
 /* $Log$
-/* Revision 1.2  2004/06/10 17:27:19  jchiang
-/* comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
-/*
-/* Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
-/* First import
-/*
-/* Revision 1.2  2003/05/21 21:31:14  pln
-/* Change #include line for f2c.h to aid compilation on Windows.
-/*
-/* Revision 1.1  2003/05/20 21:07:38  pln
-/* Minuit optimizer from CERN
-/* */
+ * Revision 1.2  2004/06/10 17:27:19  jchiang
+ * comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
+ *
+ * Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
+ * First import
+ *
+ * Revision 1.2  2003/05/21 21:31:14  pln
+ * Change #include line for f2c.h to aid compilation on Windows.
+ *
+ * Revision 1.1  2003/05/20 21:07:38  pln
+ * Minuit optimizer from CERN
+ * */
 /* Revision 1.1.1.1  2000/06/08 11:19:20  andras */
 /* import of MINUIT from CERNlib 2000 */
 
@@ -9689,18 +9689,18 @@ i2,\002.  CONVERGENCE WHEN EDM .LT.\002,e9.2)";
 /* $Id$ */
 
 /* $Log$
-/* Revision 1.2  2004/06/10 17:27:19  jchiang
-/* comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
-/*
-/* Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
-/* First import
-/*
-/* Revision 1.2  2003/05/21 21:31:14  pln
-/* Change #include line for f2c.h to aid compilation on Windows.
-/*
-/* Revision 1.1  2003/05/20 21:07:38  pln
-/* Minuit optimizer from CERN
-/* */
+ * Revision 1.2  2004/06/10 17:27:19  jchiang
+ * comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
+ *
+ * Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
+ * First import
+ *
+ * Revision 1.2  2003/05/21 21:31:14  pln
+ * Change #include line for f2c.h to aid compilation on Windows.
+ *
+ * Revision 1.1  2003/05/20 21:07:38  pln
+ * Minuit optimizer from CERN
+ * */
 /* Revision 1.1.1.1  2000/06/08 11:19:21  andras */
 /* import of MINUIT from CERNlib 2000 */
 
@@ -9721,18 +9721,18 @@ i2,\002.  CONVERGENCE WHEN EDM .LT.\002,e9.2)";
 /* $Id$ */
 
 /* $Log$
-/* Revision 1.2  2004/06/10 17:27:19  jchiang
-/* comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
-/*
-/* Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
-/* First import
-/*
-/* Revision 1.2  2003/05/21 21:31:14  pln
-/* Change #include line for f2c.h to aid compilation on Windows.
-/*
-/* Revision 1.1  2003/05/20 21:07:38  pln
-/* Minuit optimizer from CERN
-/* */
+ * Revision 1.2  2004/06/10 17:27:19  jchiang
+ * comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
+ *
+ * Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
+ * First import
+ *
+ * Revision 1.2  2003/05/21 21:31:14  pln
+ * Change #include line for f2c.h to aid compilation on Windows.
+ *
+ * Revision 1.1  2003/05/20 21:07:38  pln
+ * Minuit optimizer from CERN
+ * */
 /* Revision 1.2  2001/01/02 08:35:54  andras */
 /* *** empty log message *** */
 
@@ -10234,18 +10234,18 @@ L400:
 /* $Id$ */
 
 /* $Log$
-/* Revision 1.2  2004/06/10 17:27:19  jchiang
-/* comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
-/*
-/* Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
-/* First import
-/*
-/* Revision 1.2  2003/05/21 21:31:14  pln
-/* Change #include line for f2c.h to aid compilation on Windows.
-/*
-/* Revision 1.1  2003/05/20 21:07:38  pln
-/* Minuit optimizer from CERN
-/* */
+ * Revision 1.2  2004/06/10 17:27:19  jchiang
+ * comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
+ *
+ * Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
+ * First import
+ *
+ * Revision 1.2  2003/05/21 21:31:14  pln
+ * Change #include line for f2c.h to aid compilation on Windows.
+ *
+ * Revision 1.1  2003/05/20 21:07:38  pln
+ * Minuit optimizer from CERN
+ * */
 /* Revision 1.1.1.1  2000/06/08 11:19:20  andras */
 /* import of MINUIT from CERNlib 2000 */
 
@@ -10287,18 +10287,18 @@ V\002/57x,\002VVVVVVV\002/58x,\002VVVVV\002/59x,\002VVV\002/60x,\002V\002//)";
 /* $Id$ */
 
 /* $Log$
-/* Revision 1.2  2004/06/10 17:27:19  jchiang
-/* comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
-/*
-/* Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
-/* First import
-/*
-/* Revision 1.2  2003/05/21 21:31:14  pln
-/* Change #include line for f2c.h to aid compilation on Windows.
-/*
-/* Revision 1.1  2003/05/20 21:07:38  pln
-/* Minuit optimizer from CERN
-/* */
+ * Revision 1.2  2004/06/10 17:27:19  jchiang
+ * comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
+ *
+ * Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
+ * First import
+ *
+ * Revision 1.2  2003/05/21 21:31:14  pln
+ * Change #include line for f2c.h to aid compilation on Windows.
+ *
+ * Revision 1.1  2003/05/20 21:07:38  pln
+ * Minuit optimizer from CERN
+ * */
 /* Revision 1.1.1.1  2000/06/08 11:19:21  andras */
 /* import of MINUIT from CERNlib 2000 */
 
@@ -10318,18 +10318,18 @@ V\002/57x,\002VVVVVVV\002/58x,\002VVVVV\002/59x,\002VVV\002/60x,\002V\002//)";
 /* $Id$ */
 
 /* $Log$
-/* Revision 1.2  2004/06/10 17:27:19  jchiang
-/* comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
-/*
-/* Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
-/* First import
-/*
-/* Revision 1.2  2003/05/21 21:31:14  pln
-/* Change #include line for f2c.h to aid compilation on Windows.
-/*
-/* Revision 1.1  2003/05/20 21:07:38  pln
-/* Minuit optimizer from CERN
-/* */
+ * Revision 1.2  2004/06/10 17:27:19  jchiang
+ * comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
+ *
+ * Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
+ * First import
+ *
+ * Revision 1.2  2003/05/21 21:31:14  pln
+ * Change #include line for f2c.h to aid compilation on Windows.
+ *
+ * Revision 1.1  2003/05/20 21:07:38  pln
+ * Minuit optimizer from CERN
+ * */
 /* Revision 1.2  2001/01/02 08:35:54  andras */
 /* *** empty log message *** */
 
@@ -10447,18 +10447,18 @@ L900:
 /* $Id$ */
 
 /* $Log$
-/* Revision 1.2  2004/06/10 17:27:19  jchiang
-/* comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
-/*
-/* Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
-/* First import
-/*
-/* Revision 1.2  2003/05/21 21:31:14  pln
-/* Change #include line for f2c.h to aid compilation on Windows.
-/*
-/* Revision 1.1  2003/05/20 21:07:38  pln
-/* Minuit optimizer from CERN
-/* */
+ * Revision 1.2  2004/06/10 17:27:19  jchiang
+ * comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
+ *
+ * Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
+ * First import
+ *
+ * Revision 1.2  2003/05/21 21:31:14  pln
+ * Change #include line for f2c.h to aid compilation on Windows.
+ *
+ * Revision 1.1  2003/05/20 21:07:38  pln
+ * Minuit optimizer from CERN
+ * */
 /* Revision 1.1.1.1  2000/06/08 11:19:20  andras */
 /* import of MINUIT from CERNlib 2000 */
 
@@ -10532,18 +10532,18 @@ PARAMETER\002,i4/)";
 /* $Id$ */
 
 /* $Log$
-/* Revision 1.2  2004/06/10 17:27:19  jchiang
-/* comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
-/*
-/* Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
-/* First import
-/*
-/* Revision 1.2  2003/05/21 21:31:14  pln
-/* Change #include line for f2c.h to aid compilation on Windows.
-/*
-/* Revision 1.1  2003/05/20 21:07:38  pln
-/* Minuit optimizer from CERN
-/* */
+ * Revision 1.2  2004/06/10 17:27:19  jchiang
+ * comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
+ *
+ * Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
+ * First import
+ *
+ * Revision 1.2  2003/05/21 21:31:14  pln
+ * Change #include line for f2c.h to aid compilation on Windows.
+ *
+ * Revision 1.1  2003/05/20 21:07:38  pln
+ * Minuit optimizer from CERN
+ * */
 /* Revision 1.1.1.1  2000/06/08 11:19:21  andras */
 /* import of MINUIT from CERNlib 2000 */
 
@@ -10565,18 +10565,18 @@ PARAMETER\002,i4/)";
 /* $Id$ */
 
 /* $Log$
-/* Revision 1.2  2004/06/10 17:27:19  jchiang
-/* comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
-/*
-/* Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
-/* First import
-/*
-/* Revision 1.2  2003/05/21 21:31:14  pln
-/* Change #include line for f2c.h to aid compilation on Windows.
-/*
-/* Revision 1.1  2003/05/20 21:07:38  pln
-/* Minuit optimizer from CERN
-/* */
+ * Revision 1.2  2004/06/10 17:27:19  jchiang
+ * comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
+ *
+ * Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
+ * First import
+ *
+ * Revision 1.2  2003/05/21 21:31:14  pln
+ * Change #include line for f2c.h to aid compilation on Windows.
+ *
+ * Revision 1.1  2003/05/20 21:07:38  pln
+ * Minuit optimizer from CERN
+ * */
 /* Revision 1.2  2001/01/02 08:35:54  andras */
 /* *** empty log message *** */
 
@@ -10845,18 +10845,18 @@ L700:
 /* $Id$ */
 
 /* $Log$
-/* Revision 1.2  2004/06/10 17:27:19  jchiang
-/* comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
-/*
-/* Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
-/* First import
-/*
-/* Revision 1.2  2003/05/21 21:31:14  pln
-/* Change #include line for f2c.h to aid compilation on Windows.
-/*
-/* Revision 1.1  2003/05/20 21:07:38  pln
-/* Minuit optimizer from CERN
-/* */
+ * Revision 1.2  2004/06/10 17:27:19  jchiang
+ * comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
+ *
+ * Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
+ * First import
+ *
+ * Revision 1.2  2003/05/21 21:31:14  pln
+ * Change #include line for f2c.h to aid compilation on Windows.
+ *
+ * Revision 1.1  2003/05/20 21:07:38  pln
+ * Minuit optimizer from CERN
+ * */
 /* Revision 1.1.1.1  2000/06/08 11:19:20  andras */
 /* import of MINUIT from CERNlib 2000 */
 
@@ -10947,18 +10947,18 @@ ARAMETERS.\002/\002 THIS VERSION OF MINUIT DIMENSIONED FOR\002,i4//)";
 /* $Id$ */
 
 /* $Log$
-/* Revision 1.2  2004/06/10 17:27:19  jchiang
-/* comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
-/*
-/* Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
-/* First import
-/*
-/* Revision 1.2  2003/05/21 21:31:14  pln
-/* Change #include line for f2c.h to aid compilation on Windows.
-/*
-/* Revision 1.1  2003/05/20 21:07:38  pln
-/* Minuit optimizer from CERN
-/* */
+ * Revision 1.2  2004/06/10 17:27:19  jchiang
+ * comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
+ *
+ * Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
+ * First import
+ *
+ * Revision 1.2  2003/05/21 21:31:14  pln
+ * Change #include line for f2c.h to aid compilation on Windows.
+ *
+ * Revision 1.1  2003/05/20 21:07:38  pln
+ * Minuit optimizer from CERN
+ * */
 /* Revision 1.1.1.1  2000/06/08 11:19:21  andras */
 /* import of MINUIT from CERNlib 2000 */
 
@@ -10986,18 +10986,18 @@ ARAMETERS.\002/\002 THIS VERSION OF MINUIT DIMENSIONED FOR\002,i4//)";
 /* $Id$ */
 
 /* $Log$
-/* Revision 1.2  2004/06/10 17:27:19  jchiang
-/* comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
-/*
-/* Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
-/* First import
-/*
-/* Revision 1.2  2003/05/21 21:31:14  pln
-/* Change #include line for f2c.h to aid compilation on Windows.
-/*
-/* Revision 1.1  2003/05/20 21:07:38  pln
-/* Minuit optimizer from CERN
-/* */
+ * Revision 1.2  2004/06/10 17:27:19  jchiang
+ * comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
+ *
+ * Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
+ * First import
+ *
+ * Revision 1.2  2003/05/21 21:31:14  pln
+ * Change #include line for f2c.h to aid compilation on Windows.
+ *
+ * Revision 1.1  2003/05/20 21:07:38  pln
+ * Minuit optimizer from CERN
+ * */
 /* Revision 1.2  2001/01/02 08:35:54  andras */
 /* *** empty log message *** */
 
@@ -11284,18 +11284,18 @@ L800:
 /* $Id$ */
 
 /* $Log$
-/* Revision 1.2  2004/06/10 17:27:19  jchiang
-/* comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
-/*
-/* Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
-/* First import
-/*
-/* Revision 1.2  2003/05/21 21:31:14  pln
-/* Change #include line for f2c.h to aid compilation on Windows.
-/*
-/* Revision 1.1  2003/05/20 21:07:38  pln
-/* Minuit optimizer from CERN
-/* */
+ * Revision 1.2  2004/06/10 17:27:19  jchiang
+ * comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
+ *
+ * Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
+ * First import
+ *
+ * Revision 1.2  2003/05/21 21:31:14  pln
+ * Change #include line for f2c.h to aid compilation on Windows.
+ *
+ * Revision 1.1  2003/05/20 21:07:38  pln
+ * Minuit optimizer from CERN
+ * */
 /* Revision 1.1.1.1  2000/06/08 11:19:20  andras */
 /* import of MINUIT from CERNlib 2000 */
 
@@ -11345,18 +11345,18 @@ L800:
 /* $Id$ */
 
 /* $Log$
-/* Revision 1.2  2004/06/10 17:27:19  jchiang
-/* comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
-/*
-/* Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
-/* First import
-/*
-/* Revision 1.2  2003/05/21 21:31:14  pln
-/* Change #include line for f2c.h to aid compilation on Windows.
-/*
-/* Revision 1.1  2003/05/20 21:07:38  pln
-/* Minuit optimizer from CERN
-/* */
+ * Revision 1.2  2004/06/10 17:27:19  jchiang
+ * comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
+ *
+ * Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
+ * First import
+ *
+ * Revision 1.2  2003/05/21 21:31:14  pln
+ * Change #include line for f2c.h to aid compilation on Windows.
+ *
+ * Revision 1.1  2003/05/20 21:07:38  pln
+ * Minuit optimizer from CERN
+ * */
 /* Revision 1.1.1.1  2000/06/08 11:19:21  andras */
 /* import of MINUIT from CERNlib 2000 */
 
@@ -11382,18 +11382,18 @@ L800:
 /* $Id$ */
 
 /* $Log$
-/* Revision 1.2  2004/06/10 17:27:19  jchiang
-/* comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
-/*
-/* Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
-/* First import
-/*
-/* Revision 1.2  2003/05/21 21:31:14  pln
-/* Change #include line for f2c.h to aid compilation on Windows.
-/*
-/* Revision 1.1  2003/05/20 21:07:38  pln
-/* Minuit optimizer from CERN
-/* */
+ * Revision 1.2  2004/06/10 17:27:19  jchiang
+ * comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
+ *
+ * Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
+ * First import
+ *
+ * Revision 1.2  2003/05/21 21:31:14  pln
+ * Change #include line for f2c.h to aid compilation on Windows.
+ *
+ * Revision 1.1  2003/05/20 21:07:38  pln
+ * Minuit optimizer from CERN
+ * */
 /* Revision 1.2  2001/01/02 08:35:54  andras */
 /* *** empty log message *** */
 
@@ -11564,18 +11564,18 @@ L210:
 /* $Id$ */
 
 /* $Log$
-/* Revision 1.2  2004/06/10 17:27:19  jchiang
-/* comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
-/*
-/* Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
-/* First import
-/*
-/* Revision 1.2  2003/05/21 21:31:14  pln
-/* Change #include line for f2c.h to aid compilation on Windows.
-/*
-/* Revision 1.1  2003/05/20 21:07:38  pln
-/* Minuit optimizer from CERN
-/* */
+ * Revision 1.2  2004/06/10 17:27:19  jchiang
+ * comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
+ *
+ * Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
+ * First import
+ *
+ * Revision 1.2  2003/05/21 21:31:14  pln
+ * Change #include line for f2c.h to aid compilation on Windows.
+ *
+ * Revision 1.1  2003/05/20 21:07:38  pln
+ * Minuit optimizer from CERN
+ * */
 /* Revision 1.1.1.1  2000/06/08 11:19:20  andras */
 /* import of MINUIT from CERNlib 2000 */
 
@@ -11599,18 +11599,18 @@ L210:
 /* $Id$ */
 
 /* $Log$
-/* Revision 1.2  2004/06/10 17:27:19  jchiang
-/* comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
-/*
-/* Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
-/* First import
-/*
-/* Revision 1.2  2003/05/21 21:31:14  pln
-/* Change #include line for f2c.h to aid compilation on Windows.
-/*
-/* Revision 1.1  2003/05/20 21:07:38  pln
-/* Minuit optimizer from CERN
-/* */
+ * Revision 1.2  2004/06/10 17:27:19  jchiang
+ * comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
+ *
+ * Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
+ * First import
+ *
+ * Revision 1.2  2003/05/21 21:31:14  pln
+ * Change #include line for f2c.h to aid compilation on Windows.
+ *
+ * Revision 1.1  2003/05/20 21:07:38  pln
+ * Minuit optimizer from CERN
+ * */
 /* Revision 1.1.1.1  2000/06/08 11:19:21  andras */
 /* import of MINUIT from CERNlib 2000 */
 
@@ -11713,18 +11713,18 @@ L10:
 /* $Id$ */
 
 /* $Log$
-/* Revision 1.2  2004/06/10 17:27:19  jchiang
-/* comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
-/*
-/* Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
-/* First import
-/*
-/* Revision 1.2  2003/05/21 21:31:14  pln
-/* Change #include line for f2c.h to aid compilation on Windows.
-/*
-/* Revision 1.1  2003/05/20 21:07:38  pln
-/* Minuit optimizer from CERN
-/* */
+ * Revision 1.2  2004/06/10 17:27:19  jchiang
+ * comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
+ *
+ * Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
+ * First import
+ *
+ * Revision 1.2  2003/05/21 21:31:14  pln
+ * Change #include line for f2c.h to aid compilation on Windows.
+ *
+ * Revision 1.1  2003/05/20 21:07:38  pln
+ * Minuit optimizer from CERN
+ * */
 /* Revision 1.1.1.1  2000/06/08 11:19:20  andras */
 /* import of MINUIT from CERNlib 2000 */
 
@@ -11764,18 +11764,18 @@ L10:
 /* $Id$ */
 
 /* $Log$
-/* Revision 1.2  2004/06/10 17:27:19  jchiang
-/* comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
-/*
-/* Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
-/* First import
-/*
-/* Revision 1.2  2003/05/21 21:31:14  pln
-/* Change #include line for f2c.h to aid compilation on Windows.
-/*
-/* Revision 1.1  2003/05/20 21:07:38  pln
-/* Minuit optimizer from CERN
-/* */
+ * Revision 1.2  2004/06/10 17:27:19  jchiang
+ * comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
+ *
+ * Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
+ * First import
+ *
+ * Revision 1.2  2003/05/21 21:31:14  pln
+ * Change #include line for f2c.h to aid compilation on Windows.
+ *
+ * Revision 1.1  2003/05/20 21:07:38  pln
+ * Minuit optimizer from CERN
+ * */
 /* Revision 1.1.1.1  2000/06/08 11:19:21  andras */
 /* import of MINUIT from CERNlib 2000 */
 
@@ -11795,18 +11795,18 @@ L10:
 /* $Id$ */
 
 /* $Log$
-/* Revision 1.2  2004/06/10 17:27:19  jchiang
-/* comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
-/*
-/* Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
-/* First import
-/*
-/* Revision 1.2  2003/05/21 21:31:14  pln
-/* Change #include line for f2c.h to aid compilation on Windows.
-/*
-/* Revision 1.1  2003/05/20 21:07:38  pln
-/* Minuit optimizer from CERN
-/* */
+ * Revision 1.2  2004/06/10 17:27:19  jchiang
+ * comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
+ *
+ * Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
+ * First import
+ *
+ * Revision 1.2  2003/05/21 21:31:14  pln
+ * Change #include line for f2c.h to aid compilation on Windows.
+ *
+ * Revision 1.1  2003/05/20 21:07:38  pln
+ * Minuit optimizer from CERN
+ * */
 /* Revision 1.2  2001/01/02 08:35:54  andras */
 /* *** empty log message *** */
 
@@ -11871,18 +11871,18 @@ L10:
 /* $Id$ */
 
 /* $Log$
-/* Revision 1.2  2004/06/10 17:27:19  jchiang
-/* comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
-/*
-/* Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
-/* First import
-/*
-/* Revision 1.2  2003/05/21 21:31:14  pln
-/* Change #include line for f2c.h to aid compilation on Windows.
-/*
-/* Revision 1.1  2003/05/20 21:07:38  pln
-/* Minuit optimizer from CERN
-/* */
+ * Revision 1.2  2004/06/10 17:27:19  jchiang
+ * comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
+ *
+ * Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
+ * First import
+ *
+ * Revision 1.2  2003/05/21 21:31:14  pln
+ * Change #include line for f2c.h to aid compilation on Windows.
+ *
+ * Revision 1.1  2003/05/20 21:07:38  pln
+ * Minuit optimizer from CERN
+ * */
 /* Revision 1.1.1.1  2000/06/08 11:19:20  andras */
 /* import of MINUIT from CERNlib 2000 */
 
@@ -11938,18 +11938,18 @@ L10:
 /* $Id$ */
 
 /* $Log$
-/* Revision 1.2  2004/06/10 17:27:19  jchiang
-/* comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
-/*
-/* Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
-/* First import
-/*
-/* Revision 1.2  2003/05/21 21:31:14  pln
-/* Change #include line for f2c.h to aid compilation on Windows.
-/*
-/* Revision 1.1  2003/05/20 21:07:38  pln
-/* Minuit optimizer from CERN
-/* */
+ * Revision 1.2  2004/06/10 17:27:19  jchiang
+ * comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
+ *
+ * Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
+ * First import
+ *
+ * Revision 1.2  2003/05/21 21:31:14  pln
+ * Change #include line for f2c.h to aid compilation on Windows.
+ *
+ * Revision 1.1  2003/05/20 21:07:38  pln
+ * Minuit optimizer from CERN
+ * */
 /* Revision 1.1.1.1  2000/06/08 11:19:21  andras */
 /* import of MINUIT from CERNlib 2000 */
 
@@ -12197,18 +12197,18 @@ L400:
 /* $Id$ */
 
 /* $Log$
-/* Revision 1.2  2004/06/10 17:27:19  jchiang
-/* comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
-/*
-/* Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
-/* First import
-/*
-/* Revision 1.2  2003/05/21 21:31:14  pln
-/* Change #include line for f2c.h to aid compilation on Windows.
-/*
-/* Revision 1.1  2003/05/20 21:07:38  pln
-/* Minuit optimizer from CERN
-/* */
+ * Revision 1.2  2004/06/10 17:27:19  jchiang
+ * comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
+ *
+ * Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
+ * First import
+ *
+ * Revision 1.2  2003/05/21 21:31:14  pln
+ * Change #include line for f2c.h to aid compilation on Windows.
+ *
+ * Revision 1.1  2003/05/20 21:07:38  pln
+ * Minuit optimizer from CERN
+ * */
 /* Revision 1.1.1.1  2000/06/08 11:19:20  andras */
 /* import of MINUIT from CERNlib 2000 */
 
@@ -12230,18 +12230,18 @@ L400:
 /* $Id$ */
 
 /* $Log$
-/* Revision 1.2  2004/06/10 17:27:19  jchiang
-/* comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
-/*
-/* Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
-/* First import
-/*
-/* Revision 1.2  2003/05/21 21:31:14  pln
-/* Change #include line for f2c.h to aid compilation on Windows.
-/*
-/* Revision 1.1  2003/05/20 21:07:38  pln
-/* Minuit optimizer from CERN
-/* */
+ * Revision 1.2  2004/06/10 17:27:19  jchiang
+ * comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
+ *
+ * Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
+ * First import
+ *
+ * Revision 1.2  2003/05/21 21:31:14  pln
+ * Change #include line for f2c.h to aid compilation on Windows.
+ *
+ * Revision 1.1  2003/05/20 21:07:38  pln
+ * Minuit optimizer from CERN
+ * */
 /* Revision 1.1.1.1  2000/06/08 11:19:21  andras */
 /* import of MINUIT from CERNlib 2000 */
 
@@ -12272,18 +12272,18 @@ L400:
 /* $Id$ */
 
 /* $Log$
-/* Revision 1.2  2004/06/10 17:27:19  jchiang
-/* comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
-/*
-/* Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
-/* First import
-/*
-/* Revision 1.2  2003/05/21 21:31:14  pln
-/* Change #include line for f2c.h to aid compilation on Windows.
-/*
-/* Revision 1.1  2003/05/20 21:07:38  pln
-/* Minuit optimizer from CERN
-/* */
+ * Revision 1.2  2004/06/10 17:27:19  jchiang
+ * comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
+ *
+ * Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
+ * First import
+ *
+ * Revision 1.2  2003/05/21 21:31:14  pln
+ * Change #include line for f2c.h to aid compilation on Windows.
+ *
+ * Revision 1.1  2003/05/20 21:07:38  pln
+ * Minuit optimizer from CERN
+ * */
 /* Revision 1.2  2001/01/02 08:35:54  andras */
 /* *** empty log message *** */
 
@@ -12352,18 +12352,18 @@ L100:
 /* $Id$ */
 
 /* $Log$
-/* Revision 1.2  2004/06/10 17:27:19  jchiang
-/* comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
-/*
-/* Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
-/* First import
-/*
-/* Revision 1.2  2003/05/21 21:31:14  pln
-/* Change #include line for f2c.h to aid compilation on Windows.
-/*
-/* Revision 1.1  2003/05/20 21:07:38  pln
-/* Minuit optimizer from CERN
-/* */
+ * Revision 1.2  2004/06/10 17:27:19  jchiang
+ * comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
+ *
+ * Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
+ * First import
+ *
+ * Revision 1.2  2003/05/21 21:31:14  pln
+ * Change #include line for f2c.h to aid compilation on Windows.
+ *
+ * Revision 1.1  2003/05/20 21:07:38  pln
+ * Minuit optimizer from CERN
+ * */
 /* Revision 1.1.1.1  2000/06/08 11:19:20  andras */
 /* import of MINUIT from CERNlib 2000 */
 
@@ -12440,18 +12440,18 @@ ER IS AT LIMIT.\002)";
 /* $Id$ */
 
 /* $Log$
-/* Revision 1.2  2004/06/10 17:27:19  jchiang
-/* comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
-/*
-/* Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
-/* First import
-/*
-/* Revision 1.2  2003/05/21 21:31:14  pln
-/* Change #include line for f2c.h to aid compilation on Windows.
-/*
-/* Revision 1.1  2003/05/20 21:07:38  pln
-/* Minuit optimizer from CERN
-/* */
+ * Revision 1.2  2004/06/10 17:27:19  jchiang
+ * comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
+ *
+ * Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
+ * First import
+ *
+ * Revision 1.2  2003/05/21 21:31:14  pln
+ * Change #include line for f2c.h to aid compilation on Windows.
+ *
+ * Revision 1.1  2003/05/20 21:07:38  pln
+ * Minuit optimizer from CERN
+ * */
 /* Revision 1.1.1.1  2000/06/08 11:19:21  andras */
 /* import of MINUIT from CERNlib 2000 */
 
@@ -12480,18 +12480,18 @@ ER IS AT LIMIT.\002)";
 /* $Id$ */
 
 /* $Log$
-/* Revision 1.2  2004/06/10 17:27:19  jchiang
-/* comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
-/*
-/* Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
-/* First import
-/*
-/* Revision 1.2  2003/05/21 21:31:14  pln
-/* Change #include line for f2c.h to aid compilation on Windows.
-/*
-/* Revision 1.1  2003/05/20 21:07:38  pln
-/* Minuit optimizer from CERN
-/* */
+ * Revision 1.2  2004/06/10 17:27:19  jchiang
+ * comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
+ *
+ * Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
+ * First import
+ *
+ * Revision 1.2  2003/05/21 21:31:14  pln
+ * Change #include line for f2c.h to aid compilation on Windows.
+ *
+ * Revision 1.1  2003/05/20 21:07:38  pln
+ * Minuit optimizer from CERN
+ * */
 /* Revision 1.2  2001/01/02 08:35:54  andras */
 /* *** empty log message *** */
 
@@ -12808,18 +12808,18 @@ L700:
 /* $Id$ */
 
 /* $Log$
-/* Revision 1.2  2004/06/10 17:27:19  jchiang
-/* comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
-/*
-/* Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
-/* First import
-/*
-/* Revision 1.2  2003/05/21 21:31:14  pln
-/* Change #include line for f2c.h to aid compilation on Windows.
-/*
-/* Revision 1.1  2003/05/20 21:07:38  pln
-/* Minuit optimizer from CERN
-/* */
+ * Revision 1.2  2004/06/10 17:27:19  jchiang
+ * comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
+ *
+ * Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
+ * First import
+ *
+ * Revision 1.2  2003/05/21 21:31:14  pln
+ * Change #include line for f2c.h to aid compilation on Windows.
+ *
+ * Revision 1.1  2003/05/20 21:07:38  pln
+ * Minuit optimizer from CERN
+ * */
 /* Revision 1.1.1.1  2000/06/08 11:19:20  andras */
 /* import of MINUIT from CERNlib 2000 */
 
@@ -12891,18 +12891,18 @@ L700:
 /* $Id$ */
 
 /* $Log$
-/* Revision 1.2  2004/06/10 17:27:19  jchiang
-/* comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
-/*
-/* Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
-/* First import
-/*
-/* Revision 1.2  2003/05/21 21:31:14  pln
-/* Change #include line for f2c.h to aid compilation on Windows.
-/*
-/* Revision 1.1  2003/05/20 21:07:38  pln
-/* Minuit optimizer from CERN
-/* */
+ * Revision 1.2  2004/06/10 17:27:19  jchiang
+ * comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
+ *
+ * Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
+ * First import
+ *
+ * Revision 1.2  2003/05/21 21:31:14  pln
+ * Change #include line for f2c.h to aid compilation on Windows.
+ *
+ * Revision 1.1  2003/05/20 21:07:38  pln
+ * Minuit optimizer from CERN
+ * */
 /* Revision 1.1.1.1  2000/06/08 11:19:21  andras */
 /* import of MINUIT from CERNlib 2000 */
 
@@ -12921,18 +12921,18 @@ L700:
 /* $Id$ */
 
 /* $Log$
-/* Revision 1.2  2004/06/10 17:27:19  jchiang
-/* comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
-/*
-/* Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
-/* First import
-/*
-/* Revision 1.2  2003/05/21 21:31:14  pln
-/* Change #include line for f2c.h to aid compilation on Windows.
-/*
-/* Revision 1.1  2003/05/20 21:07:38  pln
-/* Minuit optimizer from CERN
-/* */
+ * Revision 1.2  2004/06/10 17:27:19  jchiang
+ * comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
+ *
+ * Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
+ * First import
+ *
+ * Revision 1.2  2003/05/21 21:31:14  pln
+ * Change #include line for f2c.h to aid compilation on Windows.
+ *
+ * Revision 1.1  2003/05/20 21:07:38  pln
+ * Minuit optimizer from CERN
+ * */
 /* Revision 1.2  2001/01/02 08:35:54  andras */
 /* *** empty log message *** */
 
@@ -13066,18 +13066,18 @@ L217:
 /* $Id$ */
 
 /* $Log$
-/* Revision 1.2  2004/06/10 17:27:19  jchiang
-/* comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
-/*
-/* Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
-/* First import
-/*
-/* Revision 1.2  2003/05/21 21:31:14  pln
-/* Change #include line for f2c.h to aid compilation on Windows.
-/*
-/* Revision 1.1  2003/05/20 21:07:38  pln
-/* Minuit optimizer from CERN
-/* */
+ * Revision 1.2  2004/06/10 17:27:19  jchiang
+ * comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
+ *
+ * Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
+ * First import
+ *
+ * Revision 1.2  2003/05/21 21:31:14  pln
+ * Change #include line for f2c.h to aid compilation on Windows.
+ *
+ * Revision 1.1  2003/05/20 21:07:38  pln
+ * Minuit optimizer from CERN
+ * */
 /* Revision 1.1.1.1  2000/06/08 11:19:20  andras */
 /* import of MINUIT from CERNlib 2000 */
 
@@ -13115,18 +13115,18 @@ L217:
 /* $Id$ */
 
 /* $Log$
-/* Revision 1.2  2004/06/10 17:27:19  jchiang
-/* comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
-/*
-/* Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
-/* First import
-/*
-/* Revision 1.2  2003/05/21 21:31:14  pln
-/* Change #include line for f2c.h to aid compilation on Windows.
-/*
-/* Revision 1.1  2003/05/20 21:07:38  pln
-/* Minuit optimizer from CERN
-/* */
+ * Revision 1.2  2004/06/10 17:27:19  jchiang
+ * comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
+ *
+ * Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
+ * First import
+ *
+ * Revision 1.2  2003/05/21 21:31:14  pln
+ * Change #include line for f2c.h to aid compilation on Windows.
+ *
+ * Revision 1.1  2003/05/20 21:07:38  pln
+ * Minuit optimizer from CERN
+ * */
 /* Revision 1.1.1.1  2000/06/08 11:19:21  andras */
 /* import of MINUIT from CERNlib 2000 */
 
@@ -13147,18 +13147,18 @@ L217:
 /* $Id$ */
 
 /* $Log$
-/* Revision 1.2  2004/06/10 17:27:19  jchiang
-/* comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
-/*
-/* Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
-/* First import
-/*
-/* Revision 1.2  2003/05/21 21:31:14  pln
-/* Change #include line for f2c.h to aid compilation on Windows.
-/*
-/* Revision 1.1  2003/05/20 21:07:38  pln
-/* Minuit optimizer from CERN
-/* */
+ * Revision 1.2  2004/06/10 17:27:19  jchiang
+ * comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
+ *
+ * Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
+ * First import
+ *
+ * Revision 1.2  2003/05/21 21:31:14  pln
+ * Change #include line for f2c.h to aid compilation on Windows.
+ *
+ * Revision 1.1  2003/05/20 21:07:38  pln
+ * Minuit optimizer from CERN
+ * */
 /* Revision 1.2  2001/01/02 08:35:54  andras */
 /* *** empty log message *** */
 
@@ -13241,18 +13241,18 @@ L45:
 /* $Id$ */
 
 /* $Log$
-/* Revision 1.2  2004/06/10 17:27:19  jchiang
-/* comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
-/*
-/* Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
-/* First import
-/*
-/* Revision 1.2  2003/05/21 21:31:14  pln
-/* Change #include line for f2c.h to aid compilation on Windows.
-/*
-/* Revision 1.1  2003/05/20 21:07:38  pln
-/* Minuit optimizer from CERN
-/* */
+ * Revision 1.2  2004/06/10 17:27:19  jchiang
+ * comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
+ *
+ * Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
+ * First import
+ *
+ * Revision 1.2  2003/05/21 21:31:14  pln
+ * Change #include line for f2c.h to aid compilation on Windows.
+ *
+ * Revision 1.1  2003/05/20 21:07:38  pln
+ * Minuit optimizer from CERN
+ * */
 /* Revision 1.1.1.1  2000/06/08 11:19:20  andras */
 /* import of MINUIT from CERNlib 2000 */
 
@@ -13323,18 +13323,18 @@ a/\002 **********\002)";
 /* $Id$ */
 
 /* $Log$
-/* Revision 1.2  2004/06/10 17:27:19  jchiang
-/* comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
-/*
-/* Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
-/* First import
-/*
-/* Revision 1.2  2003/05/21 21:31:14  pln
-/* Change #include line for f2c.h to aid compilation on Windows.
-/*
-/* Revision 1.1  2003/05/20 21:07:38  pln
-/* Minuit optimizer from CERN
-/* */
+ * Revision 1.2  2004/06/10 17:27:19  jchiang
+ * comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
+ *
+ * Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
+ * First import
+ *
+ * Revision 1.2  2003/05/21 21:31:14  pln
+ * Change #include line for f2c.h to aid compilation on Windows.
+ *
+ * Revision 1.1  2003/05/20 21:07:38  pln
+ * Minuit optimizer from CERN
+ * */
 /* Revision 1.1.1.1  2000/06/08 11:19:21  andras */
 /* import of MINUIT from CERNlib 2000 */
 
@@ -13373,18 +13373,18 @@ a/\002 **********\002)";
 /* $Id$ */
 
 /* $Log$
-/* Revision 1.2  2004/06/10 17:27:19  jchiang
-/* comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
-/*
-/* Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
-/* First import
-/*
-/* Revision 1.2  2003/05/21 21:31:14  pln
-/* Change #include line for f2c.h to aid compilation on Windows.
-/*
-/* Revision 1.1  2003/05/20 21:07:38  pln
-/* Minuit optimizer from CERN
-/* */
+ * Revision 1.2  2004/06/10 17:27:19  jchiang
+ * comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
+ *
+ * Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
+ * First import
+ *
+ * Revision 1.2  2003/05/21 21:31:14  pln
+ * Change #include line for f2c.h to aid compilation on Windows.
+ *
+ * Revision 1.1  2003/05/20 21:07:38  pln
+ * Minuit optimizer from CERN
+ * */
 /* Revision 1.2  2001/01/02 08:35:54  andras */
 /* *** empty log message *** */
 
@@ -13670,18 +13670,18 @@ L900:
 /* $Id$ */
 
 /* $Log$
-/* Revision 1.2  2004/06/10 17:27:19  jchiang
-/* comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
-/*
-/* Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
-/* First import
-/*
-/* Revision 1.2  2003/05/21 21:31:14  pln
-/* Change #include line for f2c.h to aid compilation on Windows.
-/*
-/* Revision 1.1  2003/05/20 21:07:38  pln
-/* Minuit optimizer from CERN
-/* */
+ * Revision 1.2  2004/06/10 17:27:19  jchiang
+ * comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
+ *
+ * Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
+ * First import
+ *
+ * Revision 1.2  2003/05/21 21:31:14  pln
+ * Change #include line for f2c.h to aid compilation on Windows.
+ *
+ * Revision 1.1  2003/05/20 21:07:38  pln
+ * Minuit optimizer from CERN
+ * */
 /* Revision 1.1.1.1  2000/06/08 11:19:20  andras */
 /* import of MINUIT from CERNlib 2000 */
 
@@ -13701,18 +13701,18 @@ L900:
 /* $Id$ */
 
 /* $Log$
-/* Revision 1.2  2004/06/10 17:27:19  jchiang
-/* comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
-/*
-/* Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
-/* First import
-/*
-/* Revision 1.2  2003/05/21 21:31:14  pln
-/* Change #include line for f2c.h to aid compilation on Windows.
-/*
-/* Revision 1.1  2003/05/20 21:07:38  pln
-/* Minuit optimizer from CERN
-/* */
+ * Revision 1.2  2004/06/10 17:27:19  jchiang
+ * comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
+ *
+ * Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
+ * First import
+ *
+ * Revision 1.2  2003/05/21 21:31:14  pln
+ * Change #include line for f2c.h to aid compilation on Windows.
+ *
+ * Revision 1.1  2003/05/20 21:07:38  pln
+ * Minuit optimizer from CERN
+ * */
 /* Revision 1.1.1.1  2000/06/08 11:19:21  andras */
 /* import of MINUIT from CERNlib 2000 */
 
@@ -13752,18 +13752,18 @@ L100:
 /* $Id$ */
 
 /* $Log$
-/* Revision 1.2  2004/06/10 17:27:19  jchiang
-/* comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
-/*
-/* Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
-/* First import
-/*
-/* Revision 1.2  2003/05/21 21:31:14  pln
-/* Change #include line for f2c.h to aid compilation on Windows.
-/*
-/* Revision 1.1  2003/05/20 21:07:38  pln
-/* Minuit optimizer from CERN
-/* */
+ * Revision 1.2  2004/06/10 17:27:19  jchiang
+ * comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
+ *
+ * Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
+ * First import
+ *
+ * Revision 1.2  2003/05/21 21:31:14  pln
+ * Change #include line for f2c.h to aid compilation on Windows.
+ *
+ * Revision 1.1  2003/05/20 21:07:38  pln
+ * Minuit optimizer from CERN
+ * */
 /* Revision 1.1.1.1  2000/06/08 11:19:20  andras */
 /* import of MINUIT from CERNlib 2000 */
 
@@ -13786,18 +13786,18 @@ L100:
 /* $Id$ */
 
 /* $Log$
-/* Revision 1.2  2004/06/10 17:27:19  jchiang
-/* comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
-/*
-/* Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
-/* First import
-/*
-/* Revision 1.2  2003/05/21 21:31:14  pln
-/* Change #include line for f2c.h to aid compilation on Windows.
-/*
-/* Revision 1.1  2003/05/20 21:07:38  pln
-/* Minuit optimizer from CERN
-/* */
+ * Revision 1.2  2004/06/10 17:27:19  jchiang
+ * comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
+ *
+ * Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
+ * First import
+ *
+ * Revision 1.2  2003/05/21 21:31:14  pln
+ * Change #include line for f2c.h to aid compilation on Windows.
+ *
+ * Revision 1.1  2003/05/20 21:07:38  pln
+ * Minuit optimizer from CERN
+ * */
 /* Revision 1.1.1.1  2000/06/08 11:19:21  andras */
 /* import of MINUIT from CERNlib 2000 */
 
@@ -13819,18 +13819,18 @@ L100:
 /* $Id$ */
 
 /* $Log$
-/* Revision 1.2  2004/06/10 17:27:19  jchiang
-/* comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
-/*
-/* Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
-/* First import
-/*
-/* Revision 1.2  2003/05/21 21:31:14  pln
-/* Change #include line for f2c.h to aid compilation on Windows.
-/*
-/* Revision 1.1  2003/05/20 21:07:38  pln
-/* Minuit optimizer from CERN
-/* */
+ * Revision 1.2  2004/06/10 17:27:19  jchiang
+ * comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
+ *
+ * Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
+ * First import
+ *
+ * Revision 1.2  2003/05/21 21:31:14  pln
+ * Change #include line for f2c.h to aid compilation on Windows.
+ *
+ * Revision 1.1  2003/05/20 21:07:38  pln
+ * Minuit optimizer from CERN
+ * */
 /* Revision 1.2  2001/01/02 08:35:54  andras */
 /* *** empty log message *** */
 
@@ -13879,18 +13879,18 @@ L100:
 /* $Id$ */
 
 /* $Log$
-/* Revision 1.2  2004/06/10 17:27:19  jchiang
-/* comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
-/*
-/* Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
-/* First import
-/*
-/* Revision 1.2  2003/05/21 21:31:14  pln
-/* Change #include line for f2c.h to aid compilation on Windows.
-/*
-/* Revision 1.1  2003/05/20 21:07:38  pln
-/* Minuit optimizer from CERN
-/* */
+ * Revision 1.2  2004/06/10 17:27:19  jchiang
+ * comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
+ *
+ * Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
+ * First import
+ *
+ * Revision 1.2  2003/05/21 21:31:14  pln
+ * Change #include line for f2c.h to aid compilation on Windows.
+ *
+ * Revision 1.1  2003/05/20 21:07:38  pln
+ * Minuit optimizer from CERN
+ * */
 /* Revision 1.1.1.1  2000/06/08 11:19:20  andras */
 /* import of MINUIT from CERNlib 2000 */
 
@@ -13959,18 +13959,18 @@ ARIANCE MATRIX.\002/)";
 /* $Id$ */
 
 /* $Log$
-/* Revision 1.2  2004/06/10 17:27:19  jchiang
-/* comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
-/*
-/* Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
-/* First import
-/*
-/* Revision 1.2  2003/05/21 21:31:14  pln
-/* Change #include line for f2c.h to aid compilation on Windows.
-/*
-/* Revision 1.1  2003/05/20 21:07:38  pln
-/* Minuit optimizer from CERN
-/* */
+ * Revision 1.2  2004/06/10 17:27:19  jchiang
+ * comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
+ *
+ * Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
+ * First import
+ *
+ * Revision 1.2  2003/05/21 21:31:14  pln
+ * Change #include line for f2c.h to aid compilation on Windows.
+ *
+ * Revision 1.1  2003/05/20 21:07:38  pln
+ * Minuit optimizer from CERN
+ * */
 /* Revision 1.1.1.1  2000/06/08 11:19:21  andras */
 /* import of MINUIT from CERNlib 2000 */
 
@@ -13991,18 +13991,18 @@ ARIANCE MATRIX.\002/)";
 /* $Id$ */
 
 /* $Log$
-/* Revision 1.2  2004/06/10 17:27:19  jchiang
-/* comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
-/*
-/* Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
-/* First import
-/*
-/* Revision 1.2  2003/05/21 21:31:14  pln
-/* Change #include line for f2c.h to aid compilation on Windows.
-/*
-/* Revision 1.1  2003/05/20 21:07:38  pln
-/* Minuit optimizer from CERN
-/* */
+ * Revision 1.2  2004/06/10 17:27:19  jchiang
+ * comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
+ *
+ * Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
+ * First import
+ *
+ * Revision 1.2  2003/05/21 21:31:14  pln
+ * Change #include line for f2c.h to aid compilation on Windows.
+ *
+ * Revision 1.1  2003/05/20 21:07:38  pln
+ * Minuit optimizer from CERN
+ * */
 /* Revision 1.2  2001/01/02 08:35:54  andras */
 /* *** empty log message *** */
 
@@ -14241,18 +14241,18 @@ L900:
 /* $Id$ */
 
 /* $Log$
-/* Revision 1.2  2004/06/10 17:27:19  jchiang
-/* comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
-/*
-/* Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
-/* First import
-/*
-/* Revision 1.2  2003/05/21 21:31:14  pln
-/* Change #include line for f2c.h to aid compilation on Windows.
-/*
-/* Revision 1.1  2003/05/20 21:07:38  pln
-/* Minuit optimizer from CERN
-/* */
+ * Revision 1.2  2004/06/10 17:27:19  jchiang
+ * comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
+ *
+ * Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
+ * First import
+ *
+ * Revision 1.2  2003/05/21 21:31:14  pln
+ * Change #include line for f2c.h to aid compilation on Windows.
+ *
+ * Revision 1.1  2003/05/20 21:07:38  pln
+ * Minuit optimizer from CERN
+ * */
 /* Revision 1.1.1.1  2000/06/08 11:19:20  andras */
 /* import of MINUIT from CERNlib 2000 */
 
@@ -14321,18 +14321,18 @@ ETER \002,i3/)";
 /* $Id$ */
 
 /* $Log$
-/* Revision 1.2  2004/06/10 17:27:19  jchiang
-/* comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
-/*
-/* Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
-/* First import
-/*
-/* Revision 1.2  2003/05/21 21:31:14  pln
-/* Change #include line for f2c.h to aid compilation on Windows.
-/*
-/* Revision 1.1  2003/05/20 21:07:38  pln
-/* Minuit optimizer from CERN
-/* */
+ * Revision 1.2  2004/06/10 17:27:19  jchiang
+ * comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
+ *
+ * Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
+ * First import
+ *
+ * Revision 1.2  2003/05/21 21:31:14  pln
+ * Change #include line for f2c.h to aid compilation on Windows.
+ *
+ * Revision 1.1  2003/05/20 21:07:38  pln
+ * Minuit optimizer from CERN
+ * */
 /* Revision 1.1.1.1  2000/06/08 11:19:21  andras */
 /* import of MINUIT from CERNlib 2000 */
 
@@ -14353,18 +14353,18 @@ ETER \002,i3/)";
 /* $Id$ */
 
 /* $Log$
-/* Revision 1.2  2004/06/10 17:27:19  jchiang
-/* comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
-/*
-/* Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
-/* First import
-/*
-/* Revision 1.2  2003/05/21 21:31:14  pln
-/* Change #include line for f2c.h to aid compilation on Windows.
-/*
-/* Revision 1.1  2003/05/20 21:07:38  pln
-/* Minuit optimizer from CERN
-/* */
+ * Revision 1.2  2004/06/10 17:27:19  jchiang
+ * comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
+ *
+ * Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
+ * First import
+ *
+ * Revision 1.2  2003/05/21 21:31:14  pln
+ * Change #include line for f2c.h to aid compilation on Windows.
+ *
+ * Revision 1.1  2003/05/20 21:07:38  pln
+ * Minuit optimizer from CERN
+ * */
 /* Revision 1.2  2001/01/02 08:35:54  andras */
 /* *** empty log message *** */
 
@@ -14515,18 +14515,18 @@ L900:
 /* $Id$ */
 
 /* $Log$
-/* Revision 1.2  2004/06/10 17:27:19  jchiang
-/* comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
-/*
-/* Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
-/* First import
-/*
-/* Revision 1.2  2003/05/21 21:31:14  pln
-/* Change #include line for f2c.h to aid compilation on Windows.
-/*
-/* Revision 1.1  2003/05/20 21:07:38  pln
-/* Minuit optimizer from CERN
-/* */
+ * Revision 1.2  2004/06/10 17:27:19  jchiang
+ * comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
+ *
+ * Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
+ * First import
+ *
+ * Revision 1.2  2003/05/21 21:31:14  pln
+ * Change #include line for f2c.h to aid compilation on Windows.
+ *
+ * Revision 1.1  2003/05/20 21:07:38  pln
+ * Minuit optimizer from CERN
+ * */
 /* Revision 1.1.1.1  2000/06/08 11:19:20  andras */
 /* import of MINUIT from CERNlib 2000 */
 
@@ -14581,18 +14581,18 @@ UL TRIALS.\002)";
 /* $Id$ */
 
 /* $Log$
-/* Revision 1.2  2004/06/10 17:27:19  jchiang
-/* comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
-/*
-/* Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
-/* First import
-/*
-/* Revision 1.2  2003/05/21 21:31:14  pln
-/* Change #include line for f2c.h to aid compilation on Windows.
-/*
-/* Revision 1.1  2003/05/20 21:07:38  pln
-/* Minuit optimizer from CERN
-/* */
+ * Revision 1.2  2004/06/10 17:27:19  jchiang
+ * comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
+ *
+ * Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
+ * First import
+ *
+ * Revision 1.2  2003/05/21 21:31:14  pln
+ * Change #include line for f2c.h to aid compilation on Windows.
+ *
+ * Revision 1.1  2003/05/20 21:07:38  pln
+ * Minuit optimizer from CERN
+ * */
 /* Revision 1.1.1.1  2000/06/08 11:19:21  andras */
 /* import of MINUIT from CERNlib 2000 */
 
@@ -14618,18 +14618,18 @@ UL TRIALS.\002)";
 /* $Id$ */
 
 /* $Log$
-/* Revision 1.2  2004/06/10 17:27:19  jchiang
-/* comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
-/*
-/* Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
-/* First import
-/*
-/* Revision 1.2  2003/05/21 21:31:14  pln
-/* Change #include line for f2c.h to aid compilation on Windows.
-/*
-/* Revision 1.1  2003/05/20 21:07:38  pln
-/* Minuit optimizer from CERN
-/* */
+ * Revision 1.2  2004/06/10 17:27:19  jchiang
+ * comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
+ *
+ * Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
+ * First import
+ *
+ * Revision 1.2  2003/05/21 21:31:14  pln
+ * Change #include line for f2c.h to aid compilation on Windows.
+ *
+ * Revision 1.1  2003/05/20 21:07:38  pln
+ * Minuit optimizer from CERN
+ * */
 /* Revision 1.2  2001/01/02 08:35:54  andras */
 /* *** empty log message *** */
 
@@ -14778,18 +14778,18 @@ L600:
 /* $Id$ */
 
 /* $Log$
-/* Revision 1.2  2004/06/10 17:27:19  jchiang
-/* comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
-/*
-/* Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
-/* First import
-/*
-/* Revision 1.2  2003/05/21 21:31:14  pln
-/* Change #include line for f2c.h to aid compilation on Windows.
-/*
-/* Revision 1.1  2003/05/20 21:07:38  pln
-/* Minuit optimizer from CERN
-/* */
+ * Revision 1.2  2004/06/10 17:27:19  jchiang
+ * comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
+ *
+ * Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
+ * First import
+ *
+ * Revision 1.2  2003/05/21 21:31:14  pln
+ * Change #include line for f2c.h to aid compilation on Windows.
+ *
+ * Revision 1.1  2003/05/20 21:07:38  pln
+ * Minuit optimizer from CERN
+ * */
 /* Revision 1.1.1.1  2000/06/08 11:19:20  andras */
 /* import of MINUIT from CERNlib 2000 */
 
@@ -14935,18 +14935,18 @@ ORED')", 0 };
 /* $Id$ */
 
 /* $Log$
-/* Revision 1.2  2004/06/10 17:27:19  jchiang
-/* comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
-/*
-/* Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
-/* First import
-/*
-/* Revision 1.2  2003/05/21 21:31:14  pln
-/* Change #include line for f2c.h to aid compilation on Windows.
-/*
-/* Revision 1.1  2003/05/20 21:07:38  pln
-/* Minuit optimizer from CERN
-/* */
+ * Revision 1.2  2004/06/10 17:27:19  jchiang
+ * comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
+ *
+ * Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
+ * First import
+ *
+ * Revision 1.2  2003/05/21 21:31:14  pln
+ * Change #include line for f2c.h to aid compilation on Windows.
+ *
+ * Revision 1.1  2003/05/20 21:07:38  pln
+ * Minuit optimizer from CERN
+ * */
 /* Revision 1.1.1.1  2000/06/08 11:19:21  andras */
 /* import of MINUIT from CERNlib 2000 */
 
@@ -14966,18 +14966,18 @@ ORED')", 0 };
 /* $Id$ */
 
 /* $Log$
-/* Revision 1.2  2004/06/10 17:27:19  jchiang
-/* comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
-/*
-/* Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
-/* First import
-/*
-/* Revision 1.2  2003/05/21 21:31:14  pln
-/* Change #include line for f2c.h to aid compilation on Windows.
-/*
-/* Revision 1.1  2003/05/20 21:07:38  pln
-/* Minuit optimizer from CERN
-/* */
+ * Revision 1.2  2004/06/10 17:27:19  jchiang
+ * comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
+ *
+ * Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
+ * First import
+ *
+ * Revision 1.2  2003/05/21 21:31:14  pln
+ * Change #include line for f2c.h to aid compilation on Windows.
+ *
+ * Revision 1.1  2003/05/20 21:07:38  pln
+ * Minuit optimizer from CERN
+ * */
 /* Revision 1.2  2001/01/02 08:35:54  andras */
 /* *** empty log message *** */
 
@@ -15603,18 +15603,18 @@ L4000:
 /* $Id$ */
 
 /* $Log$
-/* Revision 1.2  2004/06/10 17:27:19  jchiang
-/* comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
-/*
-/* Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
-/* First import
-/*
-/* Revision 1.2  2003/05/21 21:31:14  pln
-/* Change #include line for f2c.h to aid compilation on Windows.
-/*
-/* Revision 1.1  2003/05/20 21:07:38  pln
-/* Minuit optimizer from CERN
-/* */
+ * Revision 1.2  2004/06/10 17:27:19  jchiang
+ * comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
+ *
+ * Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
+ * First import
+ *
+ * Revision 1.2  2003/05/21 21:31:14  pln
+ * Change #include line for f2c.h to aid compilation on Windows.
+ *
+ * Revision 1.1  2003/05/20 21:07:38  pln
+ * Minuit optimizer from CERN
+ * */
 /* Revision 1.1.1.1  2000/06/08 11:19:20  andras */
 /* import of MINUIT from CERNlib 2000 */
 
@@ -15631,18 +15631,18 @@ L4000:
 /* $Id$ */
 
 /* $Log$
-/* Revision 1.2  2004/06/10 17:27:19  jchiang
-/* comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
-/*
-/* Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
-/* First import
-/*
-/* Revision 1.2  2003/05/21 21:31:14  pln
-/* Change #include line for f2c.h to aid compilation on Windows.
-/*
-/* Revision 1.1  2003/05/20 21:07:38  pln
-/* Minuit optimizer from CERN
-/* */
+ * Revision 1.2  2004/06/10 17:27:19  jchiang
+ * comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
+ *
+ * Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
+ * First import
+ *
+ * Revision 1.2  2003/05/21 21:31:14  pln
+ * Change #include line for f2c.h to aid compilation on Windows.
+ *
+ * Revision 1.1  2003/05/20 21:07:38  pln
+ * Minuit optimizer from CERN
+ * */
 /* Revision 1.1.1.1  2000/06/08 11:19:21  andras */
 /* import of MINUIT from CERNlib 2000 */
 
@@ -15661,18 +15661,18 @@ L4000:
 /* $Id$ */
 
 /* $Log$
-/* Revision 1.2  2004/06/10 17:27:19  jchiang
-/* comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
-/*
-/* Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
-/* First import
-/*
-/* Revision 1.2  2003/05/21 21:31:14  pln
-/* Change #include line for f2c.h to aid compilation on Windows.
-/*
-/* Revision 1.1  2003/05/20 21:07:38  pln
-/* Minuit optimizer from CERN
-/* */
+ * Revision 1.2  2004/06/10 17:27:19  jchiang
+ * comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
+ *
+ * Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
+ * First import
+ *
+ * Revision 1.2  2003/05/21 21:31:14  pln
+ * Change #include line for f2c.h to aid compilation on Windows.
+ *
+ * Revision 1.1  2003/05/20 21:07:38  pln
+ * Minuit optimizer from CERN
+ * */
 /* Revision 1.2  2001/01/02 08:35:54  andras */
 /* *** empty log message *** */
 
@@ -15696,18 +15696,7 @@ L4000:
 /* $Id$ */
 
 /* $Log$
-/* Revision 1.2  2004/06/10 17:27:19  jchiang
-/* comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
-/*
-/* Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
-/* First import
-/*
-/* Revision 1.2  2003/05/21 21:31:14  pln
-/* Change #include line for f2c.h to aid compilation on Windows.
-/*
-/* Revision 1.1  2003/05/20 21:07:38  pln
-/* Minuit optimizer from CERN
-/* */
+*/
 /* Revision 1.1.1.1  2000/06/08 11:19:20  andras */
 /* import of MINUIT from CERNlib 2000 */
 
@@ -15785,18 +15774,7 @@ E WHEN EDM .LT.\002,e10.2)";
 /* $Id$ */
 
 /* $Log$
-/* Revision 1.2  2004/06/10 17:27:19  jchiang
-/* comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
-/*
-/* Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
-/* First import
-/*
-/* Revision 1.2  2003/05/21 21:31:14  pln
-/* Change #include line for f2c.h to aid compilation on Windows.
-/*
-/* Revision 1.1  2003/05/20 21:07:38  pln
-/* Minuit optimizer from CERN
-/* */
+*/
 /* Revision 1.1.1.1  2000/06/08 11:19:21  andras */
 /* import of MINUIT from CERNlib 2000 */
 
@@ -15816,18 +15794,7 @@ E WHEN EDM .LT.\002,e10.2)";
 /* $Id$ */
 
 /* $Log$
-/* Revision 1.2  2004/06/10 17:27:19  jchiang
-/* comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
-/*
-/* Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
-/* First import
-/*
-/* Revision 1.2  2003/05/21 21:31:14  pln
-/* Change #include line for f2c.h to aid compilation on Windows.
-/*
-/* Revision 1.1  2003/05/20 21:07:38  pln
-/* Minuit optimizer from CERN
-/* */
+*/
 /* Revision 1.2  2001/01/02 08:35:54  andras */
 /* *** empty log message *** */
 
@@ -16141,18 +16108,7 @@ L90:
 /* $Id$ */
 
 /* $Log$
-/* Revision 1.2  2004/06/10 17:27:19  jchiang
-/* comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
-/*
-/* Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
-/* First import
-/*
-/* Revision 1.2  2003/05/21 21:31:14  pln
-/* Change #include line for f2c.h to aid compilation on Windows.
-/*
-/* Revision 1.1  2003/05/20 21:07:38  pln
-/* Minuit optimizer from CERN
-/* */
+*/
 /* Revision 1.1.1.1  2000/06/08 11:19:20  andras */
 /* import of MINUIT from CERNlib 2000 */
 
@@ -16167,18 +16123,7 @@ L90:
 /* $Id$ */
 
 /* $Log$
-/* Revision 1.2  2004/06/10 17:27:19  jchiang
-/* comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
-/*
-/* Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
-/* First import
-/*
-/* Revision 1.2  2003/05/21 21:31:14  pln
-/* Change #include line for f2c.h to aid compilation on Windows.
-/*
-/* Revision 1.1  2003/05/20 21:07:38  pln
-/* Minuit optimizer from CERN
-/* */
+*/
 /* Revision 1.1.1.1  2000/06/08 11:19:21  andras */
 /* import of MINUIT from CERNlib 2000 */
 
@@ -16209,18 +16154,7 @@ L90:
 /* $Id$ */
 
 /* $Log$
-/* Revision 1.2  2004/06/10 17:27:19  jchiang
-/* comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
-/*
-/* Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
-/* First import
-/*
-/* Revision 1.2  2003/05/21 21:31:14  pln
-/* Change #include line for f2c.h to aid compilation on Windows.
-/*
-/* Revision 1.1  2003/05/20 21:07:38  pln
-/* Minuit optimizer from CERN
-/* */
+*/
 /* Revision 1.2  2001/01/02 08:35:54  andras */
 /* *** empty log message *** */
 
@@ -16257,18 +16191,7 @@ L90:
 /* $Id$ */
 
 /* $Log$
-/* Revision 1.2  2004/06/10 17:27:19  jchiang
-/* comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
-/*
-/* Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
-/* First import
-/*
-/* Revision 1.2  2003/05/21 21:31:14  pln
-/* Change #include line for f2c.h to aid compilation on Windows.
-/*
-/* Revision 1.1  2003/05/20 21:07:38  pln
-/* Minuit optimizer from CERN
-/* */
+*/
 /* Revision 1.1.1.1  2000/06/08 11:19:20  andras */
 /* import of MINUIT from CERNlib 2000 */
 
@@ -16337,18 +16260,7 @@ M UNIT NO.\002,i3/\002 FILENAME: \002,a)";
 /* $Id$ */
 
 /* $Log$
-/* Revision 1.2  2004/06/10 17:27:19  jchiang
-/* comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
-/*
-/* Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
-/* First import
-/*
-/* Revision 1.2  2003/05/21 21:31:14  pln
-/* Change #include line for f2c.h to aid compilation on Windows.
-/*
-/* Revision 1.1  2003/05/20 21:07:38  pln
-/* Minuit optimizer from CERN
-/* */
+*/
 /* Revision 1.1.1.1  2000/06/08 11:19:21  andras */
 /* import of MINUIT from CERNlib 2000 */
 
@@ -16379,18 +16291,7 @@ M UNIT NO.\002,i3/\002 FILENAME: \002,a)";
 /* $Id$ */
 
 /* $Log$
-/* Revision 1.2  2004/06/10 17:27:19  jchiang
-/* comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
-/*
-/* Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
-/* First import
-/*
-/* Revision 1.2  2003/05/21 21:31:14  pln
-/* Change #include line for f2c.h to aid compilation on Windows.
-/*
-/* Revision 1.1  2003/05/20 21:07:38  pln
-/* Minuit optimizer from CERN
-/* */
+*/
 /* Revision 1.2  2001/01/02 08:35:54  andras */
 /* *** empty log message *** */
 
@@ -16736,18 +16637,7 @@ L900:
 /* $Id$ */
 
 /* $Log$
-/* Revision 1.2  2004/06/10 17:27:19  jchiang
-/* comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
-/*
-/* Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
-/* First import
-/*
-/* Revision 1.2  2003/05/21 21:31:14  pln
-/* Change #include line for f2c.h to aid compilation on Windows.
-/*
-/* Revision 1.1  2003/05/20 21:07:38  pln
-/* Minuit optimizer from CERN
-/* */
+*/
 /* Revision 1.1.1.1  2000/06/08 11:19:20  andras */
 /* import of MINUIT from CERNlib 2000 */
 
@@ -16761,18 +16651,7 @@ L900:
 /* $Id$ */
 
 /* $Log$
-/* Revision 1.2  2004/06/10 17:27:19  jchiang
-/* comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
-/*
-/* Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
-/* First import
-/*
-/* Revision 1.2  2003/05/21 21:31:14  pln
-/* Change #include line for f2c.h to aid compilation on Windows.
-/*
-/* Revision 1.1  2003/05/20 21:07:38  pln
-/* Minuit optimizer from CERN
-/* */
+*/
 /* Revision 1.1.1.1  2000/06/08 11:19:21  andras */
 /* import of MINUIT from CERNlib 2000 */
 
@@ -16797,18 +16676,7 @@ L900:
 /* $Id$ */
 
 /* $Log$
-/* Revision 1.2  2004/06/10 17:27:19  jchiang
-/* comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
-/*
-/* Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
-/* First import
-/*
-/* Revision 1.2  2003/05/21 21:31:14  pln
-/* Change #include line for f2c.h to aid compilation on Windows.
-/*
-/* Revision 1.1  2003/05/20 21:07:38  pln
-/* Minuit optimizer from CERN
-/* */
+*/
 /* Revision 1.1.1.1  2000/06/08 11:19:20  andras */
 /* import of MINUIT from CERNlib 2000 */
 
@@ -16857,18 +16725,7 @@ L150:
 /* $Id$ */
 
 /* $Log$
-/* Revision 1.2  2004/06/10 17:27:19  jchiang
-/* comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
-/*
-/* Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
-/* First import
-/*
-/* Revision 1.2  2003/05/21 21:31:14  pln
-/* Change #include line for f2c.h to aid compilation on Windows.
-/*
-/* Revision 1.1  2003/05/20 21:07:38  pln
-/* Minuit optimizer from CERN
-/* */
+*/
 /* Revision 1.1.1.1  2000/06/08 11:19:20  andras */
 /* import of MINUIT from CERNlib 2000 */
 
@@ -16885,18 +16742,7 @@ L150:
 /* $Id$ */
 
 /* $Log$
-/* Revision 1.2  2004/06/10 17:27:19  jchiang
-/* comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
-/*
-/* Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
-/* First import
-/*
-/* Revision 1.2  2003/05/21 21:31:14  pln
-/* Change #include line for f2c.h to aid compilation on Windows.
-/*
-/* Revision 1.1  2003/05/20 21:07:38  pln
-/* Minuit optimizer from CERN
-/* */
+*/
 /* Revision 1.1.1.1  2000/06/08 11:19:21  andras */
 /* import of MINUIT from CERNlib 2000 */
 
@@ -16915,18 +16761,7 @@ L150:
 /* $Id$ */
 
 /* $Log$
-/* Revision 1.2  2004/06/10 17:27:19  jchiang
-/* comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
-/*
-/* Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
-/* First import
-/*
-/* Revision 1.2  2003/05/21 21:31:14  pln
-/* Change #include line for f2c.h to aid compilation on Windows.
-/*
-/* Revision 1.1  2003/05/20 21:07:38  pln
-/* Minuit optimizer from CERN
-/* */
+*/
 /* Revision 1.2  2001/01/02 08:35:54  andras */
 /* *** empty log message *** */
 
@@ -16950,18 +16785,7 @@ L150:
 /* $Id$ */
 
 /* $Log$
-/* Revision 1.2  2004/06/10 17:27:19  jchiang
-/* comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
-/*
-/* Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
-/* First import
-/*
-/* Revision 1.2  2003/05/21 21:31:14  pln
-/* Change #include line for f2c.h to aid compilation on Windows.
-/*
-/* Revision 1.1  2003/05/20 21:07:38  pln
-/* Minuit optimizer from CERN
-/* */
+*/
 /* Revision 1.1.1.1  2000/06/08 11:19:20  andras */
 /* import of MINUIT from CERNlib 2000 */
 
@@ -17002,18 +16826,7 @@ L150:
 /* $Id$ */
 
 /* $Log$
-/* Revision 1.2  2004/06/10 17:27:19  jchiang
-/* comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
-/*
-/* Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
-/* First import
-/*
-/* Revision 1.2  2003/05/21 21:31:14  pln
-/* Change #include line for f2c.h to aid compilation on Windows.
-/*
-/* Revision 1.1  2003/05/20 21:07:38  pln
-/* Minuit optimizer from CERN
-/* */
+*/
 /* Revision 1.1.1.1  2000/06/08 11:19:21  andras */
 /* import of MINUIT from CERNlib 2000 */
 
@@ -17034,18 +16847,7 @@ L150:
 /* $Id$ */
 
 /* $Log$
-/* Revision 1.2  2004/06/10 17:27:19  jchiang
-/* comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
-/*
-/* Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
-/* First import
-/*
-/* Revision 1.2  2003/05/21 21:31:14  pln
-/* Change #include line for f2c.h to aid compilation on Windows.
-/*
-/* Revision 1.1  2003/05/20 21:07:38  pln
-/* Minuit optimizer from CERN
-/* */
+*/
 /* Revision 1.2  2001/01/02 08:35:54  andras */
 /* *** empty log message *** */
 
@@ -17170,18 +16972,7 @@ L100:
 /* $Id$ */
 
 /* $Log$
-/* Revision 1.2  2004/06/10 17:27:19  jchiang
-/* comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
-/*
-/* Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
-/* First import
-/*
-/* Revision 1.2  2003/05/21 21:31:14  pln
-/* Change #include line for f2c.h to aid compilation on Windows.
-/*
-/* Revision 1.1  2003/05/20 21:07:38  pln
-/* Minuit optimizer from CERN
-/* */
+*/
 /* Revision 1.1.1.1  2000/06/08 11:19:20  andras */
 /* import of MINUIT from CERNlib 2000 */
 
@@ -17228,18 +17019,7 @@ L100:
 /* $Id$ */
 
 /* $Log$
-/* Revision 1.2  2004/06/10 17:27:19  jchiang
-/* comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
-/*
-/* Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
-/* First import
-/*
-/* Revision 1.2  2003/05/21 21:31:14  pln
-/* Change #include line for f2c.h to aid compilation on Windows.
-/*
-/* Revision 1.1  2003/05/20 21:07:38  pln
-/* Minuit optimizer from CERN
-/* */
+*/
 /* Revision 1.1.1.1  2000/06/08 11:19:21  andras */
 /* import of MINUIT from CERNlib 2000 */
 
@@ -17256,18 +17036,7 @@ L100:
 /* $Id$ */
 
 /* $Log$
-/* Revision 1.2  2004/06/10 17:27:19  jchiang
-/* comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
-/*
-/* Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
-/* First import
-/*
-/* Revision 1.2  2003/05/21 21:31:14  pln
-/* Change #include line for f2c.h to aid compilation on Windows.
-/*
-/* Revision 1.1  2003/05/20 21:07:38  pln
-/* Minuit optimizer from CERN
-/* */
+*/
 /* Revision 1.2  2001/01/02 08:35:54  andras */
 /* *** empty log message *** */
 
@@ -17399,18 +17168,7 @@ L200:
 /* $Id$ */
 
 /* $Log$
-/* Revision 1.2  2004/06/10 17:27:19  jchiang
-/* comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
-/*
-/* Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
-/* First import
-/*
-/* Revision 1.2  2003/05/21 21:31:14  pln
-/* Change #include line for f2c.h to aid compilation on Windows.
-/*
-/* Revision 1.1  2003/05/20 21:07:38  pln
-/* Minuit optimizer from CERN
-/* */
+*/
 /* Revision 1.1.1.1  2000/06/08 11:19:20  andras */
 /* import of MINUIT from CERNlib 2000 */
 
@@ -17439,18 +17197,7 @@ L200:
 /* $Id$ */
 
 /* $Log$
-/* Revision 1.2  2004/06/10 17:27:19  jchiang
-/* comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
-/*
-/* Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
-/* First import
-/*
-/* Revision 1.2  2003/05/21 21:31:14  pln
-/* Change #include line for f2c.h to aid compilation on Windows.
-/*
-/* Revision 1.1  2003/05/20 21:07:38  pln
-/* Minuit optimizer from CERN
-/* */
+*/
 /* Revision 1.1.1.1  2000/06/08 11:19:21  andras */
 /* import of MINUIT from CERNlib 2000 */
 
@@ -17471,18 +17218,7 @@ L200:
 /* $Id$ */
 
 /* $Log$
-/* Revision 1.2  2004/06/10 17:27:19  jchiang
-/* comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
-/*
-/* Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
-/* First import
-/*
-/* Revision 1.2  2003/05/21 21:31:14  pln
-/* Change #include line for f2c.h to aid compilation on Windows.
-/*
-/* Revision 1.1  2003/05/20 21:07:38  pln
-/* Minuit optimizer from CERN
-/* */
+*/
 /* Revision 1.2  2001/01/02 08:35:54  andras */
 /* *** empty log message *** */
 
@@ -17562,18 +17298,7 @@ L200:
 /* $Id$ */
 
 /* $Log$
-/* Revision 1.2  2004/06/10 17:27:19  jchiang
-/* comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
-/*
-/* Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
-/* First import
-/*
-/* Revision 1.2  2003/05/21 21:31:14  pln
-/* Change #include line for f2c.h to aid compilation on Windows.
-/*
-/* Revision 1.1  2003/05/20 21:07:38  pln
-/* Minuit optimizer from CERN
-/* */
+*/
 /* Revision 1.1.1.1  2000/06/08 11:19:20  andras */
 /* import of MINUIT from CERNlib 2000 */
 
@@ -17587,18 +17312,7 @@ L200:
 /* $Id$ */
 
 /* $Log$
-/* Revision 1.2  2004/06/10 17:27:19  jchiang
-/* comment out MINUIT startup message; allow for teensy slop in setting parameter values within bounds
-/*
-/* Revision 1.1.1.1  2003/08/02 22:14:21  jchiang
-/* First import
-/*
-/* Revision 1.2  2003/05/21 21:31:14  pln
-/* Change #include line for f2c.h to aid compilation on Windows.
-/*
-/* Revision 1.1  2003/05/20 21:07:38  pln
-/* Minuit optimizer from CERN
-/* */
+*/
 /* Revision 1.1.1.1  2000/06/08 11:19:21  andras */
 /* import of MINUIT from CERNlib 2000 */
 

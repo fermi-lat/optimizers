@@ -1,7 +1,7 @@
 ##### Library ######
 add_library(
-  optimizers_c_objects
-  OBJECT src/dgaus8.c src/dpptri-blas.c src/dpptri.c
+  optimizers_c_objects OBJECT
+  src/dgaus8.c src/dpptri-blas.c src/dpptri.c
   src/drmnfb_routines.c src/drmngb_routines.c
   src/intrac.c src/lbfgs_routines.c
   src/minuit_routines.c
@@ -10,11 +10,11 @@ target_include_directories(
   optimizers_c_objects
   PRIVATE $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}> $<INSTALL_INTERFACE:>
 )
-target_link_libraries(optimizers_c_objects PRIVATE PkgConfig::f2c m)
+target_link_libraries(optimizers_c_objects PRIVATE F2C::F2C)
 
 
 add_library(
-  optimizers SHARED
+  optimizers STATIC
   src/AbsEdge.cxx src/Amoeba.cxx src/BrokenPowerLaw.cxx src/ChiSq.cxx
   src/CompositeFunction.cxx src/Dom.cxx src/Drmnfb.cxx src/Drmngb.cxx src/Function.cxx
   src/FunctionFactory.cxx src/FunctionTest.cxx src/Gaussian.cxx src/Lbfgs.cxx

@@ -10,7 +10,7 @@ target_include_directories(
   optimizers_c_objects
   PRIVATE $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}> $<INSTALL_INTERFACE:>
 )
-target_link_libraries(optimizers_c_objects PRIVATE F2C::F2C)
+target_link_libraries(optimizers_c_objects PRIVATE f2c::f2c)
 
 
 add_library(

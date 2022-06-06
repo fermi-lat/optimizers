@@ -27,7 +27,7 @@ add_library(
 
 target_link_libraries(
   optimizers
-  PUBLIC xmlBase PkgConfig::xerces-c Minuit2::Minuit2
+  PUBLIC xmlBase PkgConfig::xerces-c FermiMinuit2::FermiMinuit2
   PRIVATE optimizers_c_objects PkgConfig::cfitsio CLHEP::CLHEP st_facilities
 )
 

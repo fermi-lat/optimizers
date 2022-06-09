@@ -14,7 +14,7 @@ target_link_libraries(optimizers_c_objects PRIVATE f2c::f2c)
 
 
 add_library(
-  optimizers STATIC
+  optimizers 
   src/AbsEdge.cxx src/Amoeba.cxx src/BrokenPowerLaw.cxx src/ChiSq.cxx
   src/CompositeFunction.cxx src/Dom.cxx src/Drmnfb.cxx src/Drmngb.cxx src/Function.cxx
   src/FunctionFactory.cxx src/FunctionTest.cxx src/Gaussian.cxx src/Lbfgs.cxx

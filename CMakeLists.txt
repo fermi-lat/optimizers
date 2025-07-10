@@ -41,6 +41,8 @@ target_compile_definitions(optimizers PRIVATE BUILD_WITHOUT_ROOT)
 
 
 ###### Tests ######
+set(CMAKE_INSTALL_RPATH_USE_LINK_PATH TRUE)
+
 add_executable(test_optimizers src/test/main.cxx)
 target_link_libraries(test_optimizers PRIVATE optimizers st_facilities)
 target_include_directories(

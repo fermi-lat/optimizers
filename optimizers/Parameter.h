@@ -14,6 +14,7 @@
 #include <sstream>
 #include <string>
 #include <vector>
+#include <cmath>
 
 #include "xmlBase/Dom.h"
 
@@ -44,7 +45,7 @@ class Parameter {
 
 public:
 
-   Parameter() : m_name(""), m_value(0), m_minValue(-HUGE), m_maxValue(HUGE),
+   Parameter() : m_name(""), m_value(0), m_minValue(-HUGE_VAL), m_maxValue(HUGE_VAL),
                  m_free(true), m_scale(1.), m_error(0), m_alwaysFixed(false),
                  m_par_ref(0), m_log_prior(0) {}
 
@@ -61,7 +62,7 @@ public:
         m_alwaysFixed(false), m_par_ref(0), m_log_prior(0) {}
 
    Parameter(const std::string & name, double value, bool isFree=true)
-      : m_name(name), m_value(value), m_minValue(-HUGE), m_maxValue(HUGE),
+      : m_name(name), m_value(value), m_minValue(-HUGE_VAL), m_maxValue(HUGE_VAL),
         m_free(isFree), m_scale(1.), m_error(0), m_alwaysFixed(false),
         m_par_ref(0), m_log_prior(0) {}
 

@@ -64,14 +64,11 @@ Parameter & Parameter::operator=(const Parameter & rhs) {
 
 void Parameter::setValue(double value) {
    static double tol(1e-8);
-   if (!std::isinf(m_minValue)) {
-      if (m_minValue != 0  && fabs((value - m_minValue)/m_minValue) < tol) {
-         m_value = m_minValue;
-      }
-   } else if (!std::isinf(m_maxValue)) { 
-      if (m_maxValue != 0 && fabs((value - m_maxValue)/m_maxValue) < tol) {
-         m_value = m_maxValue;
-      }
+   if () {
+   if (!std::isinf(m_minValue) && m_minValue != 0  && fabs((value - m_minValue)/m_minValue) < tol) {
+      m_value = m_minValue;
+   } else if (!std::isinf(m_maxValue) && m_maxValue != 0 && fabs((value - m_maxValue)/m_maxValue) < tol) {
+      m_value = m_maxValue;
    } else if (value >= m_minValue && value <= m_maxValue) {
       m_value = value;
    } else if (m_minValue==0. && m_maxValue==0.) {

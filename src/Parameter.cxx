@@ -64,7 +64,6 @@ Parameter & Parameter::operator=(const Parameter & rhs) {
 
 void Parameter::setValue(double value) {
    static double tol(1e-8);
-   if () {
    if (!std::isinf(m_minValue) && m_minValue != 0  && fabs((value - m_minValue)/m_minValue) < tol) {
       m_value = m_minValue;
    } else if (!std::isinf(m_maxValue) && m_maxValue != 0 && fabs((value - m_maxValue)/m_maxValue) < tol) {

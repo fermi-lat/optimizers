@@ -1,7 +1,7 @@
 //#include <xercesc/util/PlatformUtils.hpp>
 //#include <xercesc/util/XMLString.hpp>
 //#include <xercesc/dom/DOM.hpp>
-#include "xmlbase/xml_builder.hpp"
+#include "xmlBase/xml_builder.h"
 
 #include "optimizers/Dom.h"
 

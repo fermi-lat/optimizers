@@ -15,16 +15,17 @@
 #include <string>
 #include <vector>
 
-#include "xmlBase/Dom.h"
+//#include "xmlBase/Dom.h"
+#include "xmlBase/rapidxml.hpp"
 
 namespace optimizers {
 
    class Function;
 
-#ifndef SWIG
-using XERCES_CPP_NAMESPACE_QUALIFIER DOMElement;
-using XERCES_CPP_NAMESPACE_QUALIFIER DOMDocument;
-#endif
+  //#ifndef SWIG
+  //using XERCES_CPP_NAMESPACE_QUALIFIER DOMElement;
+  //using XERCES_CPP_NAMESPACE_QUALIFIER DOMDocument;
+  //#endif
 
 /** 
  * @class Parameter
@@ -154,11 +155,11 @@ public:
 #ifndef SWIG
    /// Extract data from an xml parameter element defined using the
    /// FunctionModels.dtd.
-   void extractDomData(const DOMElement * elt);
+   void extractDomData(const rapidxml::xml_node<> * elt);
 
    /// Add a parameter DomElement that contains the current data
    /// member values.
-   DOMElement * createDomElement(DOMDocument * doc) const;
+  rapidxml::xml_node<> * createDomElement(rapidxml::xml_document<> * doc) const;
 #endif // SWIG
 
    void setParRef(Parameter * par) {

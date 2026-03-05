@@ -17,11 +17,11 @@
 
 namespace optimizers {
 
-#ifndef SWIG
-using XERCES_CPP_NAMESPACE_QUALIFIER DOMDocument;
-using XERCES_CPP_NAMESPACE_QUALIFIER DOMElement;
-using XERCES_CPP_NAMESPACE_QUALIFIER DOMNode;
-#endif // SWIG
+  //#ifndef SWIG
+  //using XERCES_CPP_NAMESPACE_QUALIFIER DOMDocument;
+  //using XERCES_CPP_NAMESPACE_QUALIFIER rapidxml::xml_node<>;
+  //using XERCES_CPP_NAMESPACE_QUALIFIER DOMNode;
+  //#endif // SWIG
 
 class Arg;
 
@@ -213,11 +213,11 @@ public:
    virtual bool rescale(double factor);
 
 #ifndef SWIG
-   /// Append Parameter DOMElements to a DOMNode.
-   void appendParamDomElements(DOMDocument * doc, DOMNode * node);
+   /// Append Parameter rapidxml::xml_node<>s to a rapidxml::xml_node<>.
+   void appendParamDomElements(rapidxml::xml_document<> * doc, rapidxml::xml_node<> * node);
 
    /// Set the Parameters from a Function DOM_Element.
-   virtual void setParams(const DOMElement * elt);
+   virtual void setParams(const rapidxml::xml_node<> * elt);
 #endif // SWIG
 
    void setParamAlwaysFixed(const std::string & name) {

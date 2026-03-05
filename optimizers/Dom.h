@@ -2,7 +2,7 @@
 #define optimizers_Dom_h
 
 #include <string>
-#include "xmlbase/rapidxml.h"
+#include "xmlBase/rapidxml.hpp"
 //#include <xercesc/util/XercesDefs.hpp>
 
 //XERCES_CPP_NAMESPACE_BEGIN

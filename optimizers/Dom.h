@@ -26,8 +26,6 @@ public:
    static rapidxml::xml_node<> * createElement(rapidxml::xml_document<> * doc, 
                                      const std::string & name);
 
-  static void appendChild(rapidxml::xml_node<> * parent, rapidxml::xml_node<> * child);
-
    static void appendChild(rapidxml::xml_node<> * parent, rapidxml::xml_node<> * child);
 
 };

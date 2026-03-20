@@ -217,7 +217,7 @@ public:
    void appendParamDomElements(rapidxml::xml_document<> * doc, rapidxml::xml_node<> * node);
 
    /// Set the Parameters from a Function DOM_Element.
-   virtual void setParams(const rapidxml::xml_node<> * elt);
+   virtual void setParams(rapidxml::xml_node<> * elt);
 #endif // SWIG
 
    void setParamAlwaysFixed(const std::string & name) {

@@ -13,12 +13,12 @@
 #include <sstream>
 #include <stdexcept>
 
-#include <xercesc/util/PlatformUtils.hpp>
-#include <xercesc/util/XMLString.hpp>
-#include <xercesc/dom/DOM.hpp>
+// #include <xercesc/util/PlatformUtils.hpp>
+// #include <xercesc/util/XMLString.hpp>
+// #include <xercesc/dom/DOM.hpp>
 
-#include "xmlBase/Dom.h"
-#include "xmlBase/XmlParser.h"
+// #include "xmlBase/Dom.h"
+// #include "xmlBase/XmlParser.h"
 
 #include "optimizers/Dom.h"
 #include "optimizers/Exception.h"
@@ -89,9 +89,9 @@ void FunctionFactory::getFunctionNames(std::vector<std::string> &funcNames) {
 }
 
 void FunctionFactory::readXml(const std::string &xmlFile) {
-   xmlBase::XmlParser * parser = new xmlBase::XmlParser();
-
-   DOMDocument * doc = parser->parse(xmlFile.c_str());
+   xml_framework::SafeXmlParser *  parser = new xml_framework::SafeXmlParser();
+   
+   rapidxml::xml_document<> * doc = parser->parse(xmlFile.c_str());
 
    if (doc == 0) { // xml file not parsed successfully
       std::string errorMessage = "FunctionFactory::readXml:\nInput xml file, "
@@ -100,24 +100,25 @@ void FunctionFactory::readXml(const std::string &xmlFile) {
    }
 
 // Direct Xerces API call.
-   DOMElement * function_library = doc->getDocumentElement();
-   if (!xmlBase::Dom::checkTagName(function_library, "function_library")) {
-      throw Exception(std::string("FunctionFactory::readXml:\n")
-                      + "function_library not found in "
-                      + xmlFile);
-   }
+   rapidxml::xml_node<> * function_library = doc->getDocumentElement();
+   // if (!xmlBase::Dom::checkTagName(function_library, "function_library")) {
+   //    throw Exception(std::string("FunctionFactory::readXml:\n")
+   //                    + "function_library not found in "
+   //                    + xmlFile);
+   // }
 
 // Loop through function child elements, and add each as a Function
 // object to the prototype factory.
-   std::vector<DOMElement *> funcs;
-   xmlBase::Dom::getChildrenByTagName(function_library, "function", funcs);
+   std::vector<rapidxml::xml_node<> *> funcs;
+   std::string paramstring = "function";
+   funcs = parser->getChildren(function_library, paramstring.c_string());
 
-   std::vector<DOMElement *>::const_iterator funcIt = funcs.begin();
+   std::vector<rapidxml::xml_node<> *>::const_iterator funcIt = funcs.begin();
    for ( ; funcIt != funcs.end(); funcIt++) {
 
 // Get the type of this function, which should be an existing 
 // (generic) Function in the factory.
-      std::string type = xmlBase::Dom::getAttribute(*funcIt, "type");
+     std::string type = parser->getAttribute<std::string>(*funcIt, "type").value();
       Function *funcObj;
       try {
          funcObj = create(type);
@@ -129,18 +130,19 @@ void FunctionFactory::readXml(const std::string &xmlFile) {
       }
 
 // Set the name of this function prototype.
-      std::string name = xmlBase::Dom::getAttribute(*funcIt, "name");
+      std::string name = parser->getAttribute<std::string>(*funcIt, "name").value();
 // Use the type attribute as the name for use by writeXml as the type
 // information.
       funcObj->setName(type);
 
 // Fetch the parameter elements and set the Parameter data members.
-      std::vector<DOMElement *> params;
-      xmlBase::Dom::getChildrenByTagName(*funcIt, "parameter", params);
-      
-      std::vector<DOMElement *>::const_iterator paramIt = params.begin();
+      std::vector<rapidxml::xml_node<> *> params;
+      paramstring = "parameter";
+      params = parser->getChildren(*funcIt, paramstring).value();
+   
+      std::vector<rapidxml::xml_node<> *>::const_iterator paramIt = params.begin();
       for (; paramIt != params.end(); paramIt++) {
-         std::string paramName = xmlBase::Dom::getAttribute(*paramIt, "name");
+	 std::string paramName = parser->getAttribute<std::string>(*paramIt, "name");
          funcObj->parameter(paramName).extractDomData(*paramIt);
       }
       addFunc(name, funcObj, false);
@@ -149,15 +151,18 @@ void FunctionFactory::readXml(const std::string &xmlFile) {
 }
 
 void FunctionFactory::writeXml(const std::string &xmlFile) {
-   DOMDocument * doc = Dom::createDocument();
+   rapidxml::xml_document<> * doc = new rapidxml::xml_document<>;
 
-   DOMElement * funcLib = Dom::createElement(doc, "function_library");
+   xml_builder::XmlElementBuilder * funcLibWriter = new xml_builder::XmlElementBuilder();
+   rapidxml::xml_node<> * funcLib = new rapidxml::xml_node<>;
+   funcLibWriter->XmlElementBuilder(doc, funcLib);
+   rapidxml::xml_node<> * funcLib = xmlwriter->createElement(doc, "function_library");
    xmlBase::Dom::addAttribute(funcLib, "title", "prototype Functions");
 
 // Loop over the Function prototypes, keeping only the derived prototypes.
    std::map<std::string, Function *>::iterator funcIt = m_prototypes.begin();
    for ( ; funcIt != m_prototypes.end(); funcIt++) {
-      DOMElement * funcElt = Dom::createElement(doc, "function");
+      rapidxml::xml_node<> * funcElt = Dom::createElement(doc, "function");
       std::string name = funcIt->first;
       xmlBase::Dom::addAttribute(funcElt, "name", name.c_str());
       std::string type = funcIt->second->getName();

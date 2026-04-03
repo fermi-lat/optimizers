@@ -1,5 +1,5 @@
 /** 
- * @file Parameter.cxx
+ * @file Parameter.cpp
  * @brief Parameter class implementation
  * @author J. Chiang
  *
@@ -7,84 +7,175 @@
  */
 
 #include <cstdlib>
-
+#include <cmath>
+#include <cstring>
+#include <charconv>
 #include <sstream>
 #include <stdexcept>
 #include <string>
+#include <string_view>
 #include <vector>
+#include <algorithm>
+#include <iomanip>
 
-#include <xercesc/util/PlatformUtils.hpp>
-#include <xercesc/util/XMLString.hpp>
-#include <xercesc/util/XercesDefs.hpp>
-#include <xercesc/dom/DOM.hpp>
-
-#include "xmlBase/Dom.h"
-#include "xmlBase/XmlParser.h"
+// RapidXML-based XML framework (replaces Xerces-C)
+#include "xmlBase/rapidxml.hpp"
 
 #include "optimizers/dArg.h"
-#include "optimizers/Dom.h"
 #include "optimizers/Function.h"
 #include "optimizers/OutOfBounds.h"
 #include "optimizers/Parameter.h"
 
 namespace optimizers {
 
-//XERCES_CPP_NAMESPACE_USE
-using XERCES_CPP_NAMESPACE_QUALIFIER DOMElement;
+// ============================================================================
+// Helper Functions for RapidXML Attribute Access
+// ============================================================================
 
-Parameter::Parameter(const Parameter & other) 
-   : m_name(other.m_name),
-     m_value(other.m_value),
-     m_minValue(other.m_minValue),
-     m_maxValue(other.m_maxValue),
-     m_free(other.m_free),
-     m_scale(other.m_scale),
-     m_error(other.m_error),
-     m_alwaysFixed(other.m_alwaysFixed) {
-   m_par_ref = other.m_par_ref;
-   m_log_prior = other.m_log_prior;
+namespace {
+
+/// Get attribute value as string, returns empty string if not found
+[[nodiscard]] std::string getAttribute(const rapidxml::xml_node<>* node, 
+                                       const char* attrName) {
+    if (!node) return "";
+    
+    auto* attr = node->first_attribute(attrName);
+    if (attr && attr->value()) {
+        return std::string(attr->value(), attr->value_size());
+    }
+    return "";
 }
 
-Parameter & Parameter::operator=(const Parameter & rhs) {
-   if (this == &rhs) {
-      return *this;
+/// Check if an attribute exists
+[[nodiscard]] bool hasAttribute(const rapidxml::xml_node<>* node, 
+                                const char* attrName) {
+    if (!node) return false;
+    return node->first_attribute(attrName) != nullptr;
+}
+
+/// Convert string to double with fallback
+[[nodiscard]] double toDouble(const std::string& str, double defaultValue = 0.0) {
+    if (str.empty()) return defaultValue;
+    
+    try {
+        return std::stod(str);
+    } catch (const std::exception&) {
+        return defaultValue;
+    }
+}
+
+/// Convert double to string with specified precision
+[[nodiscard]] std::string doubleToString(double value, int precision = 10) {
+    std::ostringstream oss;
+    oss << std::setprecision(precision) << value;
+    return oss.str();
+}
+
+/// Convert bool to string
+[[nodiscard]] const char* boolToString(bool value) {
+    return value ? "true" : "false";
+}
+
+/// Add an attribute to a RapidXML node
+void addAttribute(rapidxml::xml_document<>* doc, 
+                  rapidxml::xml_node<>* node,
+                  const char* name, 
+                  const std::string& value) {
+    char* allocName = doc->allocate_string(name);
+    char* allocValue = doc->allocate_string(value.c_str(), value.size() + 1);
+    node->append_attribute(doc->allocate_attribute(allocName, allocValue));
+}
+
+void addAttribute(rapidxml::xml_document<>* doc,
+                  rapidxml::xml_node<>* node,
+                  const char* name,
+                  double value,
+                  int precision = 10) {
+    addAttribute(doc, node, name, doubleToString(value, precision));
+}
+
+void addAttribute(rapidxml::xml_document<>* doc,
+                  rapidxml::xml_node<>* node,
+                  const char* name,
+                  bool value) {
+    addAttribute(doc, node, name, std::string(boolToString(value)));
+}
+
+} // anonymous namespace
+
+// ============================================================================
+// Copy Constructor and Assignment
+// ============================================================================
+
+Parameter::Parameter(const Parameter& other) 
+   : m_name(other.m_name)
+   , m_value(other.m_value)
+   , m_minValue(other.m_minValue)
+   , m_maxValue(other.m_maxValue)
+   , m_free(other.m_free)
+   , m_scale(other.m_scale)
+   , m_error(other.m_error)
+   , m_alwaysFixed(other.m_alwaysFixed)
+   , m_par_ref(other.m_par_ref)
+   , m_log_prior(other.m_log_prior)
+{
+}
+
+Parameter& Parameter::operator=(const Parameter& rhs) {
+   if (this != &rhs) {
+      m_name = rhs.m_name;
+      m_value = rhs.m_value;
+      m_minValue = rhs.m_minValue;
+      m_maxValue = rhs.m_maxValue;
+      m_free = rhs.m_free;
+      m_scale = rhs.m_scale;
+      m_error = rhs.m_error;
+      m_alwaysFixed = rhs.m_alwaysFixed;
+      m_par_ref = rhs.m_par_ref;
+      m_log_prior = rhs.m_log_prior;
    }
-   m_name = rhs.m_name;
-   m_value = rhs.m_value;
-   m_minValue = rhs.m_minValue;
-   m_maxValue = rhs.m_maxValue;
-   m_free = rhs.m_free;
-   m_scale = rhs.m_scale;
-   m_error = rhs.m_error;
-   m_alwaysFixed = rhs.m_alwaysFixed; 
-   m_par_ref = rhs.m_par_ref;
-   m_log_prior = rhs.m_log_prior;
    return *this;
 }
 
+// ============================================================================
+// Value and Bounds Management
+// ============================================================================
+
 void Parameter::setValue(double value) {
-   static double tol(1e-8);
-   if (!std::isinf(m_minValue) && m_minValue != 0  && fabs((value - m_minValue)/m_minValue) < tol) {
+   static constexpr double tol = 1e-8;
+   
+   // Check if value is within tolerance of min bound
+   if (!std::isinf(m_minValue) && m_minValue != 0 && 
+       std::fabs((value - m_minValue) / m_minValue) < tol) {
       m_value = m_minValue;
-   } else if (!std::isinf(m_maxValue) && m_maxValue != 0 && fabs((value - m_maxValue)/m_maxValue) < tol) {
+   } 
+   // Check if value is within tolerance of max bound
+   else if (!std::isinf(m_maxValue) && m_maxValue != 0 && 
+            std::fabs((value - m_maxValue) / m_maxValue) < tol) {
       m_value = m_maxValue;
-   } else if (value >= m_minValue && value <= m_maxValue) {
+   } 
+   // Check if value is within bounds
+   else if (value >= m_minValue && value <= m_maxValue) {
       m_value = value;
-   } else if (m_minValue==0. && m_maxValue==0.) {
+   } 
+   // Special case: no bounds set (Minuit interface)
+   else if (m_minValue == 0. && m_maxValue == 0.) {
       m_value = value;
-   } else {
+   } 
+   else {
       throw OutOfBounds(
          "Attempt to set the value outside of existing bounds.", 
          value, m_minValue, m_maxValue, 
          static_cast<int>(OutOfBounds::VALUE_ERROR));
    }
+   
    if (m_par_ref) {
       m_par_ref->setValue(value);
    }
 }
 
 void Parameter::setTrueValue(double trueValue) {
-   double value = trueValue/m_scale;
+   double value = trueValue / m_scale;
    setValue(value);
    if (m_par_ref) {
       m_par_ref->setValue(value);
@@ -95,7 +186,8 @@ void Parameter::setBounds(double minValue, double maxValue) {
    if (m_value >= minValue && m_value <= maxValue) {
       m_minValue = minValue;
       m_maxValue = maxValue;
-   } else if (minValue==0. && maxValue==0.){
+   } else if (minValue == 0. && maxValue == 0.) {
+      // Minuit interface: parameter without limits
       m_minValue = minValue;
       m_maxValue = maxValue;     
    } else {
@@ -104,75 +196,109 @@ void Parameter::setBounds(double minValue, double maxValue) {
          m_value, minValue, maxValue, 
          static_cast<int>(OutOfBounds::BOUNDS_ERROR));
    }
+   
    if (m_par_ref) {
       m_par_ref->setBounds(minValue, maxValue);
    }
 }
 
-std::pair<double, double> Parameter::getBounds() const {
-   std::pair<double, double> my_Bounds(m_minValue, m_maxValue);
-   return my_Bounds;
+std::pair<double, double> Parameter::getBounds() const noexcept {
+   return {m_minValue, m_maxValue};
 }
 
-void Parameter::extractDomData(const DOMElement * elt) {
-   m_name = xmlBase::Dom::getAttribute(elt, "name");
-   m_value = std::atof(xmlBase::Dom::getAttribute(elt, "value").c_str());
-   m_minValue = std::atof(xmlBase::Dom::getAttribute(elt, "min").c_str());
-   m_maxValue = std::atof(xmlBase::Dom::getAttribute(elt, "max").c_str());
-   if(m_minValue==0. && m_maxValue==0.){
-     //Minuit interface : parameter is given without limits, 
-     //which is fine, don't throw out-of-bounds exception; 
-     //Minuit2 will check for this case in the same manner.
+// ============================================================================
+// XML Serialization (RapidXML-based)
+// ============================================================================
+
+void Parameter::extractDomData(const rapidxml::xml_node<>* elt) {
+   if (!elt) {
+      throw std::invalid_argument("Parameter::extractDomData: null element");
+   }
+
+   // Extract name attribute
+   m_name = getAttribute(elt, "name");
+   
+   // Extract value attribute
+   m_value = toDouble(getAttribute(elt, "value"), 0.0);
+   
+   // Extract min/max bounds
+   m_minValue = toDouble(getAttribute(elt, "min"), 0.0);
+   m_maxValue = toDouble(getAttribute(elt, "max"), 0.0);
+   
+   // Validate bounds
+   if (m_minValue == 0. && m_maxValue == 0.) {
+      // Minuit interface: parameter is given without limits,
+      // which is fine, don't throw out-of-bounds exception;
+      // Minuit2 will check for this case in the same manner.
    } else if (m_value < m_minValue || m_value > m_maxValue) {
       std::ostringstream message;
       message << "Parameter::extractDomData:\n"
-              << "In the XML description of parameter "<< m_name << ", "
-              << "An attempt has been made to set the parameter value "
-              << "outside of the specified bounds.";
+              << "In the XML description of parameter '" << m_name << "', "
+              << "An attempt has been made to set the parameter value ("
+              << m_value << ") outside of the specified bounds ["
+              << m_minValue << ", " << m_maxValue << "].";
       throw std::out_of_range(message.str());
    }
-   if (std::string(xmlBase::Dom::getAttribute(elt, "free")) == "true" ||
-       std::string(xmlBase::Dom::getAttribute(elt, "free")) == "1" ) {
-      m_free = true;
-   } else {
-      m_free = false;
-   }
-   m_scale = std::atof(xmlBase::Dom::getAttribute(elt, "scale").c_str());
-   if (xmlBase::Dom::hasAttribute(elt, "error")) {
-      m_error = std::atof(xmlBase::Dom::getAttribute(elt, "error").c_str());
+   
+   // Extract free attribute
+   std::string freeStr = getAttribute(elt, "free");
+   // Convert to lowercase for comparison
+   std::transform(freeStr.begin(), freeStr.end(), freeStr.begin(),
+                  [](unsigned char c) { return std::tolower(c); });
+   m_free = (freeStr == "true" || freeStr == "1");
+   
+   // Extract scale attribute
+   m_scale = toDouble(getAttribute(elt, "scale"), 1.0);
+   
+   // Extract optional error attribute
+   if (hasAttribute(elt, "error")) {
+      m_error = toDouble(getAttribute(elt, "error"), 0.0);
    } else {
       m_error = 0;
    }
+   
+   // Propagate to referenced parameter if exists
    if (m_par_ref) {
       m_par_ref->extractDomData(elt);
    }
 }
 
-DOMElement * Parameter::createDomElement(DOMDocument * doc) const {
+rapidxml::xml_node<>* Parameter::createDomElement(rapidxml::xml_document<>* doc) const {
+   if (!doc) {
+      throw std::invalid_argument("Parameter::createDomElement: null document");
+   }
 
-   DOMElement * paramElt = Dom::createElement(doc, "parameter");
+   // Create the parameter element
+   char* elemName = doc->allocate_string("parameter");
+   auto* paramElt = doc->allocate_node(rapidxml::node_element, elemName);
 
-// Add the appropriate attributes.
-   xmlBase::Dom::addAttribute(paramElt, "name", m_name.c_str());
-   xmlBase::Dom::addAttribute(paramElt, std::string("value"), m_value, 10);
-   xmlBase::Dom::addAttribute(paramElt, std::string("min"), m_minValue, 10);
-   xmlBase::Dom::addAttribute(paramElt, std::string("max"), m_maxValue, 10);
-   xmlBase::Dom::addAttribute(paramElt, std::string("free"), m_free);
-   xmlBase::Dom::addAttribute(paramElt, std::string("scale"), m_scale, 10);
+   // Add the appropriate attributes
+   addAttribute(doc, paramElt, "name", m_name);
+   addAttribute(doc, paramElt, "value", m_value, 10);
+   addAttribute(doc, paramElt, "min", m_minValue, 10);
+   addAttribute(doc, paramElt, "max", m_maxValue, 10);
+   addAttribute(doc, paramElt, "free", m_free);
+   addAttribute(doc, paramElt, "scale", m_scale, 10);
+   
+   // Only add error attribute if it's greater than 0
    if (m_error > 0) {
-      xmlBase::Dom::addAttribute(paramElt, std::string("error"), m_error, 10);
+      addAttribute(doc, paramElt, "error", m_error, 10);
    }
 
    return paramElt;
 }
 
-void Parameter::setPrior(Function & log_prior) {
+// ============================================================================
+// Prior Function Methods
+// ============================================================================
+
+void Parameter::setPrior(Function& log_prior) {
    m_log_prior = &log_prior;
 }
 
-Function * Parameter::removePrior() {
-   Function * log_prior = m_log_prior;
-   m_log_prior = 0;
+Function* Parameter::removePrior() {
+   Function* log_prior = m_log_prior;
+   m_log_prior = nullptr;
    return log_prior;
 }
 

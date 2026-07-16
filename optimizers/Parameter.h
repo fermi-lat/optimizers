@@ -1,6 +1,6 @@
 /** 
  * @file Parameter.h
- * @brief Declaration of Parameter classe
+ * @brief Declaration of Parameter class
  * @author J. Chiang
  *
  * $Header$
@@ -13,18 +13,16 @@
 #include <limits>
 #include <sstream>
 #include <string>
+#include <string_view>
 #include <vector>
+#include <utility>
 
-#include "xmlBase/Dom.h"
+// RapidXML-based XML framework (replaces Xerces-C)
+#include "xmlBase/rapidxml.hpp"
 
 namespace optimizers {
 
-   class Function;
-
-#ifndef SWIG
-using XERCES_CPP_NAMESPACE_QUALIFIER DOMElement;
-using XERCES_CPP_NAMESPACE_QUALIFIER DOMDocument;
-#endif
+class Function;
 
 /** 
  * @class Parameter
@@ -37,16 +35,24 @@ using XERCES_CPP_NAMESPACE_QUALIFIER DOMDocument;
  * through the value accessor methods of the Function class.
  *
  */
-
 class Parameter {
 
    friend class Function;
 
 public:
-
-   Parameter() : m_name(""), m_value(0), m_minValue(-std::numeric_limits<double>::infinity()), m_maxValue(std::numeric_limits<double>::infinity()),
-                 m_free(true), m_scale(1.), m_error(0), m_alwaysFixed(false),
-                 m_par_ref(0), m_log_prior(0) {}
+   /// Default constructor
+   Parameter() 
+      : m_name("")
+      , m_value(0)
+      , m_minValue(-std::numeric_limits<double>::infinity())
+      , m_maxValue(std::numeric_limits<double>::infinity())
+      , m_free(true)
+      , m_scale(1.)
+      , m_error(0)
+      , m_alwaysFixed(false)
+      , m_par_ref(nullptr)
+      , m_log_prior(nullptr) 
+   {}
 
    /// @param name The name of the Parameter
    /// @param value The (scaled) value of the Parameter
@@ -54,68 +60,93 @@ public:
    /// @param maxValue Parameter value upper bound
    /// @param isFree true if the Parameter value is allowed to vary in a fit
    /// @param error estimated error on Parameter value.
-   Parameter(const std::string & name, double value, double minValue,
-             double maxValue, bool isFree=true, double error=0) 
-      : m_name(name), m_value(value), m_minValue(minValue), 
-        m_maxValue(maxValue), m_free(isFree), m_scale(1.), m_error(error),
-        m_alwaysFixed(false), m_par_ref(0), m_log_prior(0) {}
+   Parameter(const std::string& name, double value, double minValue,
+             double maxValue, bool isFree = true, double error = 0) 
+      : m_name(name)
+      , m_value(value)
+      , m_minValue(minValue)
+      , m_maxValue(maxValue)
+      , m_free(isFree)
+      , m_scale(1.)
+      , m_error(error)
+      , m_alwaysFixed(false)
+      , m_par_ref(nullptr)
+      , m_log_prior(nullptr) 
+   {}
 
-   Parameter(const std::string & name, double value, bool isFree=true)
-      : m_name(name), m_value(value), m_minValue(-std::numeric_limits<double>::infinity()), m_maxValue(std::numeric_limits<double>::infinity()),
-        m_free(isFree), m_scale(1.), m_error(0), m_alwaysFixed(false),
-        m_par_ref(0), m_log_prior(0) {}
+   Parameter(const std::string& name, double value, bool isFree = true)
+      : m_name(name)
+      , m_value(value)
+      , m_minValue(-std::numeric_limits<double>::infinity())
+      , m_maxValue(std::numeric_limits<double>::infinity())
+      , m_free(isFree)
+      , m_scale(1.)
+      , m_error(0)
+      , m_alwaysFixed(false)
+      , m_par_ref(nullptr)
+      , m_log_prior(nullptr) 
+   {}
 
-   Parameter(const Parameter & other);
+   Parameter(const Parameter& other);
 
-   Parameter & operator=(const Parameter & rhs);
+   Parameter& operator=(const Parameter& rhs);
 
-   virtual ~Parameter() throw() {}
+   virtual ~Parameter() noexcept = default;
 
-   /// name access
-   virtual void setName(const std::string & paramName) {
+   // ==================== Name Access ====================
+   
+   virtual void setName(const std::string& paramName) {
       m_name = paramName;
       if (m_par_ref) {
          m_par_ref->setName(paramName);
       }
    }
 
-   const std::string & getName() const {
+   [[nodiscard]] const std::string& getName() const noexcept {
       return m_name;
    }
    
-   /// value access
+   // ==================== Value Access ====================
+   
    virtual void setValue(double value);
 
-   double getValue() const {
+   [[nodiscard]] double getValue() const noexcept {
       return m_value;
    }
    
-   /// scale access
+   // ==================== Scale Access ====================
+   
    virtual void setScale(double scale) {
       m_scale = scale;
       if (m_par_ref) {
          m_par_ref->setScale(scale);
       }
    }
-   double getScale() const {
+
+   [[nodiscard]] double getScale() const noexcept {
       return m_scale;
    }
 
+   // ==================== True Value Access ====================
 
-   /// "true" value access
    virtual void setTrueValue(double trueValue);
-   double getTrueValue() const {
-      return m_value*m_scale;
+
+   [[nodiscard]] double getTrueValue() const noexcept {
+      return m_value * m_scale;
    }
 
-   /// bounds access
+   // ==================== Bounds Access ====================
+
    virtual void setBounds(double minValue, double maxValue);
-   virtual void setBounds(const std::pair<double, double> &boundValues) {
+
+   virtual void setBounds(const std::pair<double, double>& boundValues) {
       setBounds(boundValues.first, boundValues.second);
    }
-   std::pair<double, double> getBounds() const;
 
-   /// free flag access
+   [[nodiscard]] std::pair<double, double> getBounds() const noexcept;
+
+   // ==================== Free Flag Access ====================
+
    virtual void setFree(bool free) {
       if (m_alwaysFixed) {
          m_free = false;
@@ -126,7 +157,8 @@ public:
          m_par_ref->setFree(free);
       }
    }
-   bool isFree() const {
+
+   [[nodiscard]] bool isFree() const noexcept {
       return m_free;
    }
 
@@ -136,41 +168,53 @@ public:
          m_par_ref->setAlwaysFixed(flag);
       }
    }
-   bool alwaysFixed() const {
+
+   [[nodiscard]] bool alwaysFixed() const noexcept {
       return m_alwaysFixed;
    }
 
-   /// error access
+   // ==================== Error Access ====================
+
    virtual void setError(double error) {
       m_error = error;
       if (m_par_ref) {
          m_par_ref->setError(error);
       }
    }
-   double error() const {
+
+   [[nodiscard]] double error() const noexcept {
       return m_error;
    }
+
+   // ==================== XML Serialization (RapidXML) ====================
 
 #ifndef SWIG
    /// Extract data from an xml parameter element defined using the
    /// FunctionModels.dtd.
-   void extractDomData(const DOMElement * elt);
+   /// @param elt Pointer to RapidXML node containing parameter data
+   void extractDomData(const rapidxml::xml_node<>* elt);
 
    /// Add a parameter DomElement that contains the current data
    /// member values.
-   DOMElement * createDomElement(DOMDocument * doc) const;
+   /// @param doc Pointer to RapidXML document for memory allocation
+   /// @return Pointer to newly created parameter node
+   [[nodiscard]] rapidxml::xml_node<>* createDomElement(rapidxml::xml_document<>* doc) const;
 #endif // SWIG
 
-   void setParRef(Parameter * par) {
+   // ==================== Parameter Reference ====================
+
+   void setParRef(Parameter* par) {
       m_par_ref = par;
-      m_name = par->m_name;
-      m_value = par->m_value;
-      m_minValue = par->m_minValue;
-      m_maxValue = par->m_maxValue;
-      m_free = par->m_free;
-      m_scale = par->m_scale;
-      m_error = par->m_error;
-      m_alwaysFixed = par->m_alwaysFixed;
+      if (par) {
+         m_name = par->m_name;
+         m_value = par->m_value;
+         m_minValue = par->m_minValue;
+         m_maxValue = par->m_maxValue;
+         m_free = par->m_free;
+         m_scale = par->m_scale;
+         m_error = par->m_error;
+         m_alwaysFixed = par->m_alwaysFixed;
+      }
    }
 
    void setDataValues(const Parameter& par) {
@@ -184,30 +228,33 @@ public:
       m_alwaysFixed = par.m_alwaysFixed;
    }
      
-   const Parameter* getParRef() const {
-     return m_par_ref;
+   [[nodiscard]] const Parameter* getParRef() const noexcept {
+      return m_par_ref;
    } 
   
-   void setPrior(Function & log_prior);
+   // ==================== Prior Function ====================
 
-   inline bool has_prior() const { return m_log_prior != 0; }
+   void setPrior(Function& log_prior);
 
-   Function * removePrior();
+   [[nodiscard]] bool has_prior() const noexcept { 
+      return m_log_prior != nullptr; 
+   }
 
-   double log_prior_value() const;
+   Function* removePrior();
 
-   double log_prior_deriv() const;
+   [[nodiscard]] double log_prior_value() const;
 
-   Function & log_prior() {
+   [[nodiscard]] double log_prior_deriv() const;
+
+   [[nodiscard]] Function& log_prior() {
       return *m_log_prior;
    }
 
-   const Function & log_prior() const {
+   [[nodiscard]] const Function& log_prior() const {
       return *m_log_prior;
    }
 
 protected:
-
    std::string m_name;
    double m_value;
    double m_minValue;
@@ -226,12 +273,11 @@ protected:
 
    /// pointer to underlying Parameter object for use by composite Function
    /// classes. This will not be deleted by this class.
-   Parameter * m_par_ref;
+   Parameter* m_par_ref;
 
    /// Pointer to prior function (the log of the 1D PDF).  This will
    /// not be deleted by this class.
-   Function * m_log_prior;
-
+   Function* m_log_prior;
 };
 
 } // namespace optimizers

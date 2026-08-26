@@ -25,7 +25,9 @@ static integer c__72 = 72;
 static logical c_true = TRUE_;
 
 /* DECK DGAUS8 */
-/* Subroutine */ int dgaus8_(D_fp fun, doublereal *a, doublereal *b, 
+// doublereal (*fun)(doublereal *)
+// D_fp fun
+/* Subroutine */ int dgaus8_(doublereal (*fun)(doublereal *), doublereal *a, doublereal *b, 
 	doublereal *err, doublereal *ans, integer *ierr)
 {
     /* Initialized data */

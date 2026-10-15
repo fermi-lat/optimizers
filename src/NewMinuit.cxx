@@ -32,7 +32,7 @@ namespace optimizers {
 
   // Constructor
   NewMinuit::NewMinuit(Statistic & stat) 
-  : Optimizer(stat), m_FCN(stat), 
+    : Optimizer(stat), m_FCN(stat), m_distance(0),
     m_tolerance(1e-3), m_strategy(ROOT::Minuit2::MnStrategy(1)), m_min(0),
     m_strategy_value(1) {}
 
@@ -45,7 +45,7 @@ namespace optimizers {
       m_tolerance = rhs.m_tolerance;
       m_strategy = rhs.m_strategy;
       delete m_min;
-      m_min = new ROOT::Minuit2::FunctionMinimum(*(rhs.m_min));
+      m_min = rhs.m_min ? new ROOT::Minuit2::FunctionMinimum(*(rhs.m_min)) : 0;
       m_strategy_value = rhs.m_strategy_value;
       return *this;
   }
@@ -54,8 +54,9 @@ namespace optimizers {
   NewMinuit::NewMinuit(const NewMinuit & x) 
      : Optimizer(x), 
        m_FCN(x.m_FCN), m_distance(x.m_distance), m_tolerance(x.m_tolerance),
-       m_strategy(x.m_strategy), m_strategy_value(x.m_strategy_value) {
-     m_min = new ROOT::Minuit2::FunctionMinimum(*(x.m_min));
+       m_strategy(x.m_strategy),
+       m_min(x.m_min ? new ROOT::Minuit2::FunctionMinimum(*(x.m_min)) : 0),
+       m_strategy_value(x.m_strategy_value) {
   }
 
   // Call Minuit's MIGRAD to find the minimum of the function
@@ -111,17 +112,17 @@ namespace optimizers {
     delete m_min;
     m_min = new ROOT::Minuit2::FunctionMinimum(min);
     if (verbose > 0) std::cout << *m_min;
+    m_distance = min.Edm();
+    setRetCode(checkResults());
     if (!min.IsValid()) {
       throw Exception("Minuit abnormal termination.  No convergence?");
     }
-    m_distance = min.Edm();
     std::vector<double> ParamValues;
     unsigned int i = 0;
     for (pptr p = params.begin(); p != params.end(); p++, i++) {
       ParamValues.push_back(m_min->UserParameters().Value(i));
     }
     m_stat->setFreeParamValues(ParamValues);
-    setRetCode(checkResults());
     return getRetCode();
   }
 
@@ -219,6 +220,14 @@ namespace optimizers {
          throw Exception("Parameter number out of range in Minos", n);
       }
    }
+
+  int NewMinuit::getQuality(void) const {
+    // MnUserParameterState::CovarianceStatus() uses the same 0-3 scale as
+    // Minuit's quality code (MNSTAT ISTAT), plus -1 for "no covariance" (for
+    // example before any fit), which is reported as "not calculated".
+    int status = userCovarianceStatus();
+    return status < 0 ? MINUIT_NOTCALC : status;
+  }
 
   // Call MNCONTOUR
   void NewMinuit::MnContour(unsigned int par1, unsigned int par2,

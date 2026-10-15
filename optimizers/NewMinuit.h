@@ -106,6 +106,10 @@ namespace optimizers {
     std::vector<std::vector<double> > minuitInvHessian() const;
 
     double getDistance(void) const {return m_distance;};
+
+    int getQuality(void) const;
+    enum MinuitQuality {MINUIT_NOTCALC, MINUIT_DIAG, MINUIT_FORCEDPOS, MINUIT_NORMAL};
+    
     virtual const std::vector<double> & getUncertainty(bool useBase = false);
     virtual std::vector<std::vector<double> > covarianceMatrix() const;
     

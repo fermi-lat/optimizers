@@ -27,7 +27,7 @@ add_library(
 
 target_link_libraries(
   optimizers
-  PUBLIC xmlBase XercesC::XercesC FermiMinuit2::FermiMinuit2
+  PUBLIC xmlBase FermiMinuit2::FermiMinuit2
   PRIVATE optimizers_c_objects cfitsio::cfitsio CLHEP::RandomS st_facilities
 )
 

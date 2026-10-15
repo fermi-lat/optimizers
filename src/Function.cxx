@@ -1,4 +1,4 @@
-/** 
+/*A* AA
  * @file Function.cxx
  * @brief Function class implementation
  * @author J. Chiang
@@ -8,8 +8,8 @@
 
 #include <sstream>
 
-#include "xmlBase/Dom.h"
-
+#include "xmlBase/rapidxml.hpp"
+#include "xmlBase/safe_xml_parser.hpp"
 #include "optimizers/Dom.h"
 #include "optimizers/Function.h"
 #include "optimizers/ParameterNotFound.h"
@@ -270,21 +270,25 @@ void Function::fetchDerivs(const Arg & x, std::vector<double> & derivs,
    }
 }
 
-void Function::appendParamDomElements(DOMDocument * doc, DOMNode * node) {
+void Function::appendParamDomElements(rapidxml::xml_document<> * doc, rapidxml::xml_node<> * node) {
    std::vector<Parameter>::iterator paramIt = m_parameter.begin();
    for ( ; paramIt != m_parameter.end(); ++paramIt) {
-      DOMElement * paramElt = paramIt->createDomElement(doc);
+      rapidxml::xml_node<> * paramElt = paramIt->createDomElement(doc);
       Dom::appendChild(node, paramElt);
    }
 }
 
-void Function::setParams(const DOMElement * elt) {
-   std::vector<DOMElement *> parElts;
-   xmlBase::Dom::getChildrenByTagName(elt, "parameter", parElts);
+void Function::setParams(rapidxml::xml_node<> * elt) {
+   xml_framework::SafeXmlParser * parser = new xml_framework::SafeXmlParser();
+   std::vector<rapidxml::xml_node<> *> parElts;
+   std::string paramstring = "parameter";
+   parElts = parser->getChildren(elt, paramstring.c_str());
    for (unsigned int i = 0; i < parElts.size(); i++) {
-      std::string name = xmlBase::Dom::getAttribute(parElts[i], "name");
+     //std::string name = xmlBase::Dom::getAttribute(parElts[i], "name");
+     std::string name(parser->getAttributeValue<std::string>(parElts[i], "name").value());
       parameter(name).extractDomData(parElts[i]);
    }
+   delete parser;
 }
 
 Parameter & Function::parameter(const std::string & name) {

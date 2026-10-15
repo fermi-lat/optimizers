@@ -2,33 +2,31 @@
 #define optimizers_Dom_h
 
 #include <string>
+#include "xmlBase/rapidxml.hpp"
+//#include <xercesc/util/XercesDefs.hpp>
 
-#include <xercesc/util/XercesDefs.hpp>
-
-XERCES_CPP_NAMESPACE_BEGIN
-class DOMElement;
-class DOMDocument;
-class DOMNode;
-XERCES_CPP_NAMESPACE_END
+//XERCES_CPP_NAMESPACE_BEGIN
+//class DOMElement;
+//class DOMDocument;
+//class DOMNode;
+//XERCES_CPP_NAMESPACE_END
 
 namespace optimizers {
 
-using XERCES_CPP_NAMESPACE_QUALIFIER DOMDocument;
-using XERCES_CPP_NAMESPACE_QUALIFIER DOMElement;
-using XERCES_CPP_NAMESPACE_QUALIFIER DOMNode;
+  //using XERCES_CPP_NAMESPACE_QUALIFIER DOMDocument;
+  //using XERCES_CPP_NAMESPACE_QUALIFIER rapidxml::xml_node<>;
+  //using XERCES_CPP_NAMESPACE_QUALIFIER DOMNode;
 
 class Dom {
 
 public:
 
-   static DOMDocument * createDocument();
+   static rapidxml::xml_document<> * createDocument();
 
-   static DOMElement * createElement(DOMDocument * doc, 
+   static rapidxml::xml_node<> * createElement(rapidxml::xml_document<> * doc, 
                                      const std::string & name);
 
-   static void appendChild(DOMNode * parent, DOMElement * child);
-
-   static void appendChild(DOMElement * parent, DOMElement * child);
+   static void appendChild(rapidxml::xml_node<> * parent, rapidxml::xml_node<> * child);
 
 };
 

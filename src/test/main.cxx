@@ -74,6 +74,7 @@ void test_ChiSq();
 void test_Amoeba();
 void test_rescaling();
 void test_scalingFunction();
+void test_NewMinuitQuality();
 
 std::string test_path;
 
@@ -93,6 +94,7 @@ int main() {
    test_Amoeba();
    test_rescaling();
    test_scalingFunction();
+   test_NewMinuitQuality();
    return 0;
 }
 
@@ -1039,4 +1041,42 @@ void test_scalingFunction() {
    Function * copy = original->clone();
    delete original;
    delete copy;
+}
+
+void test_NewMinuitQuality() {
+   std::cout << "*** test_NewMinuitQuality ***" << std::endl;
+
+   Rosen my_rosen;
+   std::vector<Parameter> params;
+   my_rosen.getParams(params);
+   params[0].setValue(2.);
+   params[0].setBounds(-10., 10.);
+   params[1].setValue(2.);
+   params[1].setBounds(-10., 10.);
+   my_rosen.setParams(params);
+
+   NewMinuit newMinuit(my_rosen);
+
+   // Before any fit: no covariance, so quality is "not calculated", and the
+   // distance is initialised.
+   assert(newMinuit.getQuality() == NewMinuit::MINUIT_NOTCALC);
+   assert(newMinuit.getDistance() == 0.);
+
+   // Copying before a fit must not dereference a null FunctionMinimum.
+   NewMinuit unfitted_copy(newMinuit);
+   assert(unfitted_copy.getQuality() == NewMinuit::MINUIT_NOTCALC);
+
+   // After a fit, quality matches the Minuit2 covariance status.
+   newMinuit.find_min(0, 1e-4);
+   int status = newMinuit.userCovarianceStatus();
+   assert(newMinuit.getQuality() == (status < 0 ? 0 : status));
+   assert(newMinuit.getQuality() > NewMinuit::MINUIT_NOTCALC);
+
+   // Copies carry the fit status.
+   NewMinuit fitted_copy(newMinuit);
+   assert(fitted_copy.getQuality() == newMinuit.getQuality());
+   assert(fitted_copy.getDistance() == newMinuit.getDistance());
+
+   std::cout << "*** test_NewMinuitQuality: all tests completed ***\n"
+             << std::endl;
 }

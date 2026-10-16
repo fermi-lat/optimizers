@@ -23,14 +23,14 @@ namespace optimizers {
   void Lbfgs::setPgtol(const double pgtol)
   {m_pgtol = pgtol;}
 
-  std::string Lbfgs::getErrorString(void) const
+  auto Lbfgs::getErrorString(void) const -> std::string
   {return m_errorString;}
 
-  int Lbfgs::find_min_only(int verbose, double tol, int tolType) {
+  auto Lbfgs::find_min_only(int verbose, double tol, int tolType) -> int {
     return find_min(verbose, tol, tolType);
   }
 
-  int Lbfgs::find_min(int verbose, double tol, int tolType) {
+  auto Lbfgs::find_min(int verbose, double tol, int tolType) -> int {
 
     m_numEvals = 0;
     m_errorString.erase();
@@ -165,7 +165,7 @@ namespace optimizers {
     return getRetCode();
   } // End of find_min
 
-  std::ostream& Lbfgs::put (std::ostream& s) const {
+  auto Lbfgs::put (std::ostream& s) const -> std::ostream& {
     s << "LBFGS returned a function value of " << m_val << std::endl;
     s << "after " << m_numEvals << " evaluations." << std::endl;
     return s;

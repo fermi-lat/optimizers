@@ -194,7 +194,7 @@ void Mcmc::estimateTransWidths() {
    }
 }
 
-double Mcmc::drawValue(Parameter &param, double dx, double &transProbRatio) {
+auto Mcmc::drawValue(Parameter &param, double dx, double &transProbRatio) -> double {
 // Normalize the top-hat function (i.e., find the width) at the input
 // Parameter location given the Parameter bounds.
 

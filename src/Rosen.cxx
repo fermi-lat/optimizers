@@ -23,15 +23,15 @@ Rosen::Rosen(double prefactor)
    addParam("y", 1, true);
 }
 
-double Rosen::value(const Arg &) const {
+auto Rosen::value(const Arg &) const -> double {
    double x = m_parameter[0].getTrueValue();
    double y = m_parameter[1].getTrueValue();
 
    return -(m_prefactor*pow((y - x*x), 2) + pow((1 - x), 2));
 }
 
-double Rosen::derivByParamImp(const Arg &, 
-                              const std::string & paramName) const {
+auto Rosen::derivByParamImp(const Arg &, 
+                              const std::string & paramName) const -> double {
    std::vector<double> params;
    getParamValues(params);
 

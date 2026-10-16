@@ -47,7 +47,7 @@ Function::Function(const Function & other)
    }
 }
 
-Function & Function::operator=(const Function & rhs) {
+auto Function::operator=(const Function & rhs) -> Function & {
    if (this != &rhs) {
       m_parameter = rhs.m_parameter;
       m_genericName = rhs.m_genericName;
@@ -65,7 +65,7 @@ Function & Function::operator=(const Function & rhs) {
    return *this;
 }
 
-double Function::operator()(const Arg & xarg) const {
+auto Function::operator()(const Arg & xarg) const -> double {
    double my_value(value(xarg));
    if (m_scalingFunction) {
       my_value *= m_scalingFunction->operator()(xarg);
@@ -73,8 +73,8 @@ double Function::operator()(const Arg & xarg) const {
    return my_value;
 }
 
-double Function::derivByParam(const Arg & xarg,
-                              const std::string & paramName) const {
+auto Function::derivByParam(const Arg & xarg,
+                              const std::string & paramName) const -> double {
    double my_deriv(derivByParamImp(xarg, paramName));
    if (m_scalingFunction) {
       my_deriv *= m_scalingFunction->operator()(xarg);
@@ -86,7 +86,7 @@ void Function::setScalingFunction(const Function & scalingFunction) {
    m_scalingFunction = scalingFunction.clone();
 }
 
-const Function * Function::scalingFunction() const {
+auto Function::scalingFunction() const -> const Function * {
    return m_scalingFunction;
 }
 
@@ -94,11 +94,11 @@ void Function::setParam(const Parameter &param) {
    parameter(param.getName()) = param;
 }
 
-double Function::getParamValue(const std::string &paramName) const {
+auto Function::getParamValue(const std::string &paramName) const -> double {
    return getParam(paramName).getValue();
 }
 
-const Parameter & Function::getParam(const std::string &paramName) const {
+auto Function::getParam(const std::string &paramName) const -> const Parameter & {
    std::vector<Parameter>::const_iterator it = m_parameter.begin();
    for (; it != m_parameter.end(); ++it) {
       if (paramName == it->getName()) {
@@ -121,8 +121,8 @@ void Function::setParamValues(const std::vector<double> &paramVec) {
    }
 }
    
-std::vector<double>::const_iterator Function::setParamValues_(
-   std::vector<double>::const_iterator it) {
+auto Function::setParamValues_(
+   std::vector<double>::const_iterator it) -> std::vector<double>::const_iterator {
    for (unsigned int i = 0; i < m_parameter.size(); i++) {
       m_parameter[i].setValue(*it++);
    }
@@ -152,8 +152,8 @@ void Function::setFreeParamValues(const std::vector<double> &paramVec) {
    }
 }
 
-std::vector<double>::const_iterator Function::setFreeParamValues_(
-   std::vector<double>::const_iterator it) {
+auto Function::setFreeParamValues_(
+   std::vector<double>::const_iterator it) -> std::vector<double>::const_iterator {
    for (unsigned int i = 0; i < m_parameter.size(); i++) {
       if (m_parameter[i].isFree()) {
          m_parameter[i].setValue(*it++);
@@ -162,7 +162,7 @@ std::vector<double>::const_iterator Function::setFreeParamValues_(
    return it;
 }
 
-unsigned int Function::getNumFreeParams() const {
+auto Function::getNumFreeParams() const -> unsigned int {
    int j = 0;
    for (unsigned int i = 0; i < m_parameter.size(); i++) {
       j += m_parameter[i].isFree();
@@ -291,7 +291,7 @@ void Function::setParams(rapidxml::xml_node<> * elt) {
    delete parser;
 }
 
-Parameter & Function::parameter(const std::string & name) {
+auto Function::parameter(const std::string & name) -> Parameter & {
    std::vector<Parameter>::iterator it = m_parameter.begin();
    for (; it != m_parameter.end(); ++it) {
       if (it->getName() == name) {
@@ -301,21 +301,21 @@ Parameter & Function::parameter(const std::string & name) {
    throw ParameterNotFound(name, getName(), "parameter(std::string &)");
 }
 
-Parameter & Function::normPar() {
+auto Function::normPar() -> Parameter & {
    if (m_normParName == "") {
       throw ParameterNotFound("Normalization", getName(), "normPar()");
    }
    return parameter(m_normParName);
 }
 
-const Parameter & Function::normPar() const {
+auto Function::normPar() const -> const Parameter & {
    if (m_normParName == "") {
       throw ParameterNotFound("Normalization", getName(), "normPar()");
    }
    return getParam(m_normParName);
 }
 
-bool Function::rescale(double factor) {
+auto Function::rescale(double factor) -> bool {
    if (m_normParName == "") {
       return false;
    }

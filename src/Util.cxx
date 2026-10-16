@@ -25,7 +25,7 @@ namespace {
 
 namespace optimizers {
 
-double Util::numDeriv(FunctorBase & f, double x, double h, double & err) {
+auto Util::numDeriv(FunctorBase & f, double x, double h, double & err) -> double {
 
    std::cout << "inside Util::numDeriv" << std::endl;
 

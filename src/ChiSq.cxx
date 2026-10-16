@@ -42,7 +42,7 @@ ChiSq::ChiSq(const DataCont_t & domain, const DataCont_t & range, optimizers::Fu
    m_func->getParams(m_parameter);
 }
 
-double ChiSq::value() const {
+auto ChiSq::value() const -> double {
    const DataCont_t & x(*m_domain);
    const DataCont_t & y(*m_range);
 
@@ -89,7 +89,7 @@ void ChiSq::getFreeDerivs(std::vector<double> & derivs) const {
 
 }
 
-std::vector<double>::const_iterator ChiSq::setFreeParamValues_(std::vector<double>::const_iterator it) {
+auto ChiSq::setFreeParamValues_(std::vector<double>::const_iterator it) -> std::vector<double>::const_iterator {
    // Pass modified parameters to the function.
    m_func->setFreeParamValues_(it);
    // Also store the parameters in this object's parameter set, so that other methods from Function such
@@ -97,11 +97,11 @@ std::vector<double>::const_iterator ChiSq::setFreeParamValues_(std::vector<doubl
    return Function::setFreeParamValues_(it);
 }
 
-optimizers::Function * ChiSq::clone() const { return new ChiSq(*this); }
+auto ChiSq::clone() const -> optimizers::Function * { return new ChiSq(*this); }
 
-double ChiSq::value(const optimizers::Arg &) const { return value(); }
+auto ChiSq::value(const optimizers::Arg &) const -> double { return value(); }
 
-double ChiSq::derivByParamImp(const optimizers::Arg &, const std::string & parameter_name) const {
+auto ChiSq::derivByParamImp(const optimizers::Arg &, const std::string & parameter_name) const -> double {
    const DataCont_t & x(*m_domain);
    const DataCont_t & y(*m_range);
 

@@ -25,11 +25,11 @@ namespace optimizers {
     mninit_(&i5, &i6, &i7);
   }
 
-  int Minuit::getQuality(void) const {
+  auto Minuit::getQuality(void) const -> int {
     return m_quality;
   }
 
-  double Minuit::getDistance(void) const {
+  auto Minuit::getDistance(void) const -> double {
     return m_distance;
   }
 
@@ -40,22 +40,22 @@ namespace optimizers {
       doCmd(s_strategy.str());
   }
 
-  const std::vector<double> & Minuit::getUncertainty(bool useBase) {
+  auto Minuit::getUncertainty(bool useBase) -> const std::vector<double> & {
      if (useBase) {
         Optimizer::getUncertainty(useBase);
      }
      return m_uncertainty;
   }
 
-  int Minuit::find_min(int verbose, double tol, int tolType) {
+  auto Minuit::find_min(int verbose, double tol, int tolType) -> int {
     return minimize(verbose, tol, tolType, true);
   }
 
-  int Minuit::find_min_only(int verbose, double tol, int tolType) {
+  auto Minuit::find_min_only(int verbose, double tol, int tolType) -> int {
     return minimize(verbose, tol, tolType, false);
   }
 
-  int Minuit::minimize(int verbose, double tol, int tolType, bool doHesse) {
+  auto Minuit::minimize(int verbose, double tol, int tolType, bool doHesse) -> int {
 
     typedef std::vector<Parameter>::iterator pptr;
 
@@ -181,7 +181,7 @@ namespace optimizers {
     return getRetCode();
   } // End of minimize 
 
-  std::pair<double,double> Minuit::Minos(unsigned int n, double level, bool numericDeriv) {
+  auto Minuit::Minos(unsigned int n, double level, bool numericDeriv) -> std::pair<double,double> {
     std::vector<double> parValues;
     m_stat->getFreeParamValues(parValues);
     integer npar(m_stat->getNumFreeParams());
@@ -283,7 +283,7 @@ namespace optimizers {
     return;
   }
 
-  int Minuit::doCmd(std::string command, bool set_npar) {
+  auto Minuit::doCmd(std::string command, bool set_npar) -> int {
     // Pass a command string to Minuit
     integer errorFlag = 0;
     
@@ -326,7 +326,7 @@ namespace optimizers {
     }
   }    
 
-   std::vector< std::vector<double> > Minuit::covarianceMatrix() const {
+   auto Minuit::covarianceMatrix() const -> std::vector< std::vector<double> > {
       std::vector<double> parValues;
       m_stat->getFreeParamValues(parValues);
       integer npar(m_stat->getNumFreeParams());
@@ -345,7 +345,7 @@ namespace optimizers {
       return matrix;
    }
 
-  std::ostream& Minuit::put (std::ostream& s) const {
+  auto Minuit::put (std::ostream& s) const -> std::ostream& {
     s << "MINUIT returned a value of " << m_val << std::endl;
     s << "and an estimated distance of " << m_distance << std::endl;
     return s;

@@ -25,7 +25,7 @@ PowerLaw::PowerLaw(double Prefactor, double Index, double Scale)
    addParam("Scale", Scale, false);
 }
 
-double PowerLaw::value(const Arg & xarg) const {
+auto PowerLaw::value(const Arg & xarg) const -> double {
    double x = dynamic_cast<const dArg &>(xarg).getValue();
 
    enum ParamTypes {Prefactor, Index, Scale};
@@ -38,8 +38,8 @@ double PowerLaw::value(const Arg & xarg) const {
            my_params[Index].getTrueValue());
 }
 
-double PowerLaw::derivByParamImp(const Arg & xarg,
-                                 const std::string & paramName) const {
+auto PowerLaw::derivByParamImp(const Arg & xarg,
+                                 const std::string & paramName) const -> double {
    double x = dynamic_cast<const dArg &>(xarg).getValue();
 
    enum ParamTypes {Prefactor, Index, Scale};
@@ -82,7 +82,7 @@ double PowerLaw::derivByParamImp(const Arg & xarg,
    return 0;
 }
 
-double PowerLaw::integral(const Arg & xargmin, const Arg & xargmax) const {
+auto PowerLaw::integral(const Arg & xargmin, const Arg & xargmax) const -> double {
    double xmin = dynamic_cast<const dArg &>(xargmin).getValue();
    double xmax = dynamic_cast<const dArg &>(xargmax).getValue();
 

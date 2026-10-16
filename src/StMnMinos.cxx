@@ -48,18 +48,18 @@ StMnMinos::StMnMinos(const ROOT::Minuit2::FCNBase & fcn,
 //   std::cout << "Using StMnMinos" << std::endl;
 } 
 
-std::pair<double,double>
+auto
 StMnMinos::operator()(unsigned int par,
                       unsigned int maxcalls,
-                      double toler) const {
+                      double toler) const -> std::pair<double,double> {
    // Do Minos analysis given the parameter index returning a pair for
    // (lower, upper) errors
    ROOT::Minuit2::MinosError mnerr = Minos(par, maxcalls, toler);
    return mnerr();
 }
 
-double StMnMinos::Lower(unsigned int par, unsigned int maxcalls,
-                        double toler) const {
+auto StMnMinos::Lower(unsigned int par, unsigned int maxcalls,
+                        double toler) const -> double {
    // Get lower error for parameter par
    ROOT::Minuit2::MnUserParameterState upar = m_fMinimum.UserState();
 //    double err = m_fMinimum.UserState().Error(par);
@@ -92,8 +92,8 @@ double StMnMinos::Lower(unsigned int par, unsigned int maxcalls,
    return lower;
 }
 
-double StMnMinos::Upper(unsigned int par, unsigned int maxcalls,
-                        double toler) const {
+auto StMnMinos::Upper(unsigned int par, unsigned int maxcalls,
+                        double toler) const -> double {
    // Get upper error for parameter par
    ROOT::Minuit2::MnCross aopt = Upval(par, maxcalls,toler);
    
@@ -126,8 +126,8 @@ double StMnMinos::Upper(unsigned int par, unsigned int maxcalls,
    return upper;
 }
 
-double StMnMinos::Lower_valid(unsigned int par, unsigned int maxcalls,
-                              double toler) const {
+auto StMnMinos::Lower_valid(unsigned int par, unsigned int maxcalls,
+                              double toler) const -> double {
    // Get lower error for parameter par
    ROOT::Minuit2::MnCross aopt = Loval(par, maxcalls, toler);
    
@@ -154,8 +154,8 @@ double StMnMinos::Lower_valid(unsigned int par, unsigned int maxcalls,
    return lower;
 }
 
-double StMnMinos::Upper_valid(unsigned int par, unsigned int maxcalls,
-                              double toler) const {
+auto StMnMinos::Upper_valid(unsigned int par, unsigned int maxcalls,
+                              double toler) const -> double {
    // Get upper error for parameter par
    ROOT::Minuit2::MnCross aopt = Upval(par, maxcalls, toler);
 
@@ -183,9 +183,9 @@ double StMnMinos::Upper_valid(unsigned int par, unsigned int maxcalls,
    return upper;
 }
 
-ROOT::Minuit2::MinosError 
+auto 
 StMnMinos::Minos(unsigned int par, unsigned int maxcalls,
-                 double toler) const {
+                 double toler) const -> ROOT::Minuit2::MinosError {
    // Do full minos error anlysis (lower + upper) for parameter par 
    assert(m_fMinimum.IsValid());  
    assert(!m_fMinimum.UserState().Parameter(par).IsFixed());
@@ -198,9 +198,9 @@ StMnMinos::Minos(unsigned int par, unsigned int maxcalls,
 }
 
 
-ROOT::Minuit2::MnCross 
+auto 
 StMnMinos::FindCrossValue(int direction, unsigned int par,
-                          unsigned int maxcalls, double toler) const {
+                          unsigned int maxcalls, double toler) const -> ROOT::Minuit2::MnCross {
    // Get crossing value in the parameter direction : 
    // direction = +1 upper value
    // direction = -1 lower value
@@ -274,16 +274,16 @@ StMnMinos::FindCrossValue(int direction, unsigned int par,
    return aopt;
 }
 
-ROOT::Minuit2::MnCross StMnMinos::Upval(unsigned int par,
+auto StMnMinos::Upval(unsigned int par,
                                         unsigned int maxcalls,
-                                        double toler) const {
+                                        double toler) const -> ROOT::Minuit2::MnCross {
    // Return crossing in the lower parameter direction
    return FindCrossValue(1, par, maxcalls, toler);
 }
    
-ROOT::Minuit2::MnCross StMnMinos::Loval(unsigned int par,
+auto StMnMinos::Loval(unsigned int par,
                                         unsigned int maxcalls,
-                                        double toler) const {
+                                        double toler) const -> ROOT::Minuit2::MnCross {
    // Return crossing in the lower parameter direction
    return FindCrossValue(-1, par, maxcalls, toler);
 }

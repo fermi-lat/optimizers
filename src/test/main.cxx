@@ -77,7 +77,7 @@ void test_scalingFunction();
 
 std::string test_path;
 
-int main() {
+auto main() -> int {
 #ifdef TRAP_FPE
    feenableexcept (FE_INVALID|FE_DIVBYZERO|FE_OVERFLOW);
 #endif
@@ -976,7 +976,7 @@ void test_ChiSq() {
 class Paraboloid : public optimizers::Functor {
 public:
    Paraboloid(double x0, double y0) : m_x0(x0), m_y0(y0) {}
-   virtual double operator()(std::vector<double> & pars) {
+   virtual auto operator()(std::vector<double> & pars) -> double {
       double x(pars.at(0));
       double y(pars.at(1));
       double value((x - m_x0)*(x - m_x0) + (y - m_y0)*(y - m_y0) + 1);

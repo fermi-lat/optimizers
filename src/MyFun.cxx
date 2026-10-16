@@ -25,7 +25,7 @@ MyFun::MyFun()
    addParam("Jane", 0.);
 }
 
-double MyFun::value(const Arg & xarg) const {
+auto MyFun::value(const Arg & xarg) const -> double {
    double x = dynamic_cast<const dArg &>(xarg).getValue();
 
    double my_val(0);
@@ -39,8 +39,8 @@ double MyFun::value(const Arg & xarg) const {
    return my_val;
 }
 
-double MyFun::derivByParamImp(const Arg & xarg,
-                              const std::string & paramName) const {
+auto MyFun::derivByParamImp(const Arg & xarg,
+                              const std::string & paramName) const -> double {
    double x = dynamic_cast<const dArg &>(xarg).getValue();
 
    std::vector<Parameter> params;

@@ -19,7 +19,7 @@ namespace optimizers {
   typedef std::vector<double>::iterator dptr;
   typedef std::vector<Parameter>::iterator pptr;
 
-  std::vector<double> & Drmngb::getUncertainty(bool useBase) {
+  auto Drmngb::getUncertainty(bool useBase) -> std::vector<double> & {
 //      if (useBase) {
 //         Optimizer::getUncertainty(useBase);
 //      }
@@ -31,7 +31,7 @@ namespace optimizers {
     m_NeedCovariance = b;
   }
   
-  int Drmngb::find_min(int verbose, double tol, int tolType) {
+  auto Drmngb::find_min(int verbose, double tol, int tolType) -> int {
 
     /// Unpack model parameters into the arrays needed by Drmngb
     
@@ -153,12 +153,12 @@ namespace optimizers {
     return getRetCode();
   } // End of find_min
 
-  int Drmngb::find_min_only(int verbose, double tol, int tolType) {
+  auto Drmngb::find_min_only(int verbose, double tol, int tolType) -> int {
     setNeedCovariance(false);
     return find_min(verbose, tol, tolType);
   }
 
-  std::ostream& Drmngb::put (std::ostream& s) const {
+  auto Drmngb::put (std::ostream& s) const -> std::ostream& {
     s << "DRMNGB performed " << m_evals << " function evaluations" << std::endl;
     s << "and " << m_grads << " gradient evaluations, ending with" << std::endl;
     s << "a function value of " << m_val << std::endl;

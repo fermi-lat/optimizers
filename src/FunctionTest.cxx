@@ -18,7 +18,7 @@ namespace {
       x;
    }
 
-   double select_delta(double x, double h) {
+   auto select_delta(double x, double h) -> double {
       double temp = x + h;
       do_nothing(temp);
       h = temp - x;

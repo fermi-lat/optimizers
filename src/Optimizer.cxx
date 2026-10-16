@@ -24,7 +24,7 @@ namespace {
          : m_stat(stat), m_ipar(ipar), m_jpar(jpar) {
          m_stat.getFreeParamValues(m_parVals);
       }
-      double operator()(double parVal) const {
+      auto operator()(double parVal) const -> double {
          std::vector<double> parVals(m_parVals);
          parVals.at(m_jpar) = parVal;
          m_stat.setFreeParamValues(parVals);
@@ -42,7 +42,7 @@ namespace {
 
 namespace optimizers {
 
-const std::vector<double> & Optimizer::getUncertainty(bool) {
+auto Optimizer::getUncertainty(bool) -> const std::vector<double> & {
    double eps(1e-7);
    std::valarray<double> hess;
    computeHessian(hess, eps);
@@ -190,11 +190,11 @@ void Optimizer::choleskyDecompose(std::valarray<double> & array) {
    }
 }
 
-std::ostream& operator<<(std::ostream& s, const Optimizer& t) {
+auto operator<<(std::ostream& s, const Optimizer& t) -> std::ostream& {
    return t.put(s);
 }
 
-std::vector<std::vector<double> > Optimizer::covarianceMatrix() const {
+auto Optimizer::covarianceMatrix() const -> std::vector<std::vector<double> > {
    throw std::runtime_error("Optimizer::covarianceMatrix member function "
                             "not implemented yet.");
    std::vector<std::vector<double> > ret;

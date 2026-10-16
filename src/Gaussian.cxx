@@ -25,7 +25,7 @@ Gaussian::Gaussian(double Prefactor, double Mean, double Sigma)
    addParam("Sigma", Sigma, true);
 }
 
-double Gaussian::integral(const Arg & xargmin, const Arg & xargmax) const {
+auto Gaussian::integral(const Arg & xargmin, const Arg & xargmax) const -> double {
    double xmin = dynamic_cast<const dArg &>(xargmin).getValue();
    double xmax = dynamic_cast<const dArg &>(xargmax).getValue();
 
@@ -43,7 +43,7 @@ double Gaussian::integral(const Arg & xargmin, const Arg & xargmax) const {
    return f0*(erfcc(zmin) - erfcc(zmax))/2.;
 }
 
-double Gaussian::erfcc(double x) const {
+auto Gaussian::erfcc(double x) const -> double {
 /* (C) Copr. 1986-92 Numerical Recipes Software 0@.1Y.. */
    double t, z, ans;
 
@@ -55,7 +55,7 @@ double Gaussian::erfcc(double x) const {
    return x >= 0.0 ? ans : 2.0-ans;
 }
 
-double Gaussian::value(const Arg & xarg) const {
+auto Gaussian::value(const Arg & xarg) const -> double {
    double x = dynamic_cast<const dArg &>(xarg).getValue();
 
    enum ParamTypes {Prefactor, Mean, Sigma};
@@ -69,8 +69,8 @@ double Gaussian::value(const Arg & xarg) const {
                  /my_params[Sigma].getTrueValue(), 2 )/2.);
 }
 
-double Gaussian::derivByParamImp(const Arg & xarg, 
-                                 const std::string & paramName) const {
+auto Gaussian::derivByParamImp(const Arg & xarg, 
+                                 const std::string & paramName) const -> double {
    double x = dynamic_cast<const dArg &>(xarg).getValue();
 
    enum ParamTypes {Prefactor, Mean, Sigma};
@@ -113,7 +113,7 @@ double Gaussian::derivByParamImp(const Arg & xarg,
    return 0;
 }
 
-const std::vector<double> & Gaussian::xvalues(size_t nx) const {
+auto Gaussian::xvalues(size_t nx) const -> const std::vector<double> & {
    const double nsig(5);
 
    double mean(m_parameter[1].getValue());

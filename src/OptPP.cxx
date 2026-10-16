@@ -131,17 +131,17 @@ int OptPP::find_min(int verbose, double tol, int) {
 }
 #else
 
-  int OptPP::find_min(int, double, int) {
+  auto OptPP::find_min(int, double, int) -> int {
     // do nothing
     return 0;
   }
     
-  int OptPP::find_min_only(int, double, int) {
+  auto OptPP::find_min_only(int, double, int) -> int {
     // do nothing
     return 0;
   }
     
-  std::ostream& OptPP::put (std::ostream& s) const {
+  auto OptPP::put (std::ostream& s) const -> std::ostream& {
     s << "This is the output of OptPP." << std::endl;
     return s;
   }

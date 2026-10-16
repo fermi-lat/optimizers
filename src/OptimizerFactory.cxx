@@ -25,15 +25,15 @@ namespace optimizers {
 
 OptimizerFactory * OptimizerFactory::s_instance(0);
 
-OptimizerFactory & OptimizerFactory::instance() {
+auto OptimizerFactory::instance() -> OptimizerFactory & {
    if (s_instance == 0) {
       s_instance = new OptimizerFactory();
    }
    return *s_instance;
 }
 
-Optimizer * OptimizerFactory::create(const std::string & optimizerName,
-                                     Statistic & stat) {
+auto OptimizerFactory::create(const std::string & optimizerName,
+                                     Statistic & stat) -> Optimizer * {
    if (optimizerName == "Minuit" || optimizerName == "MINUIT") {
       return new Minuit(stat);
    } else if (optimizerName == "Lbfgs" || optimizerName == "LBFGS") {

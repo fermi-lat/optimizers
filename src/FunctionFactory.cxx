@@ -82,7 +82,7 @@ void FunctionFactory::addFunc(Function* func, bool fromClone) {
 // Function Creation
 // ============================================================================
 
-Function* FunctionFactory::create(const std::string& name) {
+auto FunctionFactory::create(const std::string& name) -> Function* {
     auto it = m_prototypes.find(name);
     if (it == m_prototypes.end()) {
         std::ostringstream errorMessage;
@@ -106,7 +106,7 @@ void FunctionFactory::getFunctionNames(std::vector<std::string>& funcNames) cons
     }
 }
 
-std::vector<std::string> FunctionFactory::getFunctionNames() const {
+auto FunctionFactory::getFunctionNames() const -> std::vector<std::string> {
     std::vector<std::string> funcNames;
     funcNames.reserve(m_prototypes.size());
     for (const auto& [name, func] : m_prototypes) {
@@ -115,11 +115,11 @@ std::vector<std::string> FunctionFactory::getFunctionNames() const {
     return funcNames;
 }
 
-bool FunctionFactory::hasFunction(const std::string& name) const noexcept {
+auto FunctionFactory::hasFunction(const std::string& name) const noexcept -> bool {
     return m_prototypes.count(name) > 0;
 }
 
-std::size_t FunctionFactory::size() const noexcept {
+auto FunctionFactory::size() const noexcept -> std::size_t {
     return m_prototypes.size();
 }
 

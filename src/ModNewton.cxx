@@ -19,7 +19,7 @@ namespace optimizers {
   typedef std::vector<double>::iterator dptr;
   typedef std::vector<Parameter>::iterator pptr;
 
-  std::vector<double> & ModNewton::getUncertainty(bool useBase) {
+  auto ModNewton::getUncertainty(bool useBase) -> std::vector<double> & {
 //      if (useBase) {
 //         Optimizer::getUncertainty(useBase);
 //      }
@@ -31,7 +31,7 @@ namespace optimizers {
     m_NeedCovariance = b;
   }
 
-  int ModNewton::find_min(int verbose, double tol, int tolType) {
+  auto ModNewton::find_min(int verbose, double tol, int tolType) -> int {
 
     /// Unpack model parameters into the arrays needed by the solvers
     
@@ -166,12 +166,12 @@ namespace optimizers {
     return getRetCode();
   } // End of find_min
 
-  int ModNewton::find_min_only(int verbose, double tol, int tolType) {
+  auto ModNewton::find_min_only(int verbose, double tol, int tolType) -> int {
     setNeedCovariance(false);
     return find_min(verbose, tol, tolType);
   }
 
-  std::ostream& ModNewton::put (std::ostream& s) const {
+  auto ModNewton::put (std::ostream& s) const -> std::ostream& {
     s << "ModNewton performed " << m_evals << " function evaluations" << std::endl;
     s << "and " << m_grads << " gradient evaluations, ending with" << std::endl;
     s << "a function value of " << m_val << std::endl;

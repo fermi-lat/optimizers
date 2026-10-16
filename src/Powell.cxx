@@ -18,19 +18,19 @@ namespace optimizers {
   {T dum=a; a=b; b=dum;}
   
   template<class T>
-  inline const T SIGN(const T &a, const T &b)
+  inline auto SIGN(const T &a, const T &b) -> const T
   {return b >= 0 ? (a >= 0 ? a : -a) : (a >= 0 ? -a : a);}
   
   template<class T>
-  inline const T MAX(const T &a, const T &b)
+  inline auto MAX(const T &a, const T &b) -> const T
   {return b > a ? (b) : (a);}
   
   template<class T>
-  inline const T SQR(const T &a) {return a*a;}
+  inline auto SQR(const T &a) -> const T {return a*a;}
   
   // Values of the function along a line in parameter space.
   // Used in the line-search part of the algorithm.  
-  double Powell::f1dim(double x) {
+  auto Powell::f1dim(double x) -> double {
     int ncom = m_stat->getNumFreeParams();
     std::vector<double> xt(ncom);
     for (int j=0; j<ncom; j++) {
@@ -40,17 +40,17 @@ namespace optimizers {
   }
 
   // Function value at an arbitrary point
-  double Powell::value(std::vector<double> &pval) {
+  auto Powell::value(std::vector<double> &pval) -> double {
     m_stat->setFreeParamValues(pval);
     return -m_stat->value();
   }
 
   // The minimizer.  It's just a wrapper for the function powell.
-  int Powell::find_min_only(int verbose, double tol, int tolType) {
+  auto Powell::find_min_only(int verbose, double tol, int tolType) -> int {
     return find_min(verbose, tol, tolType);
   }
 
-  int Powell::find_min(int verbose, double tol, int tolType) {
+  auto Powell::find_min(int verbose, double tol, int tolType) -> int {
     (void) (verbose);
     std::vector<double> p;
     m_stat->getFreeParamValues(p);
@@ -66,15 +66,15 @@ namespace optimizers {
   }
 
   // Printed summary
-  std::ostream& Powell::put(std::ostream& s) const {
+  auto Powell::put(std::ostream& s) const -> std::ostream& {
     s << "Powell performed " << m_iter << " iterations"  << std::endl;
     s << "and produced a final value of " << m_fret << std::endl;
     return s;
   }
 
   //  Brent's parabolic interpolation method for a 1-dim function
-  double brent(const double ax, const double bx, const double cx, 
-	       Powell &f,const double tol, double &xmin)
+  auto brent(const double ax, const double bx, const double cx, 
+	       Powell &f,const double tol, double &xmin) -> double
   {
     const int ITMAX=100;
     const double CGOLD=0.3819660;
@@ -218,9 +218,9 @@ namespace optimizers {
 
   // Powell's direction-set method, discarding the direction of
   // largest increase.  See Numerical Recipes.
-  int powell(std::vector<double> &p, std::vector<std::vector<double> > &xi, 
+  auto powell(std::vector<double> &p, std::vector<std::vector<double> > &xi, 
 	      const double ftol, int tolType, int &iter, int itmax, double &fret, 
-	      Powell &func)
+	      Powell &func) -> int
   {
     const double TINY=1.0e-25;
     int i,j,ibig;

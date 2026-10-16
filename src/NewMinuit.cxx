@@ -37,7 +37,7 @@ namespace optimizers {
     m_strategy_value(1) {}
 
   //  =
-  NewMinuit & NewMinuit::operator=(const NewMinuit & rhs) {
+  auto NewMinuit::operator=(const NewMinuit & rhs) -> NewMinuit & {
       if (this == &rhs) return *this;
       Optimizer::operator=(rhs);
       m_FCN = rhs.m_FCN;
@@ -59,7 +59,7 @@ namespace optimizers {
   }
 
   // Call Minuit's MIGRAD to find the minimum of the function
-  int NewMinuit::find_min(int verbose, double tol, int TolType) {
+  auto NewMinuit::find_min(int verbose, double tol, int TolType) -> int {
     find_min_only(verbose, tol, TolType);
     std::vector<double> parValues;
     m_stat->getFreeParamValues(parValues);
@@ -68,7 +68,7 @@ namespace optimizers {
     return getRetCode();
   }
 
-  int NewMinuit::find_min_only(int verbose, double tol, int TolType) {
+  auto NewMinuit::find_min_only(int verbose, double tol, int TolType) -> int {
     setTolerance(tol, TolType);
     std::vector<Parameter> params;
     m_stat->getFreeParams(params);
@@ -137,7 +137,7 @@ namespace optimizers {
   }
 
   // Call MINOS
-  std::pair<double,double> NewMinuit::Minos(unsigned int n, double level, bool numericDeriv) {
+  auto NewMinuit::Minos(unsigned int n, double level, bool numericDeriv) -> std::pair<double,double> {
     std::vector<double> parValues;
     checkParValues(n, parValues);
     if(level!=1.){
@@ -169,8 +169,8 @@ namespace optimizers {
     return results;
   }
 
-   double NewMinuit::minos_lower_error(unsigned int n, double level,
-                                       double tol) {
+   auto NewMinuit::minos_lower_error(unsigned int n, double level,
+                                       double tol) -> double {
       std::vector<double> parValues;
       checkParValues(n, parValues);
       if (level != 1) {
@@ -190,8 +190,8 @@ namespace optimizers {
       return lower;
    }
 
-   double NewMinuit::minos_upper_error(unsigned int n, double level, 
-                                       double tol) {
+   auto NewMinuit::minos_upper_error(unsigned int n, double level, 
+                                       double tol) -> double {
       std::vector<double> parValues;
       checkParValues(n, parValues);
       if (level != 1) {
@@ -254,8 +254,8 @@ namespace optimizers {
   myFCN::myFCN(Statistic & stat): m_stat(&stat), m_level(0.5) {}
 
   // This is the function that Minuit minimizes
-  double 
-  myFCN::operator() (const std::vector<double> & params) const {
+  auto 
+  myFCN::operator() (const std::vector<double> & params) const -> double {
     try {m_stat->setFreeParamValues(params);}
     catch (OutOfBounds & e) {
       std::cerr << e.what() << std::endl;
@@ -272,8 +272,8 @@ namespace optimizers {
 
   // Return values of the function gradient in the form
   // that Minuit wants
-  std::vector<double> 
-  myFCN::Gradient(const std::vector<double> & params) const {
+  auto 
+  myFCN::Gradient(const std::vector<double> & params) const -> std::vector<double> {
     try {m_stat->setFreeParamValues(params);}
     catch (OutOfBounds & e) {
       std::cerr << e.what() << std::endl;
@@ -293,20 +293,20 @@ namespace optimizers {
     return grad;
   }
 
-  const ROOT::Minuit2::MnUserParameterState& NewMinuit::userState() const {
+  auto NewMinuit::userState() const -> const ROOT::Minuit2::MnUserParameterState& {
     static const ROOT::Minuit2::MnUserParameterState null_state;
     return m_min == 0 ? null_state : m_min->UserState();
   }
 
 
-  const ROOT::Minuit2::MinimumError& NewMinuit::minuitError() const {
+  auto NewMinuit::minuitError() const -> const ROOT::Minuit2::MinimumError& {
     static const ROOT::Minuit2::MinimumError null_error(1);
     return m_min == 0 ? null_error : m_min->Error();
   }
   
 
   // Get the uncertainty values from covariance matrix
-   const std::vector<double> & NewMinuit::getUncertainty(bool useBase) {
+   auto NewMinuit::getUncertainty(bool useBase) -> const std::vector<double> & {
       std::vector<double> parValues;
       m_stat->getFreeParamValues(parValues);
       if (useBase) {
@@ -324,12 +324,12 @@ namespace optimizers {
       return m_uncertainty;
    }
 
-  std::ostream& NewMinuit::put (std::ostream& s) const {
+  auto NewMinuit::put (std::ostream& s) const -> std::ostream& {
     s << m_min->UserState();
     return s;
   }
 
-  std::vector<std::vector<double> >  NewMinuit::userCovariance() const {
+  auto  NewMinuit::userCovariance() const -> std::vector<std::vector<double> > {
     std::vector<std::vector<double> > cov;
     if ( m_min == 0 ) return cov;
     const ROOT::Minuit2::MnUserCovariance& userCov = m_min->UserState().Covariance();
@@ -344,13 +344,13 @@ namespace optimizers {
     return cov;
   }
 
-  const std::vector<double>& NewMinuit::userGlobalCC() const {
+  auto NewMinuit::userGlobalCC() const -> const std::vector<double>& {
     static const std::vector<double> null_globalcc;
     return m_min == 0 ? null_globalcc : m_min->UserState().GlobalCC().GlobalCC();    
   }
 
   
-  std::vector<std::vector<double> >  NewMinuit::userHessian() const {
+  auto  NewMinuit::userHessian() const -> std::vector<std::vector<double> > {
     std::vector<std::vector<double> > hesse;
     if ( m_min == 0 ) return hesse;
     ROOT::Minuit2::MnUserCovariance mn_hesse(m_min->UserState().Hessian());
@@ -366,7 +366,7 @@ namespace optimizers {
   }
 
 
-  std::vector<std::vector<double> > NewMinuit::minuitInvHessian() const {
+  auto NewMinuit::minuitInvHessian() const -> std::vector<std::vector<double> > {
     std::vector<std::vector<double> > inv_hesse;
     if ( m_min == 0 ) return inv_hesse;
     const ROOT::Minuit2::MnAlgebraicSymMatrix& inv_mat = m_min->Error().InvHessian();
@@ -381,7 +381,7 @@ namespace optimizers {
     return inv_hesse;
   }
 
-   std::vector<std::vector<double> > NewMinuit::covarianceMatrix() const {
+   auto NewMinuit::covarianceMatrix() const -> std::vector<std::vector<double> > {
       std::vector<double> parValues;
       m_stat->getFreeParamValues(parValues);
       if (!m_min->HasValidCovariance()) {
@@ -409,7 +409,7 @@ namespace optimizers {
       }
    }
  
-   int NewMinuit::checkResults() {
+   auto NewMinuit::checkResults() -> int {
       if (m_min->HasReachedCallLimit()) return 1;
 
       // Set a bit for each good condition.

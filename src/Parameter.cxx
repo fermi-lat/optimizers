@@ -35,8 +35,8 @@ namespace optimizers {
 namespace {
 
 /// Get attribute value as string, returns empty string if not found
-[[nodiscard]] std::string getAttribute(const rapidxml::xml_node<>* node, 
-                                       const char* attrName) {
+[[nodiscard]] auto getAttribute(const rapidxml::xml_node<>* node, 
+                                       const char* attrName) -> std::string {
     if (!node) return "";
     
     auto* attr = node->first_attribute(attrName);
@@ -47,14 +47,14 @@ namespace {
 }
 
 /// Check if an attribute exists
-[[nodiscard]] bool hasAttribute(const rapidxml::xml_node<>* node, 
-                                const char* attrName) {
+[[nodiscard]] auto hasAttribute(const rapidxml::xml_node<>* node, 
+                                const char* attrName) -> bool {
     if (!node) return false;
     return node->first_attribute(attrName) != nullptr;
 }
 
 /// Convert string to double with fallback
-[[nodiscard]] double toDouble(const std::string& str, double defaultValue = 0.0) {
+[[nodiscard]] auto toDouble(const std::string& str, double defaultValue = 0.0) -> double {
     if (str.empty()) return defaultValue;
     
     try {
@@ -65,14 +65,14 @@ namespace {
 }
 
 /// Convert double to string with specified precision
-[[nodiscard]] std::string doubleToString(double value, int precision = 10) {
+[[nodiscard]] auto doubleToString(double value, int precision = 10) -> std::string {
     std::ostringstream oss;
     oss << std::setprecision(precision) << value;
     return oss.str();
 }
 
 /// Convert bool to string
-[[nodiscard]] const char* boolToString(bool value) {
+[[nodiscard]] auto boolToString(bool value) -> const char* {
     return value ? "true" : "false";
 }
 
@@ -121,7 +121,7 @@ Parameter::Parameter(const Parameter& other)
 {
 }
 
-Parameter& Parameter::operator=(const Parameter& rhs) {
+auto Parameter::operator=(const Parameter& rhs) -> Parameter& {
    if (this != &rhs) {
       m_name = rhs.m_name;
       m_value = rhs.m_value;
@@ -202,7 +202,7 @@ void Parameter::setBounds(double minValue, double maxValue) {
    }
 }
 
-std::pair<double, double> Parameter::getBounds() const noexcept {
+auto Parameter::getBounds() const noexcept -> std::pair<double, double> {
    return {m_minValue, m_maxValue};
 }
 
@@ -244,7 +244,7 @@ void Parameter::extractDomData(const rapidxml::xml_node<>* elt) {
    std::string freeStr = getAttribute(elt, "free");
    // Convert to lowercase for comparison
    std::transform(freeStr.begin(), freeStr.end(), freeStr.begin(),
-                  [](unsigned char c) { return std::tolower(c); });
+                  [](unsigned char c) -> int { return std::tolower(c); });
    m_free = (freeStr == "true" || freeStr == "1");
    
    // Extract scale attribute
@@ -263,7 +263,7 @@ void Parameter::extractDomData(const rapidxml::xml_node<>* elt) {
    }
 }
 
-rapidxml::xml_node<>* Parameter::createDomElement(rapidxml::xml_document<>* doc) const {
+auto Parameter::createDomElement(rapidxml::xml_document<>* doc) const -> rapidxml::xml_node<>* {
    if (!doc) {
       throw std::invalid_argument("Parameter::createDomElement: null document");
    }
@@ -296,13 +296,13 @@ void Parameter::setPrior(Function& log_prior) {
    m_log_prior = &log_prior;
 }
 
-Function* Parameter::removePrior() {
+auto Parameter::removePrior() -> Function* {
    Function* log_prior = m_log_prior;
    m_log_prior = nullptr;
    return log_prior;
 }
 
-double Parameter::log_prior_value() const {
+auto Parameter::log_prior_value() const -> double {
    if (!m_log_prior) {
       return 0;
    }
@@ -310,7 +310,7 @@ double Parameter::log_prior_value() const {
    return m_log_prior->operator()(x);
 }
 
-double Parameter::log_prior_deriv() const {
+auto Parameter::log_prior_deriv() const -> double {
    if (!m_log_prior) {
       return 0;
    }

@@ -26,10 +26,10 @@ void print_p(const std::vector< std::vector<double> > & p,
 //   std::cout << std::endl;
 }
 
-double amotry(std::vector< std::vector<double> > & p,
+auto amotry(std::vector< std::vector<double> > & p,
               std::vector<double> & y,
               std::vector<double> & psum,
-              int ndim, optimizers::Functor & func, int ihi, double fac) {
+              int ndim, optimizers::Functor & func, int ihi, double fac) -> double {
    std::vector<double> ptry(ndim, 0);
    double fac1((1. - fac)/float(ndim));
    double fac2(fac1 - fac);
@@ -142,7 +142,7 @@ void amoeba(std::vector< std::vector<double> > & p,
 
 namespace optimizers {
 
-double Amoeba::findMin(std::vector<double> & params, double tol, bool abstol) {
+auto Amoeba::findMin(std::vector<double> & params, double tol, bool abstol) -> double {
    std::vector<double> yvalues;
    yvalues.reserve(m_npars + 1);
    for (size_t i = 0; i < m_npars + 1; i++) {

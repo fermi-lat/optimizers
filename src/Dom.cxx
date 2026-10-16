@@ -35,15 +35,15 @@ namespace optimizers {
   //using XERCES_CPP_NAMESPACE_QUALIFIER rapidxml::xml_node<>;
   //using XERCES_CPP_NAMESPACE_QUALIFIER DOMNode;
 
-   rapidxml::xml_document<> * Dom::createDocument() {
+   auto Dom::createDocument() -> rapidxml::xml_document<> * {
      //DOMImplementation * impl = DOMImplementationRegistry::
      //    getDOMImplementation(::XStr("Core").unicodeForm());
       rapidxml::xml_document<> * doc;
       return doc;
    }
 
-   rapidxml::xml_node<> * Dom::createElement(rapidxml::xml_document<> * doc, 
-                                   const std::string & name) {
+   auto Dom::createElement(rapidxml::xml_document<> * doc, 
+                                   const std::string & name) -> rapidxml::xml_node<> * {
      rapidxml::xml_node<> * elt = doc->allocate_node(rapidxml::node_element, doc->allocate_string(name.c_str()));
       // new xml_builder::XmlElementBuilder Xmlbuilder(doc);
       // rapidxml::xml_node<> * elt = Xmlbuilder->addElement(name));

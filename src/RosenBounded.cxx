@@ -24,7 +24,7 @@ RosenBounded::RosenBounded(double prefactor)
    addParam(std::string("y"), 1, true);
 }
 
-double RosenBounded::value(const Arg &) const {
+auto RosenBounded::value(const Arg &) const -> double {
    double x = m_parameter[0].getTrueValue();
    double y = m_parameter[1].getTrueValue();
 
@@ -33,8 +33,8 @@ double RosenBounded::value(const Arg &) const {
    return -(m_prefactor*pow((y - x*x), 2) + pow((1 - x), 2));
 }
 
-double RosenBounded::derivByParamImp(const Arg &, 
-                                     const std::string & paramName) const {
+auto RosenBounded::derivByParamImp(const Arg &, 
+                                     const std::string & paramName) const -> double {
    std::vector<double> params;
    getParamValues(params);
 

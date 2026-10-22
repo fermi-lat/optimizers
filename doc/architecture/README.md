@@ -1,7 +1,7 @@
 ---
 package: optimizers
 summary: Function/Parameter model abstractions, the Statistic objective-function interface, and wrappers around several minimizers (Minuit, Minuit2, PORT DRMNGB/DRMNFB, L-BFGS-B, Powell) plus Amoeba and MCMC utilities.
-layer: analysis
+layer: foundation
 depends_on: [xmlBase, Minuit2, cfitsio, CLHEP, f2c]
 test_depends_on: [st_facilities, facilities]
 used_by: [Likelihood, burstFit, pyExposure, pyLikelihood]
@@ -77,12 +77,10 @@ truth.
 
 **CMake vs. actual use:** `st_facilities` is linked PRIVATE into the
 *library*, but no library source includes it; only `src/test/main.cxx`
-does. Without it the library depends only on `xmlBase` and `Minuit2`
-(tier 0). The rationale in `docs/architecture/dependency-layers.md`
-("tier 3 because it depends on `st_facilities`") is therefore based on an
-unnecessary link. By its real dependencies, optimizers could be placed in
-`foundation`. It is left as `analysis` here until the system docs are
-updated.
+does. By its real dependencies (`xmlBase`, `Minuit2` and externals),
+optimizers belongs in the `foundation` tier, and that is where it is placed.
+The unnecessary `st_facilities` link could be moved to the `test_optimizers`
+target.
 
 ## Key abstractions
 

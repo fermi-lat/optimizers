@@ -265,6 +265,14 @@ file references `../src/Gaussian.h`, which no longer exists (Gaussian
 moved to the public directory), so it is stale. The Python bindings users
 see are in `pyLikelihood`'s SWIG module.
 
+### Environment variables
+
+None read directly (no `getenv` in `src/`). The only environment
+reference is the `$(OPTIMIZERSXMLPATH)` DOCTYPE that `writeXml` writes
+(see File formats); `setupEnvironment()` sets that variable. Variables
+set by conda activation are described under "Runtime environment" in
+ScienceTools' `docs/architecture/README.md`.
+
 ### File formats
 
 - **XML in and out:** `function_library` documents (`xml/FunctionModels.dtd`,
@@ -315,6 +323,15 @@ see are in `pyLikelihood`'s SWIG module.
     Rosenbrock).
   - It writes `outputModels.xml` and `Mc.fits` to the **current
     directory**.
+  - **Not run in CI.** In the project harness `recipe/tests/ST-unit-test`
+    (see "Testing" in ScienceTools' `docs/architecture/README.md`) both
+    `test_optimizers` and `check_test_optimizers_output` are commented out
+    of the default list. That check would `diff` `outputModels.xml` and
+    `ftdiff` `Mc.fits` against `share/fermitools/data/optimizers/outref/`,
+    whose reference files ship in the `fermitools-test-scripts-data` conda
+    package (sourced from `outrefFiles/optimizers/` in the
+    `fermitools-data` repository). optimizers is exercised in CI only
+    through `test_Likelihood` (and `test_burstFit`).
 - **Legacy:** `SConscript`, `optimizersLib.py`, `.cvsignore` and
   `src/buildBase`. `azure-pipelines.yml` is an old per-package CI.
 

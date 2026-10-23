@@ -328,7 +328,7 @@ ScienceTools' `docs/architecture/README.md`.
     `test_optimizers` and `check_test_optimizers_output` are commented out
     of the default list. That check would `diff` `outputModels.xml` and
     `ftdiff` `Mc.fits` against `share/fermitools/data/optimizers/outref/`,
-    whose reference files ship in the `fermitools-test-scripts-data` conda
+    whose reference files ship in the runtime `fermitools-data` conda
     package (sourced from `outrefFiles/optimizers/` in the
     `fermitools-data` repository). optimizers is exercised in CI only
     through `test_Likelihood` (and `test_burstFit`).
